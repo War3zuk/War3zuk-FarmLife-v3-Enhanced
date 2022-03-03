@@ -5,7 +5,7 @@
         <block name="Apple Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -21,13 +21,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Apple Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -41,7 +41,7 @@
         <block name="Apple Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -57,13 +57,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Apple Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -76,7 +76,7 @@
         <block name="Apple Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -92,13 +92,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Apple Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -113,7 +113,7 @@
         <block name="Avocado Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -129,13 +129,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Avocado Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -149,7 +149,7 @@
         <block name="Avocado Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -165,13 +165,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Avocado Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -184,7 +184,7 @@
         <block name="Avocado Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -200,13 +200,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Avocado Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -220,7 +220,7 @@
         <block name="Banana Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -236,13 +236,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Banana Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -255,7 +255,7 @@
         <block name="Banana Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -271,13 +271,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Banana Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -289,7 +289,7 @@
         <block name="Banana Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -305,13 +305,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Banana Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -338,9 +338,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Barley Seed"/>
             <property name="CustomIcon" value="Sorghum Seed"/>
@@ -368,9 +368,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Barley Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -395,9 +395,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -423,9 +423,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Basil Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -450,9 +450,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Basil Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -476,9 +476,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -504,9 +504,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Beet Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -531,9 +531,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Beet Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -557,9 +557,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -585,9 +585,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Bell Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -613,9 +613,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Bell Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -640,9 +640,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="New"/>
@@ -670,9 +670,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Bitter Hops Seed"/>
             <property name="Shape" value="BillboardPlant"/>
@@ -698,9 +698,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Bitter Hops Seed"/>
             <property name="Shape" value="BillboardPlant"/>
@@ -725,9 +725,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="BillboardPlant"/>
@@ -754,9 +754,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Black Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -782,9 +782,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Black Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -809,9 +809,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -837,9 +837,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Black Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -864,9 +864,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Black Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -890,9 +890,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="Grass"/>
@@ -919,9 +919,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Broccoli Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -946,9 +946,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Broccoli Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -972,9 +972,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -999,9 +999,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Brussels Sprouts Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1026,9 +1026,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Brussels Sprouts Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1052,9 +1052,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1079,9 +1079,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cabbage Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1107,9 +1107,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cabbage Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1134,9 +1134,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1162,9 +1162,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Carrot Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1189,9 +1189,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Carrot Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1215,9 +1215,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1243,9 +1243,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Celery Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1270,9 +1270,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Celery Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1296,9 +1296,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1311,7 +1311,7 @@
         <block name="Cherry Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1327,13 +1327,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Cherry Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -1347,7 +1347,7 @@
         <block name="Cherry Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1363,13 +1363,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Cherry Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -1382,7 +1382,7 @@
         <block name="Cherry Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1398,13 +1398,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Cherry Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1432,9 +1432,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cilantro Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1459,9 +1459,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cilantro Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1485,9 +1485,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1500,7 +1500,7 @@
         <block name="Cinnamon Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1516,13 +1516,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Cinnamon Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -1536,7 +1536,7 @@
         <block name="Cinnamon Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1552,13 +1552,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Cinnamon Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -1571,7 +1571,7 @@
         <block name="Cinnamon Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1587,13 +1587,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Cinnamon Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1607,7 +1607,7 @@
         <block name="Coconut Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1623,13 +1623,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Coconut Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1642,7 +1642,7 @@
         <block name="Coconut Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1658,13 +1658,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Coconut Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1676,7 +1676,7 @@
         <block name="Coconut Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -1692,13 +1692,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Coconut Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1725,9 +1725,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cucumber Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1752,9 +1752,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cucumber Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1778,9 +1778,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1805,9 +1805,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cumin Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1832,9 +1832,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Cumin Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1858,9 +1858,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1886,9 +1886,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Dill Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1913,9 +1913,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Dill Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1939,9 +1939,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -1980,9 +1980,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Floral Hops Seed"/>
             <property name="Shape" value="BillboardPlant"/>
@@ -2008,9 +2008,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Floral Hops Seed"/>
             <property name="Shape" value="BillboardPlant"/>
@@ -2035,9 +2035,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="BillboardPlant"/>
@@ -2064,9 +2064,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Garlic Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2091,9 +2091,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Garlic Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2117,9 +2117,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2145,9 +2145,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Ghost Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2172,9 +2172,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Ghost Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2198,9 +2198,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="New"/>
@@ -2226,9 +2226,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Ginger Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2253,9 +2253,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Ginger Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2279,9 +2279,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2294,7 +2294,7 @@
         <block name="Grape Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -2310,13 +2310,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Grape Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -2330,7 +2330,7 @@
         <block name="Grape Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -2346,13 +2346,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Grape Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -2365,7 +2365,7 @@
         <block name="Grape Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -2381,13 +2381,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
             <drop event="Destroy" count="1" name="Grape Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -2414,9 +2414,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Green Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2442,9 +2442,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Green Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2469,9 +2469,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2939,9 +2939,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Jalapeno Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2967,9 +2967,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Jalapeno Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -2994,9 +2994,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="New"/>
@@ -3022,9 +3022,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Kidney Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3049,9 +3049,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Kidney Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3075,9 +3075,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3089,7 +3089,7 @@
         <block name="Lime Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3105,13 +3105,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Lime Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3124,7 +3124,7 @@
         <block name="Lime Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3140,13 +3140,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Lime Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3158,7 +3158,7 @@
         <block name="Lime Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3174,13 +3174,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Lime Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3193,7 +3193,7 @@
         <block name="Meyer Lemon Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3209,13 +3209,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Meyer Lemon Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3228,7 +3228,7 @@
         <block name="Meyer Lemon Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3244,13 +3244,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Meyer Lemon Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3262,7 +3262,7 @@
         <block name="Meyer Lemon Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3278,13 +3278,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Meyer Lemon Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3310,9 +3310,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Mint Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3336,9 +3336,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Mint Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3361,9 +3361,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3388,9 +3388,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Okra Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3414,9 +3414,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Okra Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3439,9 +3439,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3452,7 +3452,7 @@
         <block name="Olive Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3468,13 +3468,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Olive Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3487,7 +3487,7 @@
         <block name="Olive Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3503,13 +3503,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Olive Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3521,7 +3521,7 @@
         <block name="Olive Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3537,13 +3537,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Olive Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3569,9 +3569,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Onion Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3595,9 +3595,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Onion Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3620,9 +3620,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3634,7 +3634,7 @@
         <block name="Orange Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3650,13 +3650,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Orange Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3669,7 +3669,7 @@
         <block name="Orange Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3685,13 +3685,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Orange Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3703,7 +3703,7 @@
         <block name="Orange Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3719,13 +3719,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Orange Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -3751,9 +3751,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Oregano Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3777,9 +3777,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Oregano Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3802,9 +3802,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3829,9 +3829,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Pablano Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3856,9 +3856,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Pablano Pepper Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -3882,9 +3882,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="New"/>
@@ -3897,7 +3897,7 @@
         <block name="Pear Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3913,13 +3913,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Pear Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3932,7 +3932,7 @@
         <block name="Pear Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3948,13 +3948,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Pear Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -3966,7 +3966,7 @@
         <block name="Pear Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -3982,13 +3982,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Pear Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -4014,9 +4014,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Pineapple Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4041,9 +4041,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Pineapple Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4067,9 +4067,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4094,9 +4094,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Pinto Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4121,9 +4121,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Pinto Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4147,9 +4147,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4216,9 +4216,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Raspberry Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4243,9 +4243,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Raspberry Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4269,9 +4269,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4296,9 +4296,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Rice Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4323,9 +4323,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Rice Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4349,9 +4349,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4376,9 +4376,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Romaine Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4402,9 +4402,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Romaine Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4427,9 +4427,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4454,9 +4454,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Rosemary Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4480,9 +4480,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Rosemary Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4505,9 +4505,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4532,9 +4532,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Rye Seed"/>
             <property name="CustomIcon" value="Sorghum Seed"/>
@@ -4561,9 +4561,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Rye Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4587,9 +4587,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4601,7 +4601,7 @@
         <block name="Sakura Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -4617,13 +4617,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Sakura Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -4636,7 +4636,7 @@
         <block name="Sakura Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -4652,13 +4652,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Sakura Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -4670,7 +4670,7 @@
         <block name="Sakura Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -4686,13 +4686,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Sakura Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4791,9 +4791,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Shallot Seed"/>
             <property name="CustomIcon" value="Onion Seed"/>
@@ -4819,9 +4819,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Shallot Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4844,9 +4844,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4883,9 +4883,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Sorghum Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4910,9 +4910,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Sorghum Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4936,9 +4936,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4964,9 +4964,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Soy Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -4992,9 +4992,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Soy Bean Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5019,9 +5019,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5047,9 +5047,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Spinach Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5074,9 +5074,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Spinach Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5100,9 +5100,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5128,9 +5128,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Squash Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5156,9 +5156,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Squash Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5183,9 +5183,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5211,9 +5211,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Strawberry Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5239,9 +5239,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Strawberry Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5266,9 +5266,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5294,9 +5294,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Sugar Cane Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5322,9 +5322,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Sugar Cane Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5349,9 +5349,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5364,7 +5364,7 @@
         <block name="Sugar Maple Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5380,13 +5380,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Sugar Maple Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -5400,7 +5400,7 @@
         <block name="Sugar Maple Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5416,13 +5416,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Sugar Maple Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -5435,7 +5435,7 @@
         <block name="Sugar Maple Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5451,13 +5451,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Sugar Maple Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5485,9 +5485,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Thyme Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5512,9 +5512,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Thyme Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5538,9 +5538,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="Grass"/>
@@ -5583,9 +5583,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Tomatillo Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5611,9 +5611,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Tomatillo Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5638,9 +5638,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="New"/>
@@ -5666,9 +5666,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Tomato Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5694,9 +5694,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Tomato Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5721,9 +5721,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5736,7 +5736,7 @@
         <block name="Walnut Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5752,13 +5752,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Walnut Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -5772,7 +5772,7 @@
         <block name="Walnut Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5788,13 +5788,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Walnut Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -5807,7 +5807,7 @@
         <block name="Walnut Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5823,13 +5823,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="Walnut Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
@@ -5859,9 +5859,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Wheat Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5887,9 +5887,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="1" name="Wheat Seed"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5914,9 +5914,9 @@
             <property name="CanDecorateOnSlopes" value="true"/>
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Class" value="PlantGrowing"/>
-            <property name="PlantGrowing.GrowthRate" value="63.0"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
             <property name="PlantGrowing.FertileLevel" value="15"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="HarvestOverdamage" value="false"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -5929,7 +5929,7 @@
         <block name="White Oak Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5945,13 +5945,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="White Oak Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -5965,7 +5965,7 @@
         <block name="White Oak Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -5981,13 +5981,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="White Oak Seed"/>
             <property name="MultiBlockDim" value="1,2,1"/>
@@ -6000,7 +6000,7 @@
         <block name="White Oak Tree" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="DisplayType" value="blockMulti"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="foutdoor,ftrees"/>
@@ -6016,13 +6016,13 @@
             <property name="CanPlayersSpawnOn" value="false"/>
             <property name="BigDecorationRadius" value="4"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Class" value="ModelTree"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="ActivationDistance" value="4"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="HarvestOverdamage" value="false"/>
-            <property name="PlantGrowing.GrowthRate" value="63"/>
-            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="61"/>
+            <property name="PlantGrowing.IsRandom" value="false"/><property name="PlantGrowing.LightLevelGrow" value="0"/><property name="PlantGrowing.LightLevelStay" value="0"/>
             
             <drop event="Destroy" count="1" name="White Oak Seed"/>
             <property name="MultiBlockDim" value="1,7,1"/>
