@@ -2486,6 +2486,7 @@
             <property name="DisplayInfo" value="Name"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="fother"/>
+			<property name="ModelOffset" value=".5,.5,.5"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Angus Pen 1"/>
                 <property name="Item" value="Cattle Feed"/>
@@ -2509,6 +2510,7 @@
             <property name="DescriptionKey" value="farmLifeHungryAngusPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Angus Pen 1"/>
         </block>
+		
         <block name="Feeding Angus Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2530,6 +2532,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="UpgradeRated.ToBlock" value="Full Angus Pen"/>
         </block>
+		
         <block name="Full Angus Pen" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2552,6 +2555,7 @@
             <drop event="Harvest" name="resourceAnimalFat" count="2" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceBone" count="2" tag="cropHarvest"/>
         </block>
+		
         <block name="Hungry Chicken Coop" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2580,6 +2584,7 @@
             <property name="DescriptionKey" value="farmLifeHungryChickenCoopDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Chicken Coop 1"/>
         </block>
+		
         <block name="Feeding Chicken Coop 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2601,6 +2606,7 @@
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="UpgradeRated.ToBlock" value="Full Chicken Coop"/>
         </block>
+		
         <block name="Full Chicken Coop" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2623,11 +2629,13 @@
             <drop event="Harvest" name="resourceFeather" count="10,20" tag="cropHarvest"/>
             <drop event="Harvest" name="foodEgg" count="10,20" tag="cropHarvest"/>
         </block>
+		
         <block name="Hungry Elk Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="fother"/>
+			<property name="ModelOffset" value=".5,.5,.5"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Elk Pen 1"/>
                 <property name="Item" value="Cattle Feed"/>
@@ -2651,6 +2659,7 @@
             <property name="DescriptionKey" value="farmLifeHungryElkPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Elk Pen 1"/>
         </block>
+		
         <block name="Feeding Elk Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2672,6 +2681,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="UpgradeRated.ToBlock" value="Full Elk Pen"/>
         </block>
+		
         <block name="Full Elk Pen" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2692,11 +2702,13 @@
             <drop event="Harvest" name="resourceLeather" count="5,10" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
         </block>
+		
         <block name="Hungry Holstein Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="fother"/>
+			<property name="ModelOffset" value=".5,.5,.5"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Holstein Pen 1"/>
                 <property name="Item" value="Cattle Feed"/>
@@ -2720,6 +2732,7 @@
             <property name="DescriptionKey" value="farmLifeHungryHolsteinPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Holstein Pen 1"/>
         </block>
+		
         <block name="Feeding Holstein Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2741,6 +2754,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="UpgradeRated.ToBlock" value="Full Holstein Pen"/>
         </block>
+		
         <block name="Full Holstein Pen" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2759,11 +2773,13 @@
             <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Raw Milk" count="2,8" tag="cropHarvest"/>
         </block>
+		
         <block name="Hungry Pig Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="fother"/>
+			<property name="ModelOffset" value=".5,.5,.5"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Pig Pen 1"/>
                 <property name="Item" value="Cattle Feed"/>
@@ -2787,6 +2803,7 @@
             <property name="DescriptionKey" value="farmLifeHungryPigPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Pig Pen 1"/>
         </block>
+		
         <block name="Feeding Pig Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2808,6 +2825,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="UpgradeRated.ToBlock" value="Full Pig Pen"/>
         </block>
+		
         <block name="Full Pig Pen" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2830,11 +2848,13 @@
             <drop event="Harvest" name="Pork Fat" count="1,2" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
         </block>
+		
         <block name="Hungry Veal Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
             <property name="Group" value="Resources"/>
             <property name="FilterTags" value="fother"/>
+			<property name="ModelOffset" value=".5,.5,.5"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Veal Pen 1"/>
                 <property name="Item" value="Cattle Feed"/>
@@ -2858,6 +2878,7 @@
             <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Veal Pen 1"/>
         </block>
+		
         <block name="Feeding Veal Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2879,6 +2900,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="UpgradeRated.ToBlock" value="Full Veal Pen"/>
         </block>
+		
         <block name="Full Veal Pen" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2900,6 +2922,7 @@
             <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceAnimalFat" count="1,5" tag="cropHarvest"/>
         </block>
+		
         <block name="Jalapeno Pepper Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2927,6 +2950,7 @@
             <property name="DescriptionKey" value="farmLifeJalapenoPepperSeedDesc"/>
             <property name="PlantGrowing.Next" value="Jalapeno Pepper Growing 1"/>
         </block>
+		
         <block name="Jalapeno Pepper Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2953,6 +2977,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="PlantGrowing.Next" value="Jalapeno Pepper Plant"/>
         </block>
+		
         <block name="Jalapeno Pepper Plant" farmLifeGrown="true">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayInfo" value="Name"/>
@@ -2980,6 +3005,7 @@
             <property name="DowngradeBlock" value="Jalapeno Pepper Seed"/>
             <drop event="Harvest" name="Jalapeno Pepper" count="1" tag="cropHarvest"/>
         </block>
+		
         <block name="Kidney Bean Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
