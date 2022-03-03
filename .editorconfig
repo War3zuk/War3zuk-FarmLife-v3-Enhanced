@@ -1,5 +1,0 @@
-# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
-
-# Cs files
-[*.cs]
-indent_style = tab

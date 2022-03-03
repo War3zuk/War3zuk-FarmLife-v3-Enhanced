@@ -1,0 +1,72 @@
+
+<configs>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='seeds']">
+        <item name="Apple Seed"/>
+        <item name="Avocado Seed"/>
+        <item name="Banana Seed"/>
+        <item name="Barley Seed"/>
+        <item name="Basil Seed"/>
+        <item name="Beet Seed"/>
+        <item name="Bell Pepper Seed"/>
+        <item name="Bitter Hops Seed"/>
+        <item name="Black Bean Seed"/>
+        <item name="Black Pepper Seed"/>
+        <item name="Broccoli Seed"/>
+        <item name="Brussels Sprouts Seed"/>
+        <item name="Cabbage Seed"/>
+        <item name="Carrot Seed"/>
+        <item name="Celery Seed"/>
+        <item name="Cherry Seed"/>
+        <item name="Cilantro Seed"/>
+        <item name="Cinnamon Seed"/>
+        <item name="Coconut Seed"/>
+        <item name="Cucumber Seed"/>
+        <item name="Cumin Seed"/>
+        <item name="Dill Seed"/>
+        <item name="Floral Hops Seed"/>
+        <item name="Garlic Seed"/>
+        <item name="Ghost Pepper Seed"/>
+        <item name="Ginger Seed"/>
+        <item name="Grape Seed"/>
+        <item name="Green Bean Seed"/>
+        <item name="Jalapeno Pepper Seed"/>
+        <item name="Kidney Bean Seed"/>
+        <item name="Lime Seed"/>
+        <item name="Meyer Lemon Seed"/>
+        <item name="Mint Seed"/>
+        <item name="Okra Seed"/>
+        <item name="Olive Seed"/>
+        <item name="Onion Seed"/>
+        <item name="Orange Seed"/>
+        <item name="Oregano Seed"/>
+        <item name="Pablano Pepper Seed"/>
+        <item name="Pear Seed"/>
+        <item name="Pineapple Seed"/>
+        <item name="Pinto Bean Seed"/>
+        <item name="Raspberry Seed"/>
+        <item name="Rice Seed"/>
+        <item name="Romaine Seed"/>
+        <item name="Rosemary Seed"/>
+        <item name="Rye Seed"/>
+        <item name="Sakura Seed"/>
+        <item name="Shallot Seed"/>
+        <item name="Sorghum Seed"/>
+        <item name="Soy Bean Seed"/>
+        <item name="Spinach Seed"/>
+        <item name="Squash Seed"/>
+        <item name="Strawberry Seed"/>
+        <item name="Sugar Cane Seed"/>
+        <item name="Sugar Maple Seed"/>
+        <item name="Thyme Seed"/>
+        <item name="Tomatillo Seed"/>
+        <item name="Tomato Seed"/>
+        <item name="Walnut Seed"/>
+        <item name="Wheat Seed"/>
+        <item name="White Oak Seed"/>
+    </append>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
+        <item name="Salt Shaker" count="2,4"/>
+        <item name="Black Pepper Tin" count="2,4"/>
+        <item name="Salmon Roe" count="1,2"/>
+    </append>
+</configs>
