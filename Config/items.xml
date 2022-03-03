@@ -2314,6 +2314,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeCarrotDesc"/>
         </item>
+		
         <item name="Caste Iron Skillet">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -2328,6 +2329,7 @@
             <property name="Weight" value="5"/>
             <property name="DescriptionKey" value="farmLifeCasteIronSkilletDesc"/>
         </item>
+		
         <item name="Cattle Feed">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -2335,13 +2337,14 @@
             <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="4"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="10"/>
             <property name="Weight" value="5"/>
             <property name="DescriptionKey" value="farmLifeCattleFeedDesc"/>
         </item>
+		
         <item name="Celery">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -2767,6 +2770,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeChickenBreastDesc"/>
         </item>
+		
         <item name="Chicken Feed">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -2774,7 +2778,7 @@
             <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="4"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="10"/>
@@ -2783,6 +2787,7 @@
             <property name="CustomIconTint" value="888888"/>
             <property name="DescriptionKey" value="farmLifeChickenFeedDesc"/>
         </item>
+		
         <item name="Chicken Stock">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -4526,6 +4531,7 @@
             <property name="CustomIcon" value="IngredientIcon"/>
             <property name="DescriptionKey" value="farmLifeFajitasPlatterStep3Desc"/>
         </item>
+		
         <item name="Feeding Trough">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -4533,13 +4539,14 @@
             <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="500"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="4"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="10"/>
             <property name="Weight" value="5"/>
             <property name="DescriptionKey" value="farmLifeFeedingTroughDesc"/>
         </item>
+		
         <item name="Filtered Cabernet">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>

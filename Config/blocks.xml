@@ -2503,7 +2503,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryAngusPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2526,7 +2526,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingAngusPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2577,7 +2577,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryChickenCoop"/>
             <property name="MultiBlockDim" value="3,1,3"/>
@@ -2600,7 +2600,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingChickenCoop"/>
             <property name="MultiBlockDim" value="3,1,3"/>
@@ -2652,7 +2652,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryElkPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2675,7 +2675,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingElkPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2725,7 +2725,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryHolsteinPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2748,7 +2748,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingHolsteinPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2796,7 +2796,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryPigPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2819,7 +2819,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingPigPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2871,7 +2871,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryVealPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
@@ -2894,7 +2894,7 @@
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
             </property>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <property name="UpgradeRated.Rate" value="3600"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingVealPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
