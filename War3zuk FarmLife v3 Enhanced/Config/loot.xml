@@ -1,0 +1,170 @@
+<configs>
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
+		
+		<lootgroup name="FarmLifev3LootA" count="3">
+				<item name="Old Salt" count="2,4"/>
+				<item name="Seed Pack" count="1"/>
+				<item name="Tonic" count="1"/>
+			</lootgroup>
+			
+		<lootgroup name="FarmLifev3LootB" count="1">
+				<item name="BeefCake" count="1"/>
+				<item name="Butcher Knife" count="1"/>
+				<item name="Rusty Frying Pan" count="1"/>
+				<item name="Scythe" count="1"/>
+			</lootgroup>
+			
+		<lootgroup name="FarmLifev3Loot" count="1">
+			<item group="FarmLifev3LootA" loot_prob_template="med"/>
+			<item group="FarmLifev3LootB" loot_prob_template="low"/>
+		</lootgroup>
+			
+	</insertAfter>
+
+
+	<!-- Stove -->
+	<append xpath="/lootcontainers/lootcontainer[@id='5']">	
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Kitchen Sinks -->
+	<append xpath="/lootcontainers/lootcontainer[@id='8']">	
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Trash -->
+	<append xpath="/lootcontainers/lootcontainer[@id='10']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Cupboard -->
+	<append xpath="/lootcontainers/lootcontainer[@id='17']">	
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!--  Fridge -->
+	<append xpath="/lootcontainers/lootcontainer[@id='21']">	
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!--  Garage Box -->
+	<append xpath="/lootcontainers/lootcontainer[@id='22']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Supply drop general  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='34']">		
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Shamway Safe  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='38']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Another Fridge?  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='47']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Shopping Cart  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='54']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Shopping Basket  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='58']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Shamyway Box  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='59']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+	<!-- Construction Shit  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='88']">
+		<item group="FarmLifev3Loot"/>
+	</append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='seeds']">
+		<item name="Barley Seed"/>
+		<item name="Basil Seed"/>
+		<item name="Beet Seed"/>
+		<item name="BellPepper Seed"/>
+		<item name="BitterHops Seed"/>
+		<item name="BlackBean Seed"/>
+		<item name="BlackPepper Seed"/>
+		<item name="Broccoli Seed"/>
+		<item name="BrusselsSprouts Seed"/>
+		<item name="Cabbage Seed"/>
+		<item name="Carrot Seed"/>
+		<item name="Celery Seed"/>
+		<item name="CherryTomato Seed"/>
+		<item name="Cilantro Seed"/>
+		<item name="Cucumber Seed"/>
+		<item name="Cumin Seed"/>
+		<item name="Dill Seed"/>
+		<item name="Flax Seed"/>
+		<item name="FloralHops Seed"/>
+		<item name="Garlic Seed"/>
+		<item name="GhostPepper Seed"/>
+		<item name="Ginger Seed"/>        
+		<item name="GreenBean Seed"/>
+		<item name="Habanero Seed"/>
+		<item name="HeirloomTomato Seed"/>
+		<item name="Herb Seed"/>
+		<item name="IcebergLettuce Seed"/>
+		<item name="Jalapeno Seed"/>		
+		<item name="KidneyBean Seed"/>
+		<item name="Marijuana Seed"/>
+		<item name="Mint Seed"/>
+		<item name="Okra Seed"/>
+		<item name="Onion Seed"/>
+		<item name="Oregano Seed"/>
+		<item name="Poblano Seed"/>
+		<item name="Pineapple Seed"/>
+		<item name="PintoBean Seed"/>
+		<item name="Raspberry Seed"/>
+		<item name="Rice Seed"/>
+		<item name="Romaine Seed"/>
+		<item name="Rosemary Seed"/>
+		<item name="Rye Seed"/>
+		<item name="Shallot Seed"/>
+		<item name="Sorghum Seed"/>
+		<item name="SoyBean Seed"/>
+		<item name="Spice Seed"/>
+		<item name="Spinach Seed"/>
+		<item name="Squash Seed"/>
+		<item name="Strawberry Seed"/>
+		<item name="SugarCane Seed"/>
+		<item name="Sunflower Seed"/>
+		<item name="Thyme Seed"/>
+		<item name="Tomatillo Seed"/>
+		<item name="Tomato Seed"/>
+		<item name="VineyardGrape Seed"/>
+		<item name="Wheat Seed"/>
+    </append>
+	
+    <append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+        <item name="Salt" loot_prob_template="low"/>
+        <item name="Black Pepper" loot_prob_template="low"/>
+        <item name="Salt Shaker" loot_prob_template="low"/>
+        <item name="Black Pepper Tin" loot_prob_template="low"/>
+        <item name="Air of Scotland" loot_prob_template="low"/>
+        <item name="Bottle Cap" loot_prob_template="low"/>
+        <item name="Salmon Roe" loot_prob_template="low"/>
+		<item name="cryogenicContainerBee" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerChicken" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerCow" loot_prob_template="veryLow"/>	
+		<item name="cryogenicContainerDuck" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerElk" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerGoat" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerHorse" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerPig" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerPheasant" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerRabbit" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerSheep" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerTurkey" loot_prob_template="veryLow"/>
+    </append>
+	
+    <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsCommon']">
+        <item name="Salt" loot_prob_template="med"/>
+        <item name="Black Pepper" loot_prob_template="med"/>
+        <item name="Salt Shaker" loot_prob_template="med"/>
+        <item name="Black Pepper Tin" loot_prob_template="med"/>
+        <item name="Air of Scotland" loot_prob_template="med"/>
+        <item name="Bottle Cap" loot_prob_template="med"/>
+        <item name="Salmon Roe" loot_prob_template="med"/>
+    </append>
+
+</configs>

@@ -1,0 +1,219 @@
+<configs>
+	
+    <append xpath="/xui/ruleset">
+		
+        <window_group name="workstation_Chopping Board" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsChoppingBoard"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Wood Grill" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsWoodGrill"/>
+            <window name="windowFuel"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_KitchNaid" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsKitchNaid"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Gas Cooktop" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsGasCooktop"/>
+            <window name="windowFuel"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Gas Oven" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsGasOven"/>
+            <window name="windowFuel"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Cold Smoker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsColdSmoker"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Brew Station" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsBrewStation"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Brew Cooker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsBrewCooker"/>
+            <window name="windowFuel"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+        <window_group name="workstation_Fermentor Bench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>
+            <window name="windowToolsFermentorBench"/>
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+		<window_group name="workstation_Chicken" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsChickenCoop" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Cow" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsCow" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Dairy Churn" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Elk" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsElk" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Farm Forge" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsFarmForge" />
+			<window name="windowFuel" />
+			<window name="windowForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Horse" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsHorse" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Old Stone Well" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+            <window name="windowCraftingList"/>
+            <window name="craftingInfoPanel"/>
+            <window name="windowCraftingQueue"/>            
+            <window name="windowOutput"/>
+            <window name="windowNonPagingHeader"/>
+        </window_group>
+		
+		<window_group name="workstation_Pheasant" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsPheasant" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Pig" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsPig" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Rustic Smoker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsCampfire" />
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Sheep" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsSheep" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Spinning Wheel" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsSpinningWheel" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Turkey" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsTurkey" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_Webber Grill" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="windowToolsWebberGrill" />
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+</append>
+</configs>

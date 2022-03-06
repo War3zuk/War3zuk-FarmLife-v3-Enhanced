@@ -1,0 +1,32 @@
+<Biomes>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
+		<decoration type="block" blockname="Apple Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Avocado Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Banana Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Cherry Sappling" prob="0.003" rotatemax="7"/>
+	</append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+		<decoration type="block" blockname="Cinnamon Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Coconut Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Lime Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Meyer Lemon Sappling" prob="0.003" rotatemax="7"/>
+	</append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+		<decoration type="block" blockname="Nut Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Olive Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Orange Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Pear Sappling" prob="0.003" rotatemax="7"/>
+	</append>
+	
+	<append xpath="worldgeneration/biomes/biome[@name='desert']/decorations">
+		<decoration type="block" blockname="Red Apple Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Sakura Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Sugar Maple Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="Walnut Sappling" prob="0.003" rotatemax="7"/>
+		<decoration type="block" blockname="White Oak Sappling" prob="0.003" rotatemax="7"/>
+	</append>
+	
+</Biomes>
