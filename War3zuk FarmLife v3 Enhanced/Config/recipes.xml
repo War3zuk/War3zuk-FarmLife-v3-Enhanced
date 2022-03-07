@@ -48,52 +48,52 @@
 		
 		<!-- Animal Recipes -->
 		<recipe name="Fertile Egg" count="12" craft_time="10" craft_area="Chicken" craft_tool="Incubator" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerChicken" count="1"/>
 		</recipe>
 		
 		<recipe name="Calf" count="1" craft_time="30" craft_area="Cow" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerCow" count="1"/>
 		</recipe>
 		
 		<recipe name="Colt" count="1" craft_time="30" craft_area="Horse" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerHorse" count="1"/>
 		</recipe>
 		
 		<recipe name="Piglet" count="1" craft_time="30" craft_area="Pig" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerPig" count="1"/>
 		</recipe>
 		
 		<recipe name="Hungry Angus Pen" count="1" craft_time="300" craft_area="Cow" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-            <ingredient name="Animal Bedding" count="1"/>
+            <ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerCow" count="1"/>
         </recipe>
 		
         <recipe name="Hungry Chicken Pen" count="1" craft_time="300" craft_area="Chicken" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-            <ingredient name="Animal Bedding" count="1"/>
+            <ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerChicken" count="1"/>
         </recipe>
 		
         <recipe name="Hungry Elk Pen" count="1" craft_time="300" craft_area="Elk" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-            <ingredient name="Animal Bedding" count="1"/>
+            <ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerElk" count="1"/>
         </recipe>
 		
         <recipe name="Hungry Holstein Pen" count="1" craft_time="300" craft_area="Cow" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-            <ingredient name="Animal Bedding" count="1"/>
+            <ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerCow" count="1"/>
         </recipe>
 		
         <recipe name="Hungry Pig Pen" count="1" craft_time="300" craft_area="Pig" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-            <ingredient name="Animal Bedding" count="1"/>
+            <ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerPig" count="1"/>
         </recipe>
 		
         <recipe name="Hungry Veal Pen" count="1" craft_time="300" craft_area="Cow" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-            <ingredient name="Animal Bedding" count="1"/>
+            <ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerCow" count="1"/>
         </recipe>
 		
@@ -128,12 +128,6 @@
 			<ingredient name="foodRottingFlesh" count="1"/>
 			<ingredient name="resourcePotassiumNitratePowder" count="5"/>
 			<ingredient name="resourceClayLump" count="10"/>
-		</recipe>
-		
-		<recipe name="Fertile Animal Ground" count="1" craft_time="1" craft_area="Farm Table">
-			<ingredient name="resourceClayLump" count="10"/>
-			<ingredient name="Flax Fiber" count="5"/>
-			<ingredient name="Cow Manure" count="5"/>
 		</recipe>
 		
 		<recipe name="Master Crop Plot" count="1" craft_time="5" craft_area="Farm Table" tags="learnable,perkFarmLife">
@@ -1857,12 +1851,6 @@
 		
 		<recipe name="Raw Chicken Legs and Wings" count="1" craft_time="10" craft_area="Chopping Board">
 			<ingredient name="Raw Chicken" count="5"/>
-		</recipe>				
-		
-		<!-- Other/Misc -->
-		<recipe name="Animal Bedding" count="20" craft_time="6" craft_area="Farm Table">
-			<ingredient name="hayBaleSquare" count="10"/>
-			<ingredient name="Animal Feed" count="10"/>
 		</recipe>
 		
 		<recipe name="AnimalBreedingKit" count="1" craft_time="20" craft_area="Farm Table">
@@ -3081,39 +3069,38 @@
 		
 		<recipe name="Chicken" count="1" craft_time="300" craft_area="Farm Table" tags="learnable,perkFarmLife">
 			<ingredient name="resourceScrapIron" count="25"/>
-			<ingredient name="Animal Bedding" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 			<ingredient name="resourceWood" count="50"/>
 		</recipe>
 		
 		<recipe name="Cow" count="1" craft_time="900" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>
 		
 		<recipe name="Elk" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>
 		
 		<recipe name="Pheasant" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>
 		
 		
 		<recipe name="Pig" count="1" craft_time="600" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>
 		
 		<recipe name="Sheep" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>		
 		
 		<recipe name="Turkey" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>		
 		
@@ -3247,7 +3234,7 @@
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
-		<recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
+		<recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_glass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3257,7 +3244,7 @@
             <ingredient name="unit_clay" count="10"/>
         </recipe>
 		
-		<recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
+		<recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3387,7 +3374,7 @@
             <ingredient name="unit_glass" count="50"/>
         </recipe>
 		
-		<recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
+		<recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3417,7 +3404,7 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
+		<recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_brass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3427,7 +3414,7 @@
             <ingredient name="unit_clay" count="5"/>
         </recipe>
 		
-		<recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
+		<recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>		
@@ -3451,7 +3438,7 @@
             <ingredient name="resourceForgedIron" count="20"/>
         </recipe>
 		
-        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
+        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -5418,7 +5405,7 @@
 		</recipe>
 		
 		<recipe name="Turkey Egg" count="12" craft_time="10" craft_area="Turkey" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="1"/>
 		</recipe>		 
 		
 		<recipe name="Fertile Turkey Egg" count="1" craft_time="30" craft_area="Turkey"  craft_tool="Incubator" tags="learnable,perkFarmLife">
@@ -5452,7 +5439,7 @@
 		
 		<!-- REWORKING THE MODEL FOR THIS BLOCK -->
 		<recipe name="Horse" count="1" craft_time="900" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
 		</recipe>
 		
@@ -5477,7 +5464,7 @@
 		</recipe>
 		
 		<recipe name="Pheasant Egg" count="12" craft_time="10" craft_area="Pheasant" craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="10"/>
 		</recipe>
 		
 		<recipe name="Fertile Pheasant Egg" count="1" craft_time="30" craft_area="Pheasant"  craft_tool="Incubator" tags="learnable,perkFarmLife">
@@ -5486,7 +5473,7 @@
 		</recipe>		
 		
 		<recipe name="Lamb" count="1" craft_time="30" craft_area="Sheep"  craft_tool="AnimalBreedingKit" tags="learnable,perkFarmLife">
-			<ingredient name="Animal Bedding" count="1"/>
+			<ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerSheep" count="4"/>
 		</recipe>
 		

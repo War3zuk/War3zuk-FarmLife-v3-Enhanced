@@ -20412,6 +20412,7 @@
 		</item>
 		<!-- TEMP PLACEHOLDER -->
 		<item name="Turkey Gravy">
+			<property name="CustomIcon" value="Turkey Gravy"/>
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
             <property name="DisplayType" value="food"/>
@@ -20428,6 +20429,7 @@
         </item>
 		<!-- TEMP PLACEHOLDER -->
 		<item name="Turkey Gravy Step 1">
+			<property name="CustomIcon" value="Turkey Gravy"/>
 			<property name="HoldType" value="31"/>
 			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -20440,6 +20442,7 @@
 		</item>		
 		<!-- TEMP PLACEHOLDER -->
 		<item name="Turkey Gravy Step 2">
+			<property name="CustomIcon" value="Turkey Gravy"/>
 			<property name="HoldType" value="31"/>
 			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -20452,6 +20455,7 @@
 		</item>		
 		<!-- TEMP PLACEHOLDER -->
 		<item name="Turkey Gravy Step 3">
+			<property name="CustomIcon" value="Turkey Gravy"/>
 			<property name="HoldType" value="31"/>
 			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>

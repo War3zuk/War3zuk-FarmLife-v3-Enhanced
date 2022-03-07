@@ -2,6 +2,14 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.02
 
+Added 3rd Slot Farm Forge
+Fixed Farm Forge
+Fixed Farm Table
+Fixed Brew Station Window
+Fixed KitchenAid Window
+Removed Unused Recipes
+Replaced Missing Icons
+Fixed Webber Grill Window
 Edited FertileLand Number
 Rebuilt Trees xml
 Rebuilt Sappling xml

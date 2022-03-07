@@ -1032,28 +1032,7 @@
 							BLOCKS
 		==========================================================
 		-->		
-		<block name="Animal Bedding">
-			<property name="Class" value="Hay"/>
-			<property name="Material" value="Mhay"/>
-			<property name="DescriptionKey" value="farmLifeAnimalBeddingDesc"/>
-			<property name="Group" value="Animals,All"/>
-			<property name="Texture" value="196"/>
-			<property name="FuelValue" value="8"/>
-			<property name="CanPickup" value="true"/>
-			<property name="FallDamage" value=".5"/>
-			<property class="UpgradeBlock">
-				<property name="ToBlock" value="Fertile Bedding"/>
-				<property name="Item" value="Pitchfork"/>
-				<property name="ItemCount" value="0"/>
-				<property name="UpgradeHitCount" value="1"/></property>
-			<property class="RepairItems">
-				<property name="resourceYuccaFibers" value="10"/></property>
-			<drop event="Destroy" name="Animal Bedding" count="1"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="20"/>
-			<property name="FilterTags" value="fbuilding,fdecor,fother"/>
-			<property name="SortOrder1" value="70r2"/>
-		</block>
+
 		<block name="Brick Planter">
             <property name="Material" value="Mfarmland"/>
             <property name="ImposterExclude" value="true"/>
@@ -1144,7 +1123,7 @@
 			<property name="Mesh" value="models"/>
 			<property name="Model" value="#@modfolder:Resources/FarmBarrel.unity3d?FarmBarrelPrefab"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="LootList" value="1"/>
+			<property name="LootList" value="playerStorage"/>
 			<property class="RepairItems">
 				<property name="resourceWood" value="10"/></property>
 			<drop event="Destroy" name="resourceWood" count="1,3"/>
@@ -1163,37 +1142,7 @@
 			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
 			<drop event="Destroy" name="Farm Crop Plot" count="1"/>
 		</block>				
-		<block name="Fertile Bedding">
-			<property name="Class" value="Hay"/>
-			<property name="Material" value="Mpasture"/>
-			<property name="Group" value="Animals,All"/>
-			<property name="Texture" value="196"/>
-			<property class="RepairItems">
-				<property name="resourceYuccaFibers" value="10"/></property>
-			<drop event="Destroy" name="Animal Bedding" count="1"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="20"/>
-			<property name="FilterTags" value="fbuilding,fdecor,fother"/>
-			<property name="SortOrder1" value="70r2"/>
-		</block>		
-		<block name="Fertile Animal Ground">
-			<property name="Material" value="Mpasture"/>
-			<property name="Shape" value="Terrain"/>
-			<property name="Mesh" value="terrain"/>			
-			<property name="Group" value="Animals,All"/>
-			<property name="CustomIcon" value="Fertile Animal Ground"/>
-			<property name="CustomIconTint" value="ffffff"/>
-			<property name="Texture" value="403"/>
-			<property name="ImposterExclude" value="true"/>
-			<property name="CanMobsSpawnOn" value="false"/>
-			<property class="RepairItems">
-				<property name="resourceClayLump" value="10"/></property>
-			<drop event="Destroy" name="Fertile Animal Ground" count="1"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="20"/>
-			<property name="DisplayType" value="blockTerrainFertile" />
-			<property name="DescriptionKey" value="FertileAnimalGroundDesc"/>
-		</block>
+
 		<block name="Master Crop Plot">
 			<property name="Extends" value="farmPlotBlock"/>
 			<property name="CustomIcon" value="farmPlotBlock"/>
@@ -1203,9 +1152,9 @@
 			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
 			<drop event="Destroy" name="Master Crop Plot" count="1"/>
 			<property name="DescriptionKey" value="FarmLifeMasterCropPlotDesc"/>
-			
 			<property name="Group" value="Resources,All"/>			
 		</block>		
+		
 		<block name="Old Stone Well">
 			<property name="CustomIcon" value="Old Stone Well"/>			
 			<property name="Material" value="Mstone"/>
@@ -1220,7 +1169,7 @@
 			<property name="IsTerrainDecoration" value="true"/>
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 			<property name="Class" value="SecureLoot"/>
-			<property name="LootList" value="420"/>
+			<property name="LootList" value="playerStorage"/>
 				<drop event="Destroy" name="Old Stone Well" count="1" />
 				<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 		</block>		
@@ -3993,7 +3942,7 @@
 			<property name="Mesh" value="models"/>
 			<property name="Model" value="#@modfolder:Resources/BottleContainer.unity3d?BottleContainerPrefab"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="LootList" value="1"/>
+			<property name="LootList" value="playerStorage"/>
 			<property class="RepairItems">
 				<property name="resourceWood" value="10"/></property>
 			<drop event="Destroy" name="resourceWood" count="1,3"/>
@@ -5026,7 +4975,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="MaxDamage" value="300"/>
 			<property name="ParticleName" value="campfire"/>
-			<property name="ParticleOffset" value=".45,1.3,.1"/>
+			<property name="ParticleOffset" value=".65,1,.1"/>
 			<property name="StabilitySupport" value="false"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="HeatMapStrength" value="8"/>
@@ -5154,7 +5103,7 @@
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
 			<property name="IsTerrainDecoration" value="true"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
-			<property name="LootList" value="421"/>
+			<property name="LootList" value="playerStorage"/>
 			<property class="RepairItems"> <property name="resourceForgedIron" value="30"/> </property>
 			<drop event="Destroy" count="0"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>			

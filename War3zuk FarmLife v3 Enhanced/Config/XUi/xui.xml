@@ -113,6 +113,14 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
+		<window_group name="workstation_Farm Table" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
 		<window_group name="workstation_Elk" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
@@ -126,9 +134,9 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
-			<window name="windowToolsFarmForge" />
+			<window name="windowToolsForge" />
 			<window name="windowFuel" />
-			<window name="windowForgeInput" />
+			<window name="FLwindowForgeInput" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
