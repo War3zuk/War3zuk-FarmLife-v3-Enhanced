@@ -1,12 +1,13 @@
-<SoDead>
+<Progression>
+	
 	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='1,5']/@tags">,Farm Forge</append>
 	
 	<append xpath="/progression/attributes">
-		<attribute name="attFarmLife" name_key="Farm Life" desc_key="Unlock Farm Life recipes." icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
+		<attribute name="Farm Life" name_key="Farm Life" desc_key="Unlock Farm Life recipes." icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
 	</append>
 
 	<append xpath="/progression/skills">
-		<skill name="skillFarmLife" parent="attFarmLife" name_key="Farm Life" desc_key="Perks to increase Farm Life stats!" icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
+		<skill name="skillFarmLife" parent="Farm Life" name_key="Farm Life" desc_key="Perks to increase Farm Life stats!" icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
 	</append>	
 	
 	<append xpath="/progression">
@@ -42,6 +43,7 @@
 					<effect_description level="5" desc_key="perkFarmLifeRank5Desc" long_desc_key="perkFarmLifeRank5LongDesc"/>
 				</effect_group>			
 			</perk>
-		</perks>	
-	</append>
-</SoDead>
+		</perks>
+		
+</append>
+</Progression>

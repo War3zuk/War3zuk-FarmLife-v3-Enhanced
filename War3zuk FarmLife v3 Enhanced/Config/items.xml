@@ -17370,6 +17370,7 @@
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DescriptionKey" value="FLEseedpackdesc"/>
 		</item>
+		
 		<item name="Sugarcane Stalk">
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
