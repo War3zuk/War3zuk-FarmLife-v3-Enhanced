@@ -17272,55 +17272,6 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="Pitch Fork" farmLifeIcon="true">
-            <property name="Tags" value="melee,medium,tool,perkDeepCuts,perkLivingOffTheLandCrops"/>
-            <property name="DisplayType" value="meleeRepairTool"/>
-            <property name="HoldType" value="50"/>
-            <property name="Meshfile" value="#@modfolder:Resources/FarmLife.unity3d?PitchforkPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="RepairTools" value="resourceForgedIron"/>
-            <property name="DegradationBreaksAfter" value="false"/>
-            <property name="SoundJammed" value="ItemNeedsRepair"/>
-            <property name="SoundDestroy" value="wooddestroy1"/>
-            <property name="FuelValue" value="250"/>
-            <property name="EconomicValue" value="200"/>
-            <property class="Action0">
-                <property name="Class" value="DynamicMelee"/>
-                <property name="Sphere" value="0.15"/>
-                <property name="Sound_start" value="swoosh"/>
-                <property name="ToolCategory.cropHarvest" value="1" param1="1"/>
-            </property>
-            <property class="Action1">
-                <property name="Class" value="Repair"/>
-                <property name="Repair_amount" value="30"/>
-                <property name="Upgrade_hit_offset" value="-4"/>
-                <property name="Sound_start" value="repair_block"/>
-                <property name="Delay" value="1.3"/>
-                <property name="Upgrade_action_sound" value="ImpactSurface/metalhitearth"/>
-                <property name="Allowed_upgrade_items" value="Animal Feed,Fish Pellets"/>
-            </property>
-            <effect_group name="Base Effects">
-                <passive_effect name="MaxRange" operation="base_set" value="2.9"/>
-                <passive_effect name="BlockRange" operation="base_set" value="10"/>
-                <passive_effect name="EntityDamage" operation="base_set" value="10"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="10"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth"/>
-                <passive_effect name="DamageModifier" operation="perc_set" value="-.9" tags="stone"/>
-                <passive_effect name="DamageModifier" operation="perc_set" value="-.9" tags="metal"/>
-                <passive_effect name="AttacksPerMinute" operation="base_set" value="49"/>
-                <passive_effect name="StaminaLoss" operation="base_set" value="16.1" tags="primary"/>
-                <passive_effect name="DegradationMax" operation="base_set" value="200,500" tier="1,6"/>
-                <passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
-                <passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
-                <passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-            </effect_group>
-            <property name="Group" value="Tools/Traps"/>
-            <property name="ActionSkillGroup" value="Mining Tools"/>
-            <property name="CraftingSkillGroup" value="craftSkillTools"/>
-            <property name="RepairExpMultiplier" value="5.5"/>
-        </item>
-		
 		
 		<item name="Cow Manure">
 			<property name="HoldType" value="45"/>
@@ -19534,61 +19485,7 @@
 			<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 		</item>
-		<item name="GardenHoe">
-			<property name="Tags" value="melee,medium,tool,shovel,perkDeepCuts,perkMotherLode"/>
-			<property name="DisplayType" value="melee"/>
-			<property name="CustomIcon" value="GardenHoe"/>
-			<property name="HoldType" value="50"/>
-			<property name="Meshfile" value="#@modfolder:Resources/GardenHoe.unity3d?GardenHoePrefab"/>
-			<property name="DropScale" value="6"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="RepairTools" value="resourceScrapIron"/>
-			<property name="DegradationBreaksAfter" value="false"/>
-			<property name="SoundJammed" value="ItemNeedsRepair"/>
-			<property name="SoundDestroy" value="wooddestroy1"/>
-			<property name="FuelValue" value="75"/>
-			<property name="EconomicValue" value="50"/>
-			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Stacknumber" value="1"/>
-			<property class="Action0">
-				<property name="Class" value="DynamicMelee"/>
-				<property name="Sphere" value="0.15"/>
-				<property name="Sound_start" value="swoosh"/>
-				<property name="ToolCategory.cropHarvest" value="1" param1="1"/></property>
-			<property class="Action1">
-				<property name="Class" value="Repair"/>
-				<property name="Repair_amount" value="30"/>
-				<property name="Upgrade_hit_offset" value="-4"/>
-				<property name="Sound_start" value="repair_block"/>
-				<property name="Delay" value=".5"/>
-				<property name="Upgrade_action_sound" value="ImpactSurface/metalhitearth"/>
-				<property name="Allowed_upgrade_items" value="GardenHoe"/>
-				<property name="UsePowerAttackAnimation" value="true"/></property>
-			<effect_group name="Base Effects">
-				<passive_effect name="MaxRange" operation="base_set" value="2.9"/>
-				<passive_effect name="BlockRange" operation="base_set" value="10"/>
-				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
-				<passive_effect name="DismemberChance" operation="base_add" value=".25" tags="primary"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_set" value="-.9" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_set" value="-.9" tags="metal"/>
-				<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
-				<passive_effect name="StaminaLoss" operation="base_set" value="6.2" tags="primary"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="20000,50000" tier="1,6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-			</effect_group>
-			<property name="Group" value="CTools,All"/>
-			<property name="PickupJournalEntry" value="farmingTip"/>
-			<property name="ActionSkillGroup" value="Mining Tools"/>
-			<property name="CraftingSkillGroup" value="craftSkillTools"/>
-			<property name="RepairExpMultiplier" value="5.5"/>
-			<property name="DescriptionKey" value="farmlifegardenhoeDesc"/>
-		</item>
+		
 		<item name="Scythe">
 			<property name="Tags" value="knife,melee,light,weapon,meleeWeapon,perkDeepCuts,perkTheHuntsman,perkLivingOffTheLandCrops"/>
 			<property name="DisplayType" value="melee"/>
@@ -19641,40 +19538,6 @@
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 			</effect_group>
 		</item>
-		
-				
-<!--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-									Extras
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-		<item name="Crayon">
-			<property name="HoldType" value="3"/>
-			<property name="Meshfile" value="#@modfolder:Resources/USMC.unity3d?CrayonPrefab"/>
-			<property name="DropMeshfile" value="#@modfolder:Resources/USMC.unity3d?CrayonPrefab"/>
-			<property name="DropScale" value="6"/>
-			<property name="CustomIcon" value="7crayon"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Weight" value="1"/>
-			<property name="Stacknumber" value="25000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
-			<property name="CraftingIngredientExp" value="3"/>
-			<property name="CraftingIngredientTime" value="1"/>
-			<property name="DisplayType" value="food"/>
-			<property class="Action0">
-				<property name="Class" value="Eat"/>
-				<property name="Delay" value="1.0"/>
-				<property name="Use_time" value="..."/>
-				<property name="Sound_start" value="oorah"/>
-			</property>
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="2"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffUSMC"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
-			</effect_group>
-		</item>		
 		
 		<item name="Canned Food">
 			<property name="HoldType" value="45"/>
@@ -19866,30 +19729,44 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 			</effect_group>
 		</item>
-
-		<item name="BeefCake">
-			<property name="HoldType" value="3"/>
-			<property name="Group" value="Food/Cooking"/>
-			<property name="CustomIcon" value="7beefcake"/>
-			<property name="Meshfile" value="#@modfolder:Resources/BeefCake.unity3d?BeefCakePrefab"/>
-			<property name="DropMeshfile" value="#@modfolder:Resources/BeefCake.unity3d?BeefCakePrefab"/>
-			<property name="DropScale" value="6"/>
-			<property name="Material" value="Mglass"/>
-			<property name="Weight" value="10"/>
-			<property name="Stacknumber" value="25000"/>
-			<property name="EconomicValue" value="25"/>
-			<property name="DisplayType" value="food"/>
-			<property class="Action0">
-				<property name="Class" value="Eat"/>
-				<property name="Delay" value="2"/>
-				<property name="Use_time" value="..."/>
-				<property name="Sound_start" value="player_drinking"/>
-				<property name="Create_item" value="drinkJarEmpty"/></property>
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeefcake"/>
+		
+<item name="BeefCake">
+	<property name="HoldType" value="3"/>
+	<property name="DescriptionKey" value="BeefCakeDesc"/>
+	<property name="CustomIcon" value="7beefcake"/>
+	<property name="Meshfile" value="#@modfolder:Resources/BeefCake.unity3d?BeefCakePrefab"/>
+	<property name="DropMeshfile" value="#@modfolder:Resources/BeefCake.unity3d?BeefCakePrefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="50000"/>
+	<property name="EconomicValue" value="120"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="DisplayType" value="waterBeer"/>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="2"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<effect_group tiered="false" name="Drink Tier 3">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<display_value name="dStaminaRegen" value=".6"/>
+			<display_value name="dEntityDamageBrawling" value="5"/>
+			<display_value name="dStunResist" value="1"/>
+			<display_value name="dDuration" value="120"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="123"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="123">
+				<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="123"/></triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeefcake"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
-			</effect_group>
-		</item>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
 		
 		<item name="Iceberg Lettuce">
 			<property name="HoldType" value="45"/>

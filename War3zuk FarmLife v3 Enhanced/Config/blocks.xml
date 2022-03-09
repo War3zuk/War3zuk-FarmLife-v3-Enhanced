@@ -64,9 +64,9 @@
 			<property name="MaxDamage" value="1"/>
 			<property name="DescriptionKey" value="Mature Chicken"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="3,1,3"/>
 			<property name="Material" value="Manimal"/>
@@ -136,9 +136,9 @@
 			<property name="Extends" value="Wild Cattle"/>
 			<property name="DescriptionKey" value="Mature Cow"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="MaxDamage" value="1"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="7,2,7"/>
@@ -204,9 +204,9 @@
 			<property name="Extends" value="Wild Pig"/>
 			<property name="DescriptionKey" value="Mature Pig"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="5,2,5"/>
 			<property name="MaxDamage" value="1"/>
@@ -279,9 +279,9 @@
 			<property name="ModelOffset" value="0.5,0.5,0.5"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>			
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>            
             <property name="Shape" value="ModelEntity"/>
@@ -353,9 +353,9 @@
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>            
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>        
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>            
             <property name="Shape" value="ModelEntity"/>
@@ -431,9 +431,9 @@
 			<property name="ModelOffset" value="0.5,0.5,0.5"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>            
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>        
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -506,9 +506,9 @@
 			<property name="ModelOffset" value="0.5,0.5,0.5"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>            
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/> 
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -579,9 +579,9 @@
 			<property name="ModelOffset" value="0.5,0.5,0.5"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>            
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -656,9 +656,9 @@
 			<property name="ModelOffset" value="0,0.5,0"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -731,9 +731,9 @@
 			<property name="ModelOffset" value="0.5,0.5,0.5"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
             <property name="Shape" value="ModelEntity"/>
@@ -802,9 +802,9 @@
 			<property name="MaxDamage" value="1"/>
 			<property name="DescriptionKey" value="Mature Turkey"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,1,1"/>
 			<property name="Material" value="Manimal"/>
@@ -874,9 +874,9 @@
 			<property name="MaxDamage" value="1"/>
 			<property name="DescriptionKey" value="Mature Horse"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,2,2"/>
 			<property name="Material" value="Manimal"/>
@@ -945,9 +945,9 @@
 			<property name="Extends" value="Wild Pheasant"/>
 			<property name="DescriptionKey" value="Mature Pheasant"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="MaxDamage" value="1"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,1,1"/>
@@ -1015,9 +1015,9 @@
 			<property name="Extends" value="Wild Sheep"/>
 			<property name="DescriptionKey" value="Mature Sheep"/>
 			<property name="CustomIcon" value="missingImageFile" />
-			<property name="HeatMapStrength" value="5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="MaxDamage" value="1"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,1,2"/>
@@ -3931,24 +3931,6 @@
 			<property name="DowngradeBlock" value="Wheat Growing 1"/>
 		</block>
 		
-		<!-- Miscellaneous -->
-		<block name="Bottle Container">
-			<property name="CreativeMode" value="Player"/>
-			<property name="Class" value="Loot"/>
-			<property name="Group" value="CTools,All"/>
-			<property name="Material" value="MwoodReinforced"/>
-			<property name="StabilitySupport" value="true"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Mesh" value="models"/>
-			<property name="Model" value="#@modfolder:Resources/BottleContainer.unity3d?BottleContainerPrefab"/>
-			<property name="IsTerrainDecoration" value="true"/>
-			<property name="LootList" value="playerStorage"/>
-			<property class="RepairItems">
-				<property name="resourceWood" value="10"/></property>
-			<drop event="Destroy" name="resourceWood" count="1,3"/>
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-			<property name="FilterTags" value="floot"/>
-		</block>
 		<block name="Crop Seeds Crate">
             <property name="CustomIcon" value="cntShippingCrateLabEquipment"/>
             <property name="CustomIconTint" value="888888"/>
@@ -4079,21 +4061,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeSmallFernDesc"/>
         </block>
-		<block name="Shooting Bottle" name_key="BottleShot" desc_key="Shoot shit">
-			<property name="Material" value="Mglass"/>
-			<property name="LightOpacity" value="1"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Bottle.unity3d?BottleShoot"/>
-			<property name="SortOrder2" value="0050"/> <!-- SortShape -->
-			<property name="Mesh" value="transparent"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="DescriptionKey" value="farmLifeShootingBottleDesc"/>
-			<drop event="Destroy" name="resourceBrokenGlass" count="1,4"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="FilterTags" value="fdecor,fwindows"/>
-			<property name="SortOrder1" value="7080"/>
-			<property name="Group" value="CTools,All"/>
-		</block>
+		
 		<block name="Tom Cat">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
@@ -4156,9 +4124,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="1100"/>
 			<property name="StabilitySupport" value="true"/>
-			<property name="HeatMapStrength" value="4"/>
-			<property name="HeatMapTime" value="600"/>
-			<property name="HeatMapFrequency" value="45"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
@@ -4189,9 +4157,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="6000"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="15"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4225,9 +4193,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="6000"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="15"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4262,9 +4230,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="6000"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="15"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4300,9 +4268,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="3500"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="8"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
@@ -4336,9 +4304,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="3500"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="8"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4376,9 +4344,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="3500"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="8"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4416,9 +4384,9 @@
 			<property name="Material" value="Morganic"/>
 			<property name="MaxDamage" value="6000"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="8"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4462,9 +4430,9 @@
             <property name="ParticleName" value="campfire"/>
             <property name="ParticleOffset" value="0.5,0.5,0.5"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="1.5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,fuel,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -4505,9 +4473,9 @@
             <property name="ModelOffset" value="0.75,0.5,0.5"/>
             <property name="MultiBlockDim" value="3,3,2"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="1.5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -4524,42 +4492,7 @@
             </property>
 			<property name="DescriptionKey" value="BrewStationDesc"/>
         </block>
-		<block name="Butcher Table">
-			<property name="CreativeMode" value="Player"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/ButcherTable.unity3d?ButcherTablePrefab"/>
-			<property name="FilterTags" value="floot,ffurniture"/>
-			<property name="Path" value="solid"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="2,2,3"/>
-			<property name="IsTerrainDecoration" value="true"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="Class" value="Workstation"/>
-			<property name="Material" value="Mwood"/>
-			<property name="MaxDamage" value="300"/>
-			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="10"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
-			<property name="Stacknumber" value="1"/>
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="Butcher Table"/></property>
-			<property name="WorkstationIcon" value="ui_game_symbol_workbench" />
-			<property name="OpenSound" value="butcheropen" />
-			<property name="CloseSound" value="butcheropen" />
-			<property name="CraftSound" value="butchercraft" />
-			<property name="WorkstationJournalTip" value="workbenchTip" />
-			<property class="RepairItems">
-				<property name="resourceWood" value="5"/>
-				</property>
-			<drop event="Harvest" name="resourceWood" count="1" prob="0.3" tag="allHarvest"/>
-			<property name="TakeDelay" value="15"/>			
-			<property name="EconomicValue" value="776"/>
-			<property name="Group" value="Workbenches,All"/>
-			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
-			<property name="DescriptionKey" value="ButcherTableDesc"/>
-		</block>
+		
 		<block name="Chopping Board">
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -4617,9 +4550,9 @@
             <property name="ParticleName" value="hotembers"/>
             <property name="ParticleOffset" value="0.5,0.0,0.5"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="1.5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -4649,9 +4582,9 @@
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="HeatMapStrength" value="0"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
@@ -4688,9 +4621,9 @@
 			<property name="ParticleOffset" value="0.5,0.5,0.7"/>
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="HeatMapStrength" value="6"/>
-			<property name="HeatMapTime" value="5000"/>
-			<property name="HeatMapFrequency" value="1000"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 			<property class="Workstation">
@@ -4737,9 +4670,9 @@
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="HeatMapStrength" value="0"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">
@@ -4819,9 +4752,9 @@
             <property name="ParticleName" value="hotembers"/>
             <property name="ParticleOffset" value="0.5,0.0,0.5"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,fuel,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -4859,9 +4792,9 @@
             <property name="ParticleName" value="hotembers"/>
             <property name="ParticleOffset" value="0.5,0.0,0.5"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,fuel,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -4900,9 +4833,9 @@
             <property name="ParticleName" value="campfire"/>
             <property name="ParticleOffset" value="0.5,0.75,0.5"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="1.5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -4921,6 +4854,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/Smoker.unity3d?SmokerPrefab"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 			<property name="FilterTags" value="floot,ffurniture"/>
 			<property name="Path" value="solid"/>
 			<property name="DisplayType" value="blockMulti"/>
@@ -4934,9 +4868,9 @@
 			<property name="ParticleName" value="campfire"/>
 			<property name="ParticleOffset" value="1,2.4,.6"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="HeatMapStrength" value="8"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
 			<property name="Stacknumber" value="1"/>
@@ -4963,6 +4897,7 @@
 		<block name="Webber Grill">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 			<property name="Model" value="#@modfolder:Resources/Oven.unity3d?OvenPrefab"/>
 			<property name="FilterTags" value="floot,ffurniture"/>
 			<property name="Path" value="solid"/>
@@ -4978,9 +4913,9 @@
 			<property name="ParticleOffset" value=".65,1,.1"/>
 			<property name="StabilitySupport" value="false"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="HeatMapStrength" value="8"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
@@ -5025,9 +4960,9 @@
             <property name="ParticleName" value="campfire"/>
             <property name="ParticleOffset" value="0.5,0.75,0.5"/>
             <property name="Stacknumber" value="1"/>
-            <property name="HeatMapStrength" value="5"/>
-            <property name="HeatMapTime" value="1200"/>
-            <property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
             <property class="Workstation">
                 <property name="Modules" value="tools,output,fuel,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -5063,9 +4998,9 @@
 			<property name="Material" value="MwoodReinforced"/>
 			<property name="MaxDamage" value="6000"/>
 			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="1.5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value=".5"/>
+			<property name="HeatMapTime" value="500"/>
+			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
 			
 			<property class="Workstation">

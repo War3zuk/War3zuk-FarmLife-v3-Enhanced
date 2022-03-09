@@ -3609,7 +3609,7 @@
 				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".5" >
 					<requirement name="HoldingItemHasTags" tags="melee,fists" />
 				</passive_effect>
-				<passive_effect name="CarryCapacity" operation="base_set" value="50" />
+				<passive_effect name="CarryCapacity" operation="base_set" value="45" />
 				<passive_effect name="EntityDamage" operation="perc_add" value="5" >
 					<requirement name="HoldingItemHasTags" tags="melee,fists" />
 				</passive_effect>

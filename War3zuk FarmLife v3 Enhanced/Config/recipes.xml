@@ -692,7 +692,7 @@
 			<ingredient name="Spices" count="1"/>
 		</recipe>
 		
-		<recipe name="Fresh Honey Glazed Ham" count="1" craft_time="180" craft_area="Smoker">
+		<recipe name="Fresh Honey Glazed Ham" count="1" craft_time="180" craft_area="Smoker" craft_tool="toolCookingPot">
 			<ingredient name="Raw Ham" count="1"/>
 			<ingredient name="foodHoney" count="1"/>
 			<ingredient name="Fresh Butter" count="1"/>
@@ -1562,9 +1562,9 @@
 		</recipe>
 		
 		<recipe name="AnimalBreedingKit" count="1" craft_time="20" craft_area="Farm Table">
-			<ingredient name="drugSteroids" count="1"/>			
-			<ingredient name="medicalBloodBag" count="1"/>
-			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="drugSteroids" count="5"/>			
+			<ingredient name="medicalBloodBag" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>
 		</recipe>
 		
 		<recipe name="bucketEmpty" count="1" craft_area="workbench">
@@ -1638,19 +1638,10 @@
             <ingredient name="resourcePaper" count="10"/>
         </recipe>
 		
-		<recipe name="Pitch Fork" count="1" craft_time="15" craft_area="workbench">
-            <ingredient name="resourceForgedIron" count="16"/>
-            <ingredient name="resourceWood" count="10"/>
-        </recipe>
-		
 		<recipe name="Small Fern" count="1" craft_time="30" craft_area="workbench">
             <ingredient name="resourceYuccaFibers" count="10"/>
             <ingredient name="resourceClayLump" count="10"/>
-        </recipe>		
-		
-		<recipe name="Shooting Bottle" count="1" craft_time="1" craft_area="Farm Table">
-			<ingredient name="resourceBrokenGlass" count="1"/>
-		</recipe>		
+        </recipe>
 		
         <recipe name="Tom Cat" count="1" craft_time="30" craft_area="workbench">
             <ingredient name="foodCanCatfood" count="5"/>
@@ -2825,12 +2816,6 @@
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
 		
-		<recipe name="Butcher Table" count="1" craft_time="60" craft_area="Farm Table">
-			<ingredient name="resourceForgedIron" count="25"/>
-			<ingredient name="resourceRockSmall" count="250"/>
-			<ingredient name="resourceWood" count="50"/>
-		</recipe>
-		
 		<recipe name="Chopping Board" count="1" craft_time="30" craft_area="Farm Table"> <!-- Changed from Table Saw -->
             <ingredient name="Walnut Wood Plank" count="10"/>
         </recipe>
@@ -2892,12 +2877,12 @@
 			<ingredient name="bucketRiverWater" count="1"/>
 		</recipe>
 		
-		<recipe name="Rustic Smoker" count="1" craft_time="30" craft_area="Farm Table">
+		<recipe name="Rustic Smoker" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkAdvancedEngineering">
 			<ingredient name="resourceScrapIron" count="250"/>
 			<ingredient name="resourceWood" count="200"/>
 		</recipe>		
 		
-		<recipe name="Webber Grill" count="1" craft_time="30" craft_area="Farm Table">
+		<recipe name="Webber Grill" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkAdvancedEngineering">
 			<ingredient name="resourceScrapIron" count="250"/>
 			<ingredient name="resourceWood" count="200"/>
 		</recipe>
@@ -5084,20 +5069,11 @@
 			<ingredient name="Sugar" count="2"/>
 			<ingredient name="Flour" count="2"/>
 			<ingredient name="Fresh Milk" count="1"/>
-		</recipe>		
-		<recipe name="Bottle Container" count="1" craft_time="20" craft_area="Farm Table">
-			<ingredient name="resourceBrokenGlass" count="5"/>
-			<ingredient name="resourceWood" count="1"/>
 		</recipe>
+		
 		<recipe name="Farm Barrel" count="1" craft_time="20" craft_area="Farm Table">
 			<ingredient name="resourceScrapIron" count="5"/>
 			<ingredient name="resourceWood" count="20"/>
-		</recipe>		
-		
-		<!-- !!!!!!!!!!TESTING !!!!!!!!!! -->
-		<recipe name="GardenHoe" count="1" craft_time="15" craft_area="Farm Table" tags="learnable">
-			<ingredient name="resourceForgedIron" count="16"/>
-            <ingredient name="resourceWood" count="10"/>
 		</recipe>
 		
 		<recipe name="blunt" count="1" craft_time="15">

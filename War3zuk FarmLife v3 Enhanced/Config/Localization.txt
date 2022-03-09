@@ -1084,3 +1084,6 @@ cryogenicContainerTurkey,items,Item,New,[772AB8]Cryogenic Container - Turkey
 FLEcryogenicContainerTurkey,items,Item,New,"Type: [c7b992]Farm Life Resource[-] [FF684F](Animal Workstation required.)[-]\nMaterial: [c7b992]Organic[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nCryogenic Container - Turkey.[FF684F](Testing!)[-]"
 
 FLEHorseScrapsDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nHorse scraps are a good source for Glue."
+
+BeefCakeDesc,items,,,You feel strong as an Ox. Boosts all important abilities.\nStam.Brawling.Resistance.Carry Capacity and more.,
+AnimalBreedingKit,items,Item,KgNone,Animal Breeding Kit,

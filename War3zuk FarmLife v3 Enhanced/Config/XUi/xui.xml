@@ -5,7 +5,7 @@
         <window_group name="workstation_Chopping Board" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsChoppingBoard"/>
             <window name="windowOutput"/>
             <window name="windowNonPagingHeader"/>
@@ -14,7 +14,7 @@
         <window_group name="workstation_Wood Grill" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsWoodGrill"/>
             <window name="windowFuel"/>
             <window name="windowOutput"/>
@@ -24,7 +24,7 @@
         <window_group name="workstation_KitchNaid" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsKitchNaid"/>
             <window name="windowOutput"/>
             <window name="windowNonPagingHeader"/>
@@ -33,7 +33,7 @@
         <window_group name="workstation_Gas Cooktop" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsGasCooktop"/>
             <window name="windowFuel"/>
             <window name="windowOutput"/>
@@ -43,7 +43,7 @@
         <window_group name="workstation_Gas Oven" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsGasOven"/>
             <window name="windowFuel"/>
             <window name="windowOutput"/>
@@ -53,7 +53,7 @@
         <window_group name="workstation_Cold Smoker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsColdSmoker"/>
             <window name="windowOutput"/>
             <window name="windowNonPagingHeader"/>
@@ -62,7 +62,7 @@
         <window_group name="workstation_Brew Station" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsBrewStation"/>
             <window name="windowOutput"/>
             <window name="windowNonPagingHeader"/>
@@ -71,7 +71,7 @@
         <window_group name="workstation_Brew Cooker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsBrewCooker"/>
             <window name="windowFuel"/>
             <window name="windowOutput"/>
@@ -81,7 +81,7 @@
         <window_group name="workstation_Fermentor Bench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
+            <window name="WARwindowCraftingQueue"/>
             <window name="windowToolsFermentorBench"/>
             <window name="windowOutput"/>
             <window name="windowNonPagingHeader"/>
@@ -91,7 +91,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsChickenCoop" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -100,7 +100,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsCow" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -108,7 +108,7 @@
 		<window_group name="workstation_Dairy Churn" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -116,7 +116,7 @@
 		<window_group name="workstation_Farm Table" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -125,7 +125,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsElk" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -133,10 +133,10 @@
 		<window_group name="workstation_Farm Forge" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
-			<window name="FLwindowForgeInput" />
+			<window name="WARwindowForgeInput" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -145,7 +145,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsHorse" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -153,7 +153,7 @@
 		<window_group name="workstation_Old Stone Well" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>            
+            <window name="WARwindowCraftingQueue"/>            
             <window name="windowOutput"/>
             <window name="windowNonPagingHeader"/>
         </window_group>
@@ -162,7 +162,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsPheasant" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -171,7 +171,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsPig" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -179,7 +179,7 @@
 		<window_group name="workstation_Rustic Smoker" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowToolsCampfire" />
 			<window name="windowFuel" />
 			<window name="windowOutput" />
@@ -190,7 +190,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsSheep" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -199,7 +199,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsSpinningWheel" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -208,7 +208,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowToolsTurkey" />
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
@@ -217,7 +217,7 @@
 			<window name="windowCraftingList"/>
 			<window name="windowToolsWebberGrill" />
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="WARwindowCraftingQueue"/>
 			<window name="windowFuel" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
