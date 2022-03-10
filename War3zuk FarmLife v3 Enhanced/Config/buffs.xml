@@ -1,7 +1,7 @@
-
-<configs>	
-
+<configs>
+	
     <append xpath="/buffs">
+		
         <buff name="Accidental Varietal" name_key="Accidental Varietal" description_key="Dark fruits and a hint of vanilla. Bonus to traders and being around my friends." icon="ui_game_symbol_beer">
             <damage_type value="disease"/>
             <stack_type value="duration"/>
@@ -3825,10 +3825,32 @@
 				<triggered_effect trigger="onSelfAttackedOther" action="RemoveBuff" target="self" buff="buffNightTime"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" target="self" buff="buffNightTime"/>
 			</effect_group>
-		</buff>		
+		</buff>
 		
-    </append>
-    <append xpath="/buffs/buff[@name='buffStatusCheck01']">
+<buff name="TonicBuff" name_key="Tonic" description_key="The delicious taste of Tonic has you feeling revitalized! Recover stamina quicker, and restore a small amount of max health and stamina." icon="ui_game_symbol_knunchuck">
+	<stack_type value="replace"/>
+	<display_value value=".buffDrugSteroidsDisplay"/>
+	<display_value_format value="time"/>
+	<duration value="180"/>
+	<effect_group>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".4"/>
+		<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.10"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+			<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+		</passive_effect>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+			<requirement name="HasBuff" buff="buffHealWaterMax"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value="5">
+			<requirement name="HoldingItemHasTags" tags="fists,melee" />
+		</passive_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="20"/>
+	</effect_group>
+</buff>
+		
+</append>
+	
+<append xpath="/buffs/buff[@name='buffStatusCheck01']">
         <effect_group>
             <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="random_ticker" operation="set" target="self" value="1597"/>
             <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="random_ticker" operation="set" target="self" value="1597">
@@ -3839,5 +3861,5 @@
                 <requirement name="CVarCompare" cvar="random_ticker" operation="LT" value="1234567"/>
             </triggered_effect>
         </effect_group>
-    </append>
+</append>
 </configs>

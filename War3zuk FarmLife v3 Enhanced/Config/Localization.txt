@@ -1087,3 +1087,4 @@ FLEHorseScrapsDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( req
 
 BeefCakeDesc,items,,,You feel strong as an Ox. Boosts all important abilities.\nStam.Brawling.Resistance.Carry Capacity and more.,
 AnimalBreedingKit,items,Item,KgNone,Animal Breeding Kit,
+TonicDesc,items,,,Refreshing And Stimulating.,

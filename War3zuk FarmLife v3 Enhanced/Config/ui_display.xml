@@ -1,4 +1,5 @@
-<SoDead>
+<configs>
+	
 	<append xpath="/ui_display_info/crafting_category_display">
 		<!-- ANIMAL WORKSTATIONS -->
 		<crafting_category_list display_type="Beehive">
@@ -149,5 +150,11 @@
 			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Wood Grill" icon_color="174,0,255"/>
 		</crafting_category_list>
 		
-	</append>	
-</SoDead>
+</append>
+
+<append xpath="/ui_display_info/item_display">
+
+
+
+</append>
+</configs>

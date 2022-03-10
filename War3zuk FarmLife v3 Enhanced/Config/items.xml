@@ -19704,31 +19704,43 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffStuffed"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 			</effect_group>
-		</item>	
-		
-		<item name="Tonic">
-			<property name="HoldType" value="3"/>
-			<property name="Group" value="Food/Cooking"/>
-			<property name="CustomIcon" value="7pepsi"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Pepsi.unity3d?PepsiPrefab"/>
-			<property name="DropMeshfile" value="#@modfolder:Resources/Pepsi.unity3d?PepsiPrefab"/>
-			<property name="DropScale" value="6"/>
-			<property name="Material" value="Mglass"/>
-			<property name="Weight" value="10"/>
-			<property name="Stacknumber" value="25000"/>
-			<property name="EconomicValue" value="25"/>
-			<property name="DisplayType" value="foodWater"/>
-			<property class="Action0">
-				<property name="Class" value="Eat"/>
-				<property name="Delay" value="2"/>
-				<property name="Use_time" value="..."/>
-				<property name="Sound_start" value="player_drinking"/>
-				<property name="Create_item" value="drinkJarEmpty"/></property>
-			<effect_group tiered="false">
-				<requirement name="HasBuff" buff="buffIsOnFire"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
-			</effect_group>
 		</item>
+		
+<item name="Tonic">
+	<property name="HoldType" value="3"/>
+	<property name="Extends" value="drinkJarRedTea"/>
+	<property name="DisplayType" value="waterMegaCrush"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="DescriptionKey" value="TonicDesc"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Pepsi.unity3d?PepsiPrefab"/>
+	<property name="DropMeshfile" value="#@modfolder:Resources/Pepsi.unity3d?PepsiPrefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="CustomIcon" value="7pepsi"/>
+	<property name="Stacknumber" value="50000"/> 
+	<property name="EconomicValue" value="180"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
+			<display_value name="dStaminaRegen" value=".35"/>
+			<display_value name="dRunSpeed" value=".6"/>
+			<display_value name="dDuration" value="180"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="183"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
 		
 <item name="BeefCake">
 	<property name="HoldType" value="3"/>

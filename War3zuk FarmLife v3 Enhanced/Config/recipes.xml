@@ -590,8 +590,8 @@
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>				
 		
-		<recipe name="Tonic" count="1" craft_time="300" craft_area="Brew Station">
-			<ingredient name="Sugar" count="2"/>
+		<recipe name="Tonic" count="1" craft_time="120" craft_area="Brew Station">
+			<ingredient name="Sugar" count="10"/>
 			<ingredient name="drinkJarRiverWater" count="4"/>
 		</recipe>
 		
