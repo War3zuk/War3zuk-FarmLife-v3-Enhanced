@@ -2,6 +2,10 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.04
 
+Adjusted Farm Forge TagUnlock (FarmLifeL5)
+Adjusted Webber Grill TagUnlock (FarmLifeL5)
+Adjusted Rustic Smoker TagUnlock (FarmLifeL5)
+Fixed Progression xml
 Fixed Tonic Water
 
 Version 1.03

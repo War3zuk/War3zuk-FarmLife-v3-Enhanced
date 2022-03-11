@@ -4606,7 +4606,7 @@
 		</block>
 		<block name="Farm Forge">
 			<property name="Class" value="Forge"/>
-			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property name="CustomIcon" value="cntWoodBurningStove" />
 			<property name="Material" value="Mstone_scrap"/>
 			<property name="MaxDamage" value="800"/>
@@ -4854,7 +4854,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/Smoker.unity3d?SmokerPrefab"/>
-			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property name="FilterTags" value="floot,ffurniture"/>
 			<property name="Path" value="solid"/>
 			<property name="DisplayType" value="blockMulti"/>
@@ -4897,7 +4897,7 @@
 		<block name="Webber Grill">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property name="Model" value="#@modfolder:Resources/Oven.unity3d?OvenPrefab"/>
 			<property name="FilterTags" value="floot,ffurniture"/>
 			<property name="Path" value="solid"/>

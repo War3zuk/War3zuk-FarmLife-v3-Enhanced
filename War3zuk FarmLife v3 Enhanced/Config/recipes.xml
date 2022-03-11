@@ -2831,7 +2831,7 @@
 			<ingredient name="resourceWood" count="50"/>
 		</recipe>
 		
-		<recipe name="Farm Forge" count="1" craft_time="60" tags="learnable,perkAdvancedEngineering">
+		<recipe name="Farm Forge" count="1" craft_time="60" tags="learnable,perkFarmLife">
 			<ingredient name="resourceRockSmall" count="100"/>
 			<ingredient name="resourceClayLump" count="100"/>
 			<ingredient name="resourceLeather" count="20"/>
@@ -2877,12 +2877,12 @@
 			<ingredient name="bucketRiverWater" count="1"/>
 		</recipe>
 		
-		<recipe name="Rustic Smoker" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkAdvancedEngineering">
+		<recipe name="Rustic Smoker" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
 			<ingredient name="resourceScrapIron" count="250"/>
 			<ingredient name="resourceWood" count="200"/>
 		</recipe>		
 		
-		<recipe name="Webber Grill" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkAdvancedEngineering">
+		<recipe name="Webber Grill" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
 			<ingredient name="resourceScrapIron" count="250"/>
 			<ingredient name="resourceWood" count="200"/>
 		</recipe>

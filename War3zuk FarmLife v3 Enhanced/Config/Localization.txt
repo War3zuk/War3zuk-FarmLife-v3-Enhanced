@@ -983,7 +983,7 @@ perkFarmLifeRank3LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-]
 perkFarmLifeRank4Desc,progression,Perk,New,Chef NoTell
 perkFarmLifeRank4LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](Big city chefs have nothing on you.)[-]\nLevel: [c7b992]4[-]\nUnlocks: [c7b992]Master Crop Plots and Advanced Farm Life recipes."
 perkFarmLifeRank5Desc,progression,Perk,New,Farm Life Master
-perkFarmLifeRank5LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](You are a Farm Life Master. Lets feed the World.)[-]\nLevel: [c7b992]5[-]\nUnlocks: [c7b992]Garden Hoe."
+perkFarmLifeRank5LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](You are a Farm Life Master. Lets feed the World.)[-]\nLevel: [c7b992]5[-]\nUnlocks: [c7b992]Farm Forge. Webber Grill. Rustic Smoker."
 
 farmLifeMilkingMachineDesc,items,Item,New,"Type: [c7b992]Farm Life Tool[-] [FF684F](Workbench required to craft.)[-]\nMaterial: [c7b992]Metal[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nMilking Machine. Tool for Cow."
 farmLifePasteurizerDesc,items,Item,New,"Type: [c7b992]Farm Life Tool[-] [FF684F](Workbench required to craft.)[-]\nMaterial: [c7b992]Metal[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nPasteurizer. Tool for Cow."

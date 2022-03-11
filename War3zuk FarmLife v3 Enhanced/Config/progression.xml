@@ -1,7 +1,5 @@
 <Progression>
 	
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='1,5']/@tags">,Farm Forge,Webber Grill,Rustic Smoker</append>
-	
 	<append xpath="/progression/attributes">
 		<attribute name="Farm Life" name_key="Farm Life" desc_key="Unlock Farm Life recipes." icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
 	</append>
@@ -21,21 +19,14 @@
 				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 				<effect_group>			
-					<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkFarmLife"/>
-					<passive_effect name="CraftingTime" operation="perc_add" level="3,5" value="-0.2" tags="perkFarmLife,FarmForgeCrafting,FarmLabCrafting"/>
+					<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.1" tags="perkFarmLife"/>
+					<passive_effect name="CraftingTime" operation="perc_add" level="3,5" value="-0.1" tags="perkFarmLife,FarmForgeCrafting,FarmLabCrafting"/>
 					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
-					tags="Hungry Chicken Pen,Hungry Angus Pen,Hungry Elk Pen,Hungry Holstein Pen,Hungry Pig Pen,Hungry Veal Pen,Salmon Pond,Farm Table,Beehive,Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb,Turkey Egg,Pheasant Egg,Barley Seed,Basil Seed,Beet Seed,BellPepper Seed,BitterHops Seed,BlackBean Seed,BlackPepper Seed,Broccoli Seed,BrusselsSprouts Seed,Cabbage Seed,Carrot Seed,Celery Seed,CherryTomato Seed,Cilantro Seed,Cucumber Seed,Cumin Seed,Dill Seed,Flax Seed,FloralHops Seed,Garlic Seed,GhostPepper Seed,Ginger Seed,GreenBean Seed,Habanero Seed,HeirloomTomato Seed,Herb Seed,IcebergLettuce Seed,Jalapeno Seed,KidneyBean Seed,Marijuana Seed,Mint Seed,Okra Seed,Onion Seed,Oregano Seed,Poblano Seed,Pineapple Seed,PintoBean Seed,Raspberry Seed,Rice Seed,Romaine Seed,Rosemary Seed,Rye Seed,Shallot Seed,Sorghum Seed,SoyBean Seed,Spice Seed,Spinach Seed,Squash Seed,Strawberry Seed,SugarCane Seed,Sunflower Seed,Thyme Seed,Tomatillo Seed,Tomato Seed,VineyardGrape Seed,Wheat Seed,Apple Seed,Avocado Seed,Banana Seed,Cherry Seed,Cinnamon Seed,Coconut Seed,Lime Seed,Meyer Lemon Seed,Nut Tree Seed,Olive Seed,Orange Seed,Pear Seed,Red Apple Seed,Sakura Seed,Sugar Maple Seed,Walnut Seed,White Oak Seed"/>			
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
-					tags="Farm Crop Plot"/>			
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
-					tags="Brick Planter,Brick Planter 2,Brick Planter 3,Brick Planter 4,Terracotta Planter,Wood Planter,Calf,Colt,Fertile Egg,Fertile Turkey Egg,Fertile Pheasant Egg,Piglet"/>						
-					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1"
-					tags="Master Crop Plot,resourceGlue,foodHoney,resourceLeather"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1"
-					tags="GardenHoe"/>
-					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="Hungry Chicken Pen,Hungry Angus Pen,Hungry Elk Pen,Hungry Holstein Pen,Hungry Pig Pen,Hungry Veal Pen,Salmon Pond,Farm Table,Beehive,Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb,Turkey Egg,Pheasant Egg,Barley Seed,Basil Seed,Beet Seed,BellPepper Seed,BitterHops Seed,BlackBean Seed,BlackPepper Seed,Broccoli Seed,BrusselsSprouts Seed,Cabbage Seed,Carrot Seed,Celery Seed,CherryTomato Seed,Cilantro Seed,Cucumber Seed,Cumin Seed,Dill Seed,Flax Seed,FloralHops Seed,Garlic Seed,GhostPepper Seed,Ginger Seed,GreenBean Seed,Habanero Seed,HeirloomTomato Seed,Herb Seed,IcebergLettuce Seed,Jalapeno Seed,KidneyBean Seed,Marijuana Seed,Mint Seed,Okra Seed,Onion Seed,Oregano Seed,Poblano Seed,Pineapple Seed,PintoBean Seed,Raspberry Seed,Rice Seed,Romaine Seed,Rosemary Seed,Rye Seed,Shallot Seed,Sorghum Seed,SoyBean Seed,Spice Seed,Spinach Seed,Squash Seed,Strawberry Seed,SugarCane Seed,Sunflower Seed,Thyme Seed,Tomatillo Seed,Tomato Seed,VineyardGrape Seed,Wheat Seed,Apple Seed,Avocado Seed,Banana Seed,Cherry Seed,Cinnamon Seed,Coconut Seed,Lime Seed,Meyer Lemon Seed,Nut Tree Seed,Olive Seed,Orange Seed,Pear Seed,Red Apple Seed,Sakura Seed,Sugar Maple Seed,Walnut Seed,White Oak Seed"/>			
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"	tags="Farm Crop Plot"/>			
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"	tags="Brick Planter,Brick Planter 2,Brick Planter 3,Brick Planter 4,Terracotta Planter,Wood Planter,Calf,Colt,Fertile Egg,Fertile Turkey Egg,Fertile Pheasant Egg,Piglet"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="Master Crop Plot"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="Farm Forge,Webber Grill,Rustic Smoker"/>
 					<effect_description level="1" desc_key="perkFarmLifeRank1Desc" long_desc_key="perkFarmLifeRank1LongDesc"/>
 					<effect_description level="2" desc_key="perkFarmLifeRank2Desc" long_desc_key="perkFarmLifeRank2LongDesc"/>
 					<effect_description level="3" desc_key="perkFarmLifeRank3Desc" long_desc_key="perkFarmLifeRank3LongDesc"/>
