@@ -1671,12 +1671,6 @@
         <recipe name="Wood Ash" count="1" craft_time="30" craft_area="Brew Cooker">
             <ingredient name="White Oak Plank" count="2"/>
         </recipe>
-
-		<!--
-		
-		<recipe name="Farm Life Expanded">
-			<ingredient name="Getting Started" count="1"/>
-		</recipe>
 		
 		<recipe name="TheBasicsAnimalFeed" count="1"> 
             <ingredient name="resourceCoal" count="1"/>
@@ -2755,7 +2749,7 @@
         <recipe name="Wood Grill Volume 1" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
-        </recipe>-->
+        </recipe>
 
 		<!-- Animal Workstations -->
 		
@@ -2907,7 +2901,7 @@
             <ingredient name="resourceNail" count="40"/>
         </recipe>
 		
-		<recipe name="Baking Sheet" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Baking Sheet" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
@@ -2917,7 +2911,7 @@
             <ingredient name="resourceScrapIron" count="100"/>
         </recipe>
 		
-		<recipe name="Boiler" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Boiler" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2927,17 +2921,17 @@
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
-		<recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_glass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Cast Iron Skillet" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
+		<recipe name="Cast Iron Skillet" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
 		
-		<recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2951,11 +2945,11 @@
             <ingredient name="resourceMechanicalParts" count="20"/>
         </recipe>
 		
-		<recipe name="Clay Pot" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
+		<recipe name="Clay Pot" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
             <ingredient name="unit_clay" count="1000"/>
         </recipe>
 		
-		<recipe name="Damascus Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Damascus Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2969,12 +2963,12 @@
             <ingredient name="Damascus Blade" count="1"/>
         </recipe>
 		
-		<recipe name="Dough Hook" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Dough Hook" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="25"/>
             <ingredient name="unit_clay" count="5"/>
         </recipe>
 		
-		<recipe name="Drying Pan" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Drying Pan" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="500"/>
             <ingredient name="unit_clay" count="50"/>
         </recipe>
@@ -2996,7 +2990,7 @@
             <ingredient name="resourceScrapPolymers" count="4"/>
         </recipe>
 		
-		<recipe name="Ice Cream Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
+		<recipe name="Ice Cream Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
@@ -3005,7 +2999,7 @@
             <ingredient name="resourceScrapPolymers" count="100"/>
         </recipe>
 		
-		<recipe name="Malting Trays" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Malting Trays" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3021,12 +3015,12 @@
             <ingredient name="resourceScrapPolymers" count="4"/>
         </recipe>
 		
-        <recipe name="Meat Hanger" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
+        <recipe name="Meat Hanger" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
             <ingredient name="unit_iron" count="500"/>
             <ingredient name="unit_clay" count="50"/>
         </recipe>
 		
-		<recipe name="Mixing Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Mixing Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3048,7 +3042,7 @@
 			<ingredient name="resourceElectricParts" count="10"/>
         </recipe>
 		
-		<recipe name="Pizza Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Pizza Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3062,12 +3056,12 @@
             <ingredient name="Maple Wood Plank" count="5"/>
         </recipe>
 		
-        <recipe name="Pizza Stone" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
+        <recipe name="Pizza Stone" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
             <ingredient name="unit_clay" count="500"/>
             <ingredient name="unit_glass" count="50"/>
         </recipe>
 		
-		<recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -3077,12 +3071,12 @@
             <ingredient name="Cheese Cloth" count="1"/>
         </recipe>
 		
-		<recipe name="Smoker Mat" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Smoker Mat" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
 		
-		<recipe name="Spatula" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
+		<recipe name="Spatula" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
             <ingredient name="unit_iron" count="25"/>
             <ingredient name="unit_clay" count="5"/>
         </recipe>
@@ -3092,22 +3086,22 @@
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
-		<recipe name="Steeping Tun" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Steeping Tun" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_brass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Tongs" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Tongs" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="25"/>
             <ingredient name="unit_clay" count="5"/>
         </recipe>
 		
-		<recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>		
@@ -3131,12 +3125,12 @@
             <ingredient name="resourceForgedIron" count="20"/>
         </recipe>
 		
-        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Zhang Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Zhang Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -5121,18 +5115,9 @@
 			<ingredient name="Turkey Parts" count="10"/>
 		</recipe>
 		
-		<!-- REWORKING THE MODEL FOR THIS BLOCK -->
 		<recipe name="Horse" count="1" craft_time="900" craft_area="Farm Table" tags="learnable,perkFarmLife">
 			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
-		</recipe>
-		
-		<recipe name="resourceGlue" count="20" craft_time="90" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Horse Scraps" count="20"/>
-		</recipe>
-		
-		<recipe name="resourceLeather" count="20" craft_time="90" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Horse Hide" count="1"/>
 		</recipe>
 		
 		<recipe name="foodHoney" count="20" craft_time="90" craft_area="Beehive" tags="learnable,perkFarmLife">
@@ -5143,7 +5128,7 @@
 			<ingredient name="resourceCropChrysanthemumPlant" count="20"/>
 		</recipe>
 		
-		<recipe name="Brass Hinge" count="2" craft_time="30" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Brass Hinge" count="2" craft_time="30" craft_area="Farm Forge" craft_tool="toolAnvil" >
 			<ingredient name="unit_brass" count="10"/>
 		</recipe>
 		
@@ -5165,30 +5150,13 @@
 			<ingredient name="Animal Feed" count="20"/>
 		</recipe>
 		
-		<recipe name="Sheep Shears" count="20" craft_time="90" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="Sheep Shears" count="20" craft_time="90" craft_area="Farm Forge" craft_tool="toolAnvil" >
 			<ingredient name="unit_iron" count="10"/>
             <ingredient name="unit_clay" count="10"/>
 		</recipe>
 		
-		<recipe name="Thread" count="20" craft_time="10" craft_area="Spinning Wheel" craft_tool="BobbinAndFlayer">
+		<recipe name="Thread" count="20" craft_time="30" craft_area="Farm Table">
 			<ingredient name="Wool" count="10"/>
-		</recipe>
-		
-		<recipe name="Bobbin" count="1" craft_time="10" craft_area="Farm Table">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-		
-		<recipe name="Flayer" count="1" craft_time="10" craft_area="Farm Table">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-		
-		<recipe name="BobbinAndFlayer" count="1" craft_time="10" craft_area="Farm Table">
-			<ingredient name="Bobbin" count="1"/>
-			<ingredient name="Flayer" count="1"/>
-		</recipe>		
-		
-		<recipe name="resourceCloth" count="1" craft_time="10" craft_area="Farm Table">
-			<ingredient name="Thread" count="20"/>
 		</recipe>
 		
 		<recipe name="Mashed Potatoes" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
@@ -5246,7 +5214,7 @@
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
 		
-		<recipe name="crowbar" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
+		<recipe name="crowbar" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="250"/>
             <ingredient name="unit_clay" count="50"/>
         </recipe>

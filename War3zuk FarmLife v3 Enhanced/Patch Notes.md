@@ -2,6 +2,17 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.04
 
+Fixed Seed Planted Names
+Fixed Seed Packet Names
+Fixed Seed Names
+Fixed FarmTable Quest Lines
+Edited StackAmount 50k
+Added FarmLife Skills To Vanilla Tree
+Removed Spinning Wheel
+Removed BobbinAndFlayer
+Removed Bobbin
+Removed Flayer
+Edited Thread (Craftable FarmTable)
 Adjusted Farm Forge TagUnlock (FarmLifeL5)
 Adjusted Webber Grill TagUnlock (FarmLifeL5)
 Adjusted Rustic Smoker TagUnlock (FarmLifeL5)

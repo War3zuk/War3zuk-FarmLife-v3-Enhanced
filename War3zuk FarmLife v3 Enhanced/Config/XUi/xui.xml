@@ -195,15 +195,6 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
-		<window_group name="workstation_Spinning Wheel" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
-			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowToolsSpinningWheel" />
-			<window name="WARwindowCraftingQueue"/>
-			<window name="windowOutput" />
-			<window name="windowNonPagingHeader" />
-		</window_group>
-		
 		<window_group name="workstation_Turkey" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>

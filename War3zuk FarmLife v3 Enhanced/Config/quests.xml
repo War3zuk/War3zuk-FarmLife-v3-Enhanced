@@ -1,12 +1,6 @@
-
 <configs>
-    <append xpath="/quests">
 	
-	<!-- TESTING THIS CHAIN -->
-		
-<!-- END TESTING THIS CHAIN -->
-
-		<!-- QUEST CHAINS -->
+    <append xpath="/quests">
 		
         <quest id="item_animal_feed_1">
             <property name="name" value="Animal Feed"/>
