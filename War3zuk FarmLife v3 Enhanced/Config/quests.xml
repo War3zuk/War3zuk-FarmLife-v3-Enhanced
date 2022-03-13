@@ -51,21 +51,6 @@
             <objective type="FetchKeep" id="Romaine" value="5" phase="1"/>
         </quest>
 		
-        <quest id="seeds_tree_seeds_1">
-            <property name="name" value="Harvesting Seeds"/>
-            <property name="subtitle" value="Seeds"/>
-            <property name="group_name" value="Growing Trees"/>
-            <property name="description" value="Type: [c7b992]Farm Life Quest[-] [FF684F](Gather Materials)[-]\nMaterials: [c7b992]Wood, Oak Seed[-]\nObjective: [c7b992]Chop an Oak tree down and gather the wood and a Seed. [-]\nThere are many types of Trees to grow on the Farm. Some items require specific wood types. Replanting after harvest insures a steady supply."/>
-            <property name="offer" value="Type: [c7b992]Farm Life Quest[-] [FF684F](Gather Materials)[-]\nMaterials: [c7b992]Wood, Oak Seed[-]\nObjective: [c7b992]Chop an Oak tree down and gather the wood and a Seed. [-]\nThere are many types of Trees to grow on the Farm. Some items require specific wood types. Replanting after harvest insures a steady supply."/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceWood" value="100" phase="1"/>
-            <objective type="FetchKeep" id="treePlantedOak1m" value="1" phase="1"/>
-            <reward type="Quest" id="seeds_tree_seeds_2"/>
-        </quest>
 		<quest id="fish_ponds_1">
             <property name="name" value="Fish Tools"/>
             <property name="subtitle" value="Tools"/>

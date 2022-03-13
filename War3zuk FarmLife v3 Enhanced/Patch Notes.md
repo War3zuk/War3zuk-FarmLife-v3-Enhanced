@@ -1,5 +1,19 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.05
+
+Removed BasicGrowingTrees Quest
+Removed Webber Grill Particle Affect
+Fixed Webber Grill Window
+Fixed Fermentor Bench Window
+Fixed 55 Yellow Warnings
+Replaced Saplings With Vanilla Model
+Removed FarmLifePlants.Unity3d
+Replaced Plants With Vanilla Model
+Renamed Saplings
+Edited Tree Blocks
+Updated Biomes.xml
+
 Version 1.04
 
 Fixed Seed Planted Names

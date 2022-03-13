@@ -1213,21 +1213,18 @@
 			
 			<property name="Group" value="Resources,All"/>
         </block>
-		<!--
-		==========================================================
-							PLANTS
-		==========================================================
-		-->
-		<!-- Crops -->
-		<!-- TESTING -->
-       <!-- Barley -->
+		
+		<!--==========================================================-->
+							        PLANTS
+		<!--==========================================================-->
+		
 	   <block name="Barley Seed">
 			<property name="Extends" value="cropsGrowingMaster"/>			
 			<property name="CustomIcon" value="Barley Seed"/>
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumSeedBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Barley Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Barley Seed" count="1"/>
@@ -1238,14 +1235,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Barley Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumGrowingBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="BarleyPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Barley Seed" count="1"/>
 		</block>
 		<block name="Barley Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Barley" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Barley"/>
@@ -1293,7 +1290,7 @@
 		<block name="Basil Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BasilPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Basil" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Basil"/>
@@ -1341,7 +1338,7 @@
 		<block name="Beet Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BeetPlantBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Beet" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Beet"/>
@@ -1371,7 +1368,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="BellPepper Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="BellPepper Seed" count="1"/>
@@ -1382,14 +1379,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Bell Pepper Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="BellPepperPlantHarvestPlayer"/>
 			<drop event="Destroy" name="BellPepper Seed" count="1"/>
 		</block>
 		<block name="BellPepper Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BellPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Green Bell" count="1" tag="wildCropsHarvest"/>
 			<drop event="Harvest" name="Red Bell" count="1" tag="wildCropsHarvest"/>
 			<drop event="Harvest" name="Yellow Bell" count="1" tag="wildCropsHarvest"/>			
@@ -1477,7 +1474,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="BlackBean Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="BlackBean Seed" count="1"/>
@@ -1488,14 +1485,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Black Bean Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="BlackBeanPlantHarvestPlayer"/>
 			<drop event="Destroy" name="BlackBean Seed" count="1"/>
 		</block>
 		<block name="BlackBean Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BeanPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Black Bean" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Black Bean"/>
@@ -1689,7 +1686,7 @@
 		<block name="Cabbage Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CabbagePrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Cabbage" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Cabbage"/>
@@ -1737,7 +1734,7 @@
 		<block name="Carrot Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CarrotPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Carrot" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Carrot"/>
@@ -1785,7 +1782,7 @@
 		<block name="Celery Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CeleryPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Celery" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Celery"/>
@@ -1834,7 +1831,7 @@
 			<property name="Extends" value="cropsHarvestableMaster"/>			
 			<property name="CustomIcon" value="Cherry Tomato"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?StrawberryPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="CherryTomato" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="CherryTomato"/>
@@ -1881,7 +1878,7 @@
 		<block name="Cilantro Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?HerbPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Cilantro" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Cilantro"/>
@@ -1977,7 +1974,7 @@
 		<block name="Cumin Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?HerbPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Cumin" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Cumin"/>
@@ -2025,7 +2022,7 @@
 		<block name="Dill Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?HerbPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Dill" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Dill"/>
@@ -2055,7 +2052,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Flax.unity3d?FlaxPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Flax Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Flax Seed" count="1"/>
@@ -2066,7 +2063,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Flax Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Flax.unity3d?FlaxPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="FlaxPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Flax Seed" count="1"/>
 		</block>
@@ -2173,7 +2170,7 @@
 		<block name="Garlic Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?OnionPlantBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Garlic" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Garlic"/>
@@ -2221,7 +2218,7 @@
 		<block name="GhostPepper Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BellPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Ghost Pepper" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Ghost Pepper"/>
@@ -2269,7 +2266,7 @@
 		<block name="Ginger Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?OnionPlantBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Ginger Root" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Ginger Root"/>
@@ -2299,7 +2296,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="GreenBean Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="GreenBean Seed" count="1"/>
@@ -2310,14 +2307,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Green Bean Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="GreenBeanPlantHarvestPlayer"/>
 			<drop event="Destroy" name="GreenBean Seed" count="1"/>
 		</block>
 		<block name="GreenBean Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BeanPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Green Bean" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Green Bean"/>
@@ -2347,7 +2344,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Habanero Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Habanero Seed" count="1"/>
@@ -2358,14 +2355,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Habanero Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="HabaneroPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Habanero Seed" count="1"/>
 		</block>
 		<block name="Habanero Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BellPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Habanero Pepper" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Habanero Pepper"/>
@@ -2395,7 +2392,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Tomato.unity3d?TomatoPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="HeirloomTomato Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="HeirloomTomato Seed" count="1"/>
@@ -2406,7 +2403,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Heirloom Tomato Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Tomato.unity3d?TomatoPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="HeirloomTomatoPlantHarvestPlayer"/>
 			<drop event="Destroy" name="HeirloomTomato Seed" count="1"/>
 		</block>
@@ -2443,7 +2440,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Herb1.unity3d?Herb1Prefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Herb Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Herb Seed" count="1"/>
@@ -2454,7 +2451,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Herb Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Herb1.unity3d?Herb1Prefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="HerbPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Herb Seed" count="1"/>
 		</block>
@@ -2491,7 +2488,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/LettucePlant.unity3d?LettucePlantPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="IcebergLettuce Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="IcebergLettuce Seed" count="1"/>
@@ -2502,7 +2499,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Iceberg Lettuce Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/LettucePlant.unity3d?LettucePlantPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="IcebergLettucePlantHarvestPlayer"/>
 			<drop event="Destroy" name="IcebergLettuce Seed" count="1"/>
 		</block>
@@ -2539,7 +2536,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Jalapeno.unity3d?JalapenoPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Jalapeno Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Jalapeno Seed" count="1"/>
@@ -2550,7 +2547,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Jalapeno Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Jalapeno.unity3d?JalapenoPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="JalapenoPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Jalapeno Seed" count="1"/>
 		</block>
@@ -2587,7 +2584,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="KidneyBean Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="KidneyBean Seed" count="1"/>
@@ -2598,14 +2595,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Kidney Bean Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="KidneyBeanPlantHarvestPlayer"/>
 			<drop event="Destroy" name="KidneyBean Seed" count="1"/>
 		</block>
 		<block name="KidneyBean Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BeanPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Kidney Bean" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Kidney Bean"/>
@@ -2635,7 +2632,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Pot.unity3d?PotPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Marijuana Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Marijuana Seed" count="1"/>
@@ -2646,7 +2643,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Marijuana Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Pot.unity3d?PotPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="MarijuanaPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Marijuana Seed" count="1"/>
 		</block>
@@ -2701,7 +2698,7 @@
 		<block name="Mint Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?HerbPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Mint" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Mint"/>
@@ -2797,7 +2794,7 @@
 		<block name="Onion Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?OnionPlantBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Onion" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Onion"/>
@@ -2845,7 +2842,7 @@
 		<block name="Oregano Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?HerbPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Oregano" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Oregano"/>
@@ -2875,7 +2872,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Poblano Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Poblano Seed" count="1"/>
@@ -2886,14 +2883,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Poblano Pepper Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="PoblanoPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Poblano Seed" count="1"/>
 		</block>
 		<block name="Poblano Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BellPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Poblano Pepper" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Poblano Pepper"/>
@@ -2923,7 +2920,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Pineapple Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Pineapple Seed" count="1"/>
@@ -2941,7 +2938,7 @@
 		<block name="Pineapple Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?PineapplePlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Pineapple" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Pineapple"/>
@@ -2971,7 +2968,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="PintoBean Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="PintoBean Seed" count="1"/>
@@ -2982,14 +2979,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Pinto Bean Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="PintoBeanPlantHarvestPlayer"/>
 			<drop event="Destroy" name="PintoBean Seed" count="1"/>
 		</block>
 		<block name="PintoBean Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BeanPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Pinto Bean" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Pinto Bean"/>
@@ -3019,7 +3016,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Raspberry Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Raspberry Seed" count="1"/>
@@ -3030,14 +3027,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Raspberry Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="RaspberryPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Raspberry Seed" count="1"/>
 		</block>
 		<block name="Raspberry Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?RaspberryPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Raspberry" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Raspberry"/>
@@ -3067,7 +3064,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Rice.unity3d?RicePrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Rice Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Rice Seed" count="1"/>
@@ -3078,7 +3075,7 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Rice Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Rice.unity3d?RicePrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="RicePlantHarvestPlayer"/>
 			<drop event="Destroy" name="Rice Seed" count="1"/>
 		</block>
@@ -3133,7 +3130,7 @@
 		<block name="Romaine Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?RomaineLettucePrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Romaine" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Romaine"/>
@@ -3181,7 +3178,7 @@
 		<block name="Rosemary Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?HerbPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Rosemary" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Rosemary"/>
@@ -3211,7 +3208,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumSeedBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Rye Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Rye Seed" count="1"/>
@@ -3222,14 +3219,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Rye Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumGrowingBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="RyePlantHarvestPlayer"/>
 			<drop event="Destroy" name="Rye Seed" count="1"/>
 		</block>
 		<block name="Rye Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Rye" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Rye"/>
@@ -3277,7 +3274,7 @@
 		<block name="Shallot Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?OnionPlantBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Shallot" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Shallot"/>
@@ -3307,7 +3304,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumSeedBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Sorghum Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Sorghum Seed" count="1"/>
@@ -3318,14 +3315,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Sorghum Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumGrowingBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="SorghumPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Sorghum Seed" count="1"/>
 		</block>
 		<block name="Sorghum Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SorghumBlock"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Sorghum" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Sorghum"/>
@@ -3355,7 +3352,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="SoyBean Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="SoyBean Seed" count="1"/>
@@ -3366,14 +3363,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Soy Bean Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="SoyBeanPlantHarvestPlayer"/>
 			<drop event="Destroy" name="SoyBean Seed" count="1"/>
 		</block>
 		<block name="SoyBean Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BeanPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Soy Bean" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Soy Bean"/>
@@ -3403,7 +3400,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Spice.unity3d?SpicePrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Spice Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Spice Seed" count="1"/>
@@ -3469,7 +3466,7 @@
 		<block name="Spinach Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SpinachPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Spinach" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Spinach"/>
@@ -3499,7 +3496,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Squash Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Squash Seed" count="1"/>
@@ -3510,14 +3507,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Squash Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?LatticeGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="SquashPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Squash Seed" count="1"/>
 		</block>
 		<block name="Squash Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?SquashPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Squash" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Squash"/>
@@ -3547,7 +3544,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Strawberry.unity3d?StrawberryPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Strawberry Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Strawberry Seed" count="1"/>
@@ -3558,14 +3555,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Strawberry Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Strawberry.unity3d?StrawberryPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="StrawberryPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Strawberry Seed" count="1"/>
 		</block>
 		<block name="Strawberry Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Strawberry.unity3d?StrawberryPrefab3"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Strawberry" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Strawberry"/>
@@ -3595,7 +3592,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Sugar.unity3d?SugarPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="SugarCane Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="SugarCane Seed" count="1"/>
@@ -3606,14 +3603,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Sugar Cane Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Sugar.unity3d?SugarPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="SugarCanePlantHarvestPlayer"/>
 			<drop event="Destroy" name="SugarCane Seed" count="1"/>
 		</block>
 		<block name="SugarCane Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Sugar.unity3d?SugarPrefab3"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Sugar Cane" count="1" tag="wildCropsHarvest"/>
 			<drop event="Harvest" name="Sugarcane Stalk" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
@@ -3647,7 +3644,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Sunflower.unity3d?SunflowerPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Sunflower Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Sunflower Seed" count="1"/>
@@ -3658,14 +3655,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Sunflower Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Sunflower.unity3d?SunflowerPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="SunflowerPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Sunflower Seed" count="1"/>
 		</block>
 		<block name="Sunflower Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Sunflower.unity3d?SunflowerPrefab3"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Sunflower Seed" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Sunflower Seed"/>
@@ -3713,7 +3710,7 @@
 		<block name="Thyme Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Thyme" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Thyme"/>
@@ -3743,7 +3740,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Tomatillo Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Tomatillo Seed" count="1"/>
@@ -3754,14 +3751,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Tomatillo Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="TomatilloPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Tomatillo Seed" count="1"/>
 		</block>
 		<block name="Tomatillo Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?BellPlantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Tomatillo" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Tomatillo"/>
@@ -3791,7 +3788,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantSeedPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Tomato Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Tomato Seed" count="1"/>
@@ -3802,14 +3799,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Tomato Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?CagePlantGrowingPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="TomatoPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Tomato Seed" count="1"/>
 		</block>
 		<block name="Tomato Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?TomatoPLantPrefab"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Tomato" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Tomato"/>
@@ -3839,7 +3836,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/GrapeTree.unity3d?GrapeTreePrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="VineyardGrape Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="VineyardGrape Seed" count="1"/>
@@ -3850,14 +3847,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Vineyard Grape Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/GrapeTree.unity3d?GrapeTreePrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="VineyardGrapePlantHarvestPlayer"/>
 			<drop event="Destroy" name="VineyardGrape Seed" count="1"/>
 		</block>
 		<block name="VineyardGrape Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/GrapeTree.unity3d?GrapeTreePrefab3"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Vineyard Grapes" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Vineyard Grapes"/>
@@ -3887,7 +3884,7 @@
 			<property name="CreativeMode" value="Player"/>
 			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Wheat.unity3d?WheatPrefab1"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Wheat Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Wheat Seed" count="1"/>
@@ -3898,14 +3895,14 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="CustomIcon" value="Wheat Growing 1"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Wheat.unity3d?WheatPrefab2"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="WheatPlantHarvestPlayer"/>
 			<drop event="Destroy" name="Wheat Seed" count="1"/>
 		</block>
 		<block name="Wheat Plant">
 			<property name="Extends" value="cropsHarvestableMaster"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Wheat.unity3d?WheatPrefab3"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 			<drop event="Harvest" name="Wheat" count="1" tag="wildCropsHarvest"/>
 			<property name="Class" value="CropsGrown"/>
 			<property name="Create_item" value="Wheat"/>
@@ -4048,18 +4045,6 @@
             <property name="MultiBlockDim" value="1,2,1"/>
             <property name="ModelOffset" value="0.0,0.75,0.0"/>
             <property name="DescriptionKey" value="farmLifePinupGirlTwoDesc"/>
-        </block>       
-        <block name="Small Fern">
-            <property name="OnlySimpleRotations" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="TakeDelay" value="15"/>
-            <property name="Material" value="Mplants"/>
-            <property name="MaxDamage" value="50"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePlants.unity3d?FernPrefab"/>
-            <property name="MultiBlockDim" value="1,1,1"/>
-            <property name="DescriptionKey" value="farmLifeSmallFernDesc"/>
         </block>
 		
 		<block name="Tom Cat">
@@ -4655,7 +4640,8 @@
 			<property name="EconomicValue" value="1000"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 			<property name="SortOrder1" value="70i0"/>
-		</block>		
+		</block>
+		
 		<block name="Farm Table">
 			<property name="Class" value="Workstation"/>
 			<property name="Material" value="Mmetal"/>
@@ -4909,14 +4895,11 @@
 			<property name="Class" value="Workstation"/>
 			<property name="Material" value="Msteel"/>
 			<property name="MaxDamage" value="300"/>
-			<property name="ParticleName" value="campfire"/>
-			<property name="ParticleOffset" value=".65,1,.1"/>
 			<property name="StabilitySupport" value="false"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
-			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
 				<property name="Modules" value="tools,output,fuel,input"/>
@@ -5060,27 +5043,32 @@
     <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Harvest" name="Apple" count="2" tag="cropHarvest"/>
-    <drop event="Harvest" name="Apple Wood Plank" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Apple Sappling"/>
+    <drop event="Destroy" name="Apple Wood Plank" count="2" prob="1"/>
+	<drop event="Destroy" name="Apple" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Apple Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Apple Sappling"> 
+<block name="Apple Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Apple Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 	
 <block name="Avocado Tree">
@@ -5095,26 +5083,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Avocado" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Avocado Sappling"/>
+    <drop event="Destroy" name="Avocado" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Avocado Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Avocado Sappling"> 
+<block name="Avocado Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Avocado Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 	
 <block name="Banana Tree">
@@ -5128,26 +5121,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Banana" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Banana Sappling"/>
+    <drop event="Destroy" name="Banana" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Banana Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Banana Sappling"> 
+<block name="Banana Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Banana Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>	
 	
 <block name="Cherry Tree">
@@ -5161,27 +5159,32 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Harvest" name="Cherry" count="2" tag="cropHarvest"/>
-    <drop event="Harvest" name="Cherry Wood Plank" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Cherry Sappling"/>
+    <drop event="Destroy" name="Cherry" count="2" prob="1"/>
+	<drop event="Destroy" name="Cherry Wood Plank" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Cherry Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Cherry Sappling"> 
+<block name="Cherry Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Cherry Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 
 <block name="Cinnamon Tree"> 
@@ -5194,26 +5197,31 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Cinnamon Bark" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Cinnamon Sappling"/>
+    <drop event="Destroy" name="Cinnamon Bark" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Cinnamon Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Cinnamon Sappling"> 
+<block name="Cinnamon Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Cinnamon Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Coconut Tree"> 
@@ -5226,26 +5234,31 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?CoconutTreePrefab"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Coconut" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Coconut Sappling"/>
+    <drop event="Destroy" name="Coconut" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Coconut Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Coconut Sappling"> 
+<block name="Coconut Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Coconut Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Lime Tree"> 
@@ -5258,26 +5271,31 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Lime" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Lime Sappling"/>
+    <drop event="Destroy" name="Lime" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Lime Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Lime Sappling"> 
+<block name="Lime Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Lime Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Meyer Lemon Tree">
@@ -5291,26 +5309,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Meyer Lemon" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Meyer Lemon Sappling"/>
+    <drop event="Destroy" name="Meyer Lemon" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Meyer Lemon Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Meyer Lemon Sappling"> 
+<block name="Meyer Lemon Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Meyer Lemon Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Nut Tree">
@@ -5324,26 +5347,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Destroy" name="Nuts" count="10"/>
-	<property name="DowngradeBlock" value="Nut Sappling"/>
+    <drop event="Destroy" name="Nuts" count="10" prob="1"/>
+	<property name="DowngradeBlock" value="Nut Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Nut Sappling"> 
+<block name="Nut Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/NutTree.unity3d?NutTreePrefab2"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Nut Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Olive Tree">
@@ -5357,26 +5385,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Olive" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Olive Sappling"/>
+    <drop event="Destroy" name="Olive" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Olive Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Olive Sappling"> 
+<block name="Olive Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Olive Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Orange Tree">
@@ -5390,26 +5423,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Orange" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Orange Sappling"/>
+    <drop event="Destroy" name="Orange" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Orange Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Orange Sappling"> 
+<block name="Orange Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Orange Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Pear Tree">
@@ -5423,26 +5461,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Pear" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Pear Sappling"/>
+    <drop event="Destroy" name="Pear" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Pear Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Pear Sappling"> 
+<block name="Pear Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Pear Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Red Apple Tree">
@@ -5454,26 +5497,31 @@
     <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Destroy" name="Red Apples" count="2"/>
-	<property name="DowngradeBlock" value="Red Apple Sappling"/>
+    <drop event="Destroy" name="Red Apples" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Red Apple Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Red Apple Sappling"> 
+<block name="Red Apple Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab2"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Red Apple Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Sakura Tree">
@@ -5487,26 +5535,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="Ume" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Sakura Sappling"/>
+    <drop event="Destroy" name="Ume" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Sakura Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Sakura Sappling"> 
+<block name="Sakura Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Sakura Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Sugar Maple Tree">
@@ -5520,27 +5573,32 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Harvest" name="Maple Sap" count="4,8" tag="cropHarvest"/>
-    <drop event="Harvest" name="Maple Wood Plank" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Sugar Maple Sappling"/>
+    <drop event="Destroy" name="Maple Sap" count="8" prob="1"/>
+	<drop event="Destroy" name="Maple Wood Plank" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Sugar Maple Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Sugar Maple Sappling"> 
+<block name="Sugar Maple Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Sugar Maple Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Walnut Tree">
@@ -5554,27 +5612,32 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Harvest" name="Walnut" count="2" tag="cropHarvest"/>
-    <drop event="Harvest" name="Walnut Wood Plank" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="Walnut Sappling"/>
+    <drop event="Destroy" name="Walnut" count="2" prob="1"/>
+	<drop event="Destroy" name="Walnut Wood Plank" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="Walnut Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="Walnut Sappling"> 
+<block name="Walnut Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Walnut Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="White Oak Tree">
@@ -5588,26 +5651,31 @@
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="ParticleOnDeath" value="treeGib_winter_small"/>
+	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-	<drop event="Harvest" name="White Oak Plank" count="2" tag="cropHarvest"/>
-	<property name="DowngradeBlock" value="White Oak Sappling"/>
+    <drop event="Destroy" name="White Oak Plank" count="2" prob="1"/>
+	<property name="DowngradeBlock" value="White Oak Sapling"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="SortOrder2" value="0400"/>
+	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
-<block name="White Oak Sappling"> 
+<block name="White Oak Sapling">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?TreeGrowingPrefab"/>
+    <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="White Oak Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
-		<drop event="Destroy" count="0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 
 </append>

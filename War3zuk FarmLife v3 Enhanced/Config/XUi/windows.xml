@@ -150,14 +150,14 @@
 
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
 
-			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+			<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
 			required_tools="Drying Pan,Barrel Roaster,Masher,Boiler,Still" required_tools_only="true">
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
 	</window>	
 	
-	<window name="windowToolsFermentorBench" width="228" height="121" panel="Right" cursor_area="true" >
+	<window name="windowToolsFermentorBench" width="228" height="200" panel="Right" cursor_area="true" >
 		<panel style="header.panel">
 			<sprite style="header.icon" sprite="ui_game_symbol_cookware"/>
 			<label style="header.name" text="FERMENTOR" text_key="FERMENTOR" />
@@ -165,7 +165,7 @@
 
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
 
-			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+			<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
 			required_tools="Jar Airlock,Clay Pot,Aging Shelves,Cheese Press" required_tools_only="true">
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
@@ -211,7 +211,7 @@
            </rect>
 	</window>
 	
-	<window name="windowToolsWebberGrill" width="228" height="121" panel="Right" cursor_area="true" >
+	<window name="windowToolsWebberGrill" width="228" height="200" panel="Right" cursor_area="true" >
 		<panel style="header.panel">
 			<sprite style="header.icon" sprite="ui_game_symbol_cookware"/>
 			<label style="header.name" text="xuiTools" text_key="xuiTools" />
@@ -219,7 +219,7 @@
 
 		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
 
-			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+			<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
 			required_tools="toolCookingPot,toolCookingGrill,toolBeaker,Tongs,Spatula,Ceramic Dutch Oven" required_tools_only="true">
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>

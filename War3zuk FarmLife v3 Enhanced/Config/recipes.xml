@@ -1638,11 +1638,6 @@
             <ingredient name="resourcePaper" count="10"/>
         </recipe>
 		
-		<recipe name="Small Fern" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceYuccaFibers" count="10"/>
-            <ingredient name="resourceClayLump" count="10"/>
-        </recipe>
-		
         <recipe name="Tom Cat" count="1" craft_time="30" craft_area="workbench">
             <ingredient name="foodCanCatfood" count="5"/>
             <ingredient name="Live Trap" count="1"/>
@@ -1683,11 +1678,6 @@
         </recipe>		
 		
         <recipe name="TheBasicsFishPellets" count="1" craft_area="Farm Table"> 
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>		
-		
-        <recipe name="TheBasicsGrowingTrees" count="1" craft_area="Farm Table"> 
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
@@ -2839,7 +2829,7 @@
 			<ingredient name="toolCookingPot" count="3"/>
 			<ingredient name="resourceMetalPipe" count="15"/>
 			<ingredient name="resourceWood" count="40"/>
-		</recipe>		
+		</recipe>
 		
 		<recipe name="Fermentor Bench" count="1" craft_time="30" craft_area="Farm Table"> <!-- Changed from Table Saw -->
             <ingredient name="Walnut Wood Plank" count="5"/>

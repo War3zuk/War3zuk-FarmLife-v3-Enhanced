@@ -12554,7 +12554,8 @@
             <property name="DescriptionKey" value="farmLifeZhangHandleDesc"/>
         </item>
 		
-		<!-- QUESTS -->		
+		<!-- QUESTS -->
+		
         <item name="The Brewing Method">
             <property name="DescriptionKey" value="farmLifeTheBrewingMethodDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12573,6 +12574,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The BEST Aged Barrel ever!">
             <property name="DescriptionKey" value="farmLifeTheBESTAgedBarrelever!Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12591,6 +12593,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Aging Shelves - Techniques">
             <property name="DescriptionKey" value="farmLifeAgingShelves-TechniquesDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12609,6 +12612,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Understanding: American Fries">
             <property name="DescriptionKey" value="farmLifeUnderstanding:AmericanFriesDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12627,6 +12631,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Apple Cider by stasis78">
             <property name="DescriptionKey" value="farmLifeAppleCiderbystasis78Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12645,6 +12650,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The BEST Apple Juice ever!">
             <property name="DescriptionKey" value="farmLifeTheBESTAppleJuiceever!Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12663,6 +12669,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The BEST Apple Pie ever!">
             <property name="DescriptionKey" value="farmLifeTheBESTApplePieever!Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12681,6 +12688,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Grandmas Best Apples and Cream">
             <property name="DescriptionKey" value="farmLifeGrandmasBestApplesandCreamDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12699,6 +12707,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Grandmas Best Avocado Spinach Salad">
             <property name="DescriptionKey" value="farmLifeGrandmasBestAvocadoSpinachSaladDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12717,6 +12726,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Advanced - Baked Rigatoni">
             <property name="DescriptionKey" value="farmLifeAdvanced-BakedRigatoniDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12735,6 +12745,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The Way To Baking Sheet">
             <property name="DescriptionKey" value="farmLifeTheWayToBakingSheetDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12753,6 +12764,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Grandmas Best Bananna Bread">
             <property name="DescriptionKey" value="farmLifeGrandmasBestBanannaBreadDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12771,6 +12783,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Making an Expert: Barrel Roaster">
             <property name="DescriptionKey" value="farmLifeMakinganExpert:BarrelRoasterDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12789,6 +12802,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Making an Expert: BBQ Elk Jerky">
             <property name="DescriptionKey" value="farmLifeMakinganExpert:BBQElkJerkyDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12807,6 +12821,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Making an Expert: BBQ Pork Ribs">
             <property name="DescriptionKey" value="farmLifeMakinganExpert:BBQPorkRibsDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12825,6 +12840,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Bechamel by stasis78">
             <property name="DescriptionKey" value="farmLifeBechamelbystasis78Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12843,6 +12859,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Best Approaches: Beef Chili">
             <property name="DescriptionKey" value="farmLifeBestApproaches:BeefChiliDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12861,6 +12878,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Guide To: Beef Taco">
             <property name="DescriptionKey" value="farmLifeGuideTo:BeefTacoDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12879,6 +12897,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Mastering: Beer Cheap">
             <property name="DescriptionKey" value="farmLifeMastering:BeerCheapDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12897,6 +12916,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The BEST Beer Double IPA ever!">
             <property name="DescriptionKey" value="farmLifeTheBESTBeerDoubleIPAever!Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12915,6 +12935,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Grandmas Best Beer IPA">
             <property name="DescriptionKey" value="farmLifeGrandmasBestBeerIPADesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12933,6 +12954,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The Way To Beer Lager">
             <property name="DescriptionKey" value="farmLifeTheWayToBeerLagerDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12951,6 +12973,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Beer Stout 101">
             <property name="DescriptionKey" value="farmLifeBeerStout101Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12969,6 +12992,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Mastering: Beet Juice">
             <property name="DescriptionKey" value="farmLifeMastering:BeetJuiceDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -12987,6 +13011,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="How-To Beet Salad">
             <property name="DescriptionKey" value="farmLifeHow-ToBeetSaladDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13005,6 +13030,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Biscuit JUST DO IT!">
             <property name="DescriptionKey" value="farmLifeBiscuitJUSTDOIT!Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13023,6 +13049,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="How-To Biscuits and Gravy">
             <property name="DescriptionKey" value="farmLifeHow-ToBiscuitsandGravyDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13041,6 +13068,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Mastering: Blueberry Ice Cream">
             <property name="DescriptionKey" value="farmLifeMastering:BlueberryIceCreamDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13059,6 +13087,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Grandmas Best Boiled Linguini">
             <property name="DescriptionKey" value="farmLifeGrandmasBestBoiledLinguiniDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13077,6 +13106,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="How-To Boiled Penne">
             <property name="DescriptionKey" value="farmLifeHow-ToBoiledPenneDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13095,6 +13125,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Best Approaches: Boiled Rigatoni">
             <property name="DescriptionKey" value="farmLifeBestApproaches:BoiledRigatoniDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13113,6 +13144,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="Boiled Spaghetti JUST DO IT!">
             <property name="DescriptionKey" value="farmLifeBoiledSpaghettiJUSTDOIT!Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13131,6 +13163,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
+		
         <item name="The Boiler Method">
             <property name="DescriptionKey" value="farmLifeTheBoilerMethodDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -20443,24 +20476,6 @@
             <property class="Action0">
                 <property name="Class" value="Quest"/>
                 <property name="QuestGiven" value="item_fish_pellets_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>		
-        <item name="TheBasicsGrowingTrees"> <!-- Changed from: Growing Trees by stasis78 -->
-            <property name="DescriptionKey" value="farmLifeGrowingTreesbystasis78Desc"/>
-            <property name="CustomIcon" value="FarmLifeQuests"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="seeds_tree_seeds_1"/>
                 <property name="Delay" value="0"/>
             </property>
         </item>
