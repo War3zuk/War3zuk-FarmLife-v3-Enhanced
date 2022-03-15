@@ -1,5 +1,10 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.06
+
+Fixed 9 Warnings
+Removed Tonic Water In Loot
+
 Version 1.05
 
 Removed BasicGrowingTrees Quest

@@ -5033,10 +5033,10 @@
 
 <append xpath="/blocks">
 	
-<block name="Apple Tree"> 
+<block name="Apple Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
@@ -5045,36 +5045,35 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Apple Wood Plank" count="2" prob="1"/>
-	<drop event="Destroy" name="Apple" count="2" prob="1"/>
+	<drop event="Harvest" name="Apple" count="4" tag="wildCropsHarvest"/>
+    <property name="Create_item" value="Apple Wood Plank"/>
+    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Apple Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Apple Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+    <property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
-    <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Apple Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 	
 <block name="Avocado Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?AvocadoTreePrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5085,35 +5084,33 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Avocado" count="2" prob="1"/>
+	<drop event="Harvest" name="Avocado" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Avocado Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Avocado Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
-    <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Avocado Tree"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 	
 <block name="Banana Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?BananaTreePrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5123,20 +5120,20 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Banana" count="2" prob="1"/>
+	<drop event="Harvest" name="Banana" count="4" tag="wildCropsHarvest"/>
+    <property name="Create_item" value="Apple Wood Plank"/>
+    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Banana Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Banana Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5144,14 +5141,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>	
 	
 <block name="Cherry Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?CherryTreeBlock"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5161,21 +5159,20 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Cherry" count="2" prob="1"/>
-	<drop event="Destroy" name="Cherry Wood Plank" count="2" prob="1"/>
+	<drop event="Harvest" name="Cherry" count="4" tag="wildCropsHarvest"/>
+    <property name="Create_item" value="Cherry Wood Plank"/>
+    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Cherry Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Cherry Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5183,14 +5180,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 
-<block name="Cinnamon Tree"> 
+<block name="Cinnamon Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
@@ -5199,20 +5197,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Cinnamon Bark" count="2" prob="1"/>
+	<drop event="Harvest" name="Cinnamon Bark" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Cinnamon Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Cinnamon Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5220,14 +5216,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
-<block name="Coconut Tree"> 
+<block name="Coconut Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
@@ -5236,20 +5233,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Coconut" count="2" prob="1"/>
+	<drop event="Harvest" name="Coconut" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Coconut Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Coconut Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5257,14 +5252,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
-<block name="Lime Tree"> 
+<block name="Lime Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
@@ -5273,20 +5269,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Lime" count="2" prob="1"/>
+	<drop event="Harvest" name="Lime" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Lime Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Lime Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5294,14 +5288,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Meyer Lemon Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?MeyerLemonPrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5311,20 +5306,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Meyer Lemon" count="2" prob="1"/>
+	<drop event="Harvest" name="Meyer Lemon" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Meyer Lemon Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Meyer Lemon Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5332,14 +5325,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Nut Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/NutTree.unity3d?NutTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5349,20 +5343,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Nuts" count="10" prob="1"/>
+	<drop event="Harvest" name="Nuts" count="8" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Nut Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Nut Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5370,14 +5362,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Olive Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5387,20 +5380,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Olive" count="2" prob="1"/>
+	<drop event="Harvest" name="Olive" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Olive Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Olive Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5408,14 +5399,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Orange Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?OrangeTreeBlock"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5425,20 +5417,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Orange" count="2" prob="1"/>
+	<drop event="Harvest" name="Orange" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Orange Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Orange Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5446,14 +5436,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Pear Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?PearTreePrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5463,20 +5454,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Pear" count="2" prob="1"/>
+	<drop event="Harvest" name="Pear" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Pear Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Pear Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5484,14 +5473,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Red Apple Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
@@ -5499,20 +5489,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Red Apples" count="2" prob="1"/>
+	<drop event="Harvest" name="Red Apples" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Red Apple Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Red Apple Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5520,14 +5508,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Sakura Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5537,20 +5526,18 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Ume" count="2" prob="1"/>
+	<drop event="Harvest" name="Ume" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Sakura Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Sakura Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5558,14 +5545,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Sugar Maple Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?MapleTreeBlock"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5575,21 +5563,20 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Maple Sap" count="8" prob="1"/>
-	<drop event="Destroy" name="Maple Wood Plank" count="2" prob="1"/>
+	<drop event="Harvest" name="Maple Sap" count="4" tag="wildCropsHarvest"/>
+    <property name="Create_item" value="Maple Wood Plank"/>
+    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Sugar Maple Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Sugar Maple Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5597,14 +5584,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="Walnut Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/Trees?Maple20Prefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5614,21 +5602,20 @@
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="Walnut" count="2" prob="1"/>
-	<drop event="Destroy" name="Walnut Wood Plank" count="2" prob="1"/>
+	<drop event="Harvest" name="Walnut" count="4" tag="wildCropsHarvest"/>
+    <property name="Create_item" value="Walnut Wood Plank"/>
+    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Walnut Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="Walnut Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5636,14 +5623,15 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 		
 <block name="White Oak Tree">
+	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?WhiteOakPrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5652,21 +5640,19 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
-	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
-    <drop event="Destroy" name="White Oak Plank" count="2" prob="1"/>
+    <property name="Create_item" value="White Oak Plank"/>
+    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="White Oak Sapling"/>
-	<property name="MaxDamage" value="250"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
 </block>
 
 <block name="White Oak Sapling">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="treeForestGrassDiagonal"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="ActivationDistance" value="6"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Extends" value="cropsGrowingMaster"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5674,6 +5660,7 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="MaxDamage" value="50"/>
+	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>

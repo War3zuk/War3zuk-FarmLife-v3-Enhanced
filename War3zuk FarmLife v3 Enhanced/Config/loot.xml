@@ -2,22 +2,21 @@
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_T4_Rewards']">
 		
-		<lootgroup name="FarmLifev3LootA" count="3">
+		<lootgroup name="FarmLifev3LootA" count="1">
 				<item name="Old Salt" count="2,4"/>
 				<item name="Seed Pack" count="1"/>
-				<item name="Tonic" count="1"/>
 			</lootgroup>
 			
 		<lootgroup name="FarmLifev3LootB" count="1">
-				<item name="BeefCake" count="1"/>
+				<item name="BeefCake" count="1" loot_prob_template="veryLow"/>
 				<item name="Butcher Knife" count="1"/>
 				<item name="Rusty Frying Pan" count="1"/>
 				<item name="Scythe" count="1"/>
 			</lootgroup>
 			
 		<lootgroup name="FarmLifev3Loot" count="1">
-			<item group="FarmLifev3LootA" loot_prob_template="med"/>
-			<item group="FarmLifev3LootB" loot_prob_template="low"/>
+			<item group="FarmLifev3LootA" loot_prob_template="low"/>
+			<item group="FarmLifev3LootB" loot_prob_template="veryLow"/>
 		</lootgroup>
 			
 	</insertAfter>

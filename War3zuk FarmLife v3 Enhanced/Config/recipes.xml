@@ -591,8 +591,9 @@
         </recipe>				
 		
 		<recipe name="Tonic" count="1" craft_time="120" craft_area="Brew Station">
-			<ingredient name="Sugar" count="10"/>
-			<ingredient name="drinkJarRiverWater" count="4"/>
+			<ingredient name="Sugar" count="20"/>
+			<ingredient name="foodCropCorn" count="20"/>
+			<ingredient name="drinkJarRiverWater" count="10"/>
 		</recipe>
 		
 		<recipe name="Vodka" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Mixing Cask">
@@ -613,7 +614,7 @@
 		
         <recipe name="Whiskey Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
             <ingredient name="Barley Malt" count="4"/>
-            <ingredient name="foodCropCorn" count="26"/>
+            <ingredient name="foodCropCorn" count="30"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
