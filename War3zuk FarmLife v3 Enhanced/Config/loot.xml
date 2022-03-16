@@ -21,7 +21,6 @@
 			
 	</insertAfter>
 
-
 	<!-- Stove -->
 	<append xpath="/lootcontainers/lootcontainer[@id='5']">	
 		<item group="FarmLifev3Loot"/>
@@ -36,10 +35,6 @@
 	</append>
 	<!-- Cupboard -->
 	<append xpath="/lootcontainers/lootcontainer[@id='17']">	
-		<item group="FarmLifev3Loot"/>
-	</append>
-	<!--  Fridge -->
-	<append xpath="/lootcontainers/lootcontainer[@id='21']">	
 		<item group="FarmLifev3Loot"/>
 	</append>
 	<!--  Garage Box -->

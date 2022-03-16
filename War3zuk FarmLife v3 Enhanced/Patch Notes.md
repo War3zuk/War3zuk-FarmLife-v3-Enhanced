@@ -2,6 +2,8 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.06
 
+Removed Salt (FridgeLoot)
+Remaining Warnings Disable On 2nd Boot (best I can Do)
 Fixed 9 Warnings
 Removed Tonic Water In Loot
 
