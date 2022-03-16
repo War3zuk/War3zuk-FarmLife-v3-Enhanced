@@ -5040,6 +5040,8 @@
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="12"/>
     <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5057,8 +5059,6 @@
     <property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Apple Tree"/>
@@ -5078,7 +5078,8 @@
 	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?AvocadoTreePrefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
-	<property name="BigDecorationRadius" value="6"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="12"/>
 	<property name="FallOver" value="false"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5094,8 +5095,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
     <property name="PlantGrowing.Next" value="Avocado Tree"/>
@@ -5116,6 +5115,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5132,8 +5133,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5155,6 +5154,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5171,8 +5172,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5192,6 +5191,8 @@
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5207,8 +5208,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5228,6 +5227,8 @@
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?CoconutTreePrefab"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5243,8 +5244,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5264,6 +5263,8 @@
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5279,8 +5280,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5302,6 +5301,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5316,8 +5317,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5339,6 +5338,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5353,8 +5354,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5376,6 +5375,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5390,8 +5391,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5413,6 +5412,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5427,8 +5428,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5450,6 +5449,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5464,8 +5465,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5484,6 +5483,8 @@
 	<property name="DisplayInfo" value="Name"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
@@ -5499,8 +5500,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5522,6 +5521,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5536,8 +5537,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5559,6 +5558,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5575,8 +5576,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5598,6 +5597,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5614,8 +5615,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
@@ -5637,6 +5636,8 @@
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
+	<property name="ActivationDistance" value="12"/>
+	<property name="BigDecorationRadius" value="6"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5651,8 +5652,6 @@
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DisplayInfo" value="Name"/>
-	<property name="ActivationDistance" value="6"/>
-	<property name="BigDecorationRadius" value="6"/>
     <property name="CreativeMode" value="None"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
