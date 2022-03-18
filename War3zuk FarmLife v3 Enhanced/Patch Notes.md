@@ -2,8 +2,10 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.06
 
+Fixed Wood Planks Harvesting
+9 Yellow Warnings Removed
+Tree Models Replaced / AppleTree
 Removed Salt (FridgeLoot)
-Remaining Warnings Disable On 2nd Boot (best I can Do)
 Fixed 9 Warnings
 Removed Tonic Water In Loot
 

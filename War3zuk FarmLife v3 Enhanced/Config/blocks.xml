@@ -5048,8 +5048,7 @@
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="Apple" count="4" tag="wildCropsHarvest"/>
-    <property name="Create_item" value="Apple Wood Plank"/>
-    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="Apple Wood Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Apple Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5075,7 +5074,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?AvocadoTreePrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="ActivationDistance" value="12"/>
@@ -5111,7 +5110,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?BananaTreePrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5122,8 +5121,7 @@
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="Banana" count="4" tag="wildCropsHarvest"/>
-    <property name="Create_item" value="Apple Wood Plank"/>
-    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="Apple Wood Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Banana Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5150,7 +5148,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?CherryTreeBlock"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5161,8 +5159,7 @@
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="Cherry" count="4" tag="wildCropsHarvest"/>
-    <property name="Create_item" value="Cherry Wood Plank"/>
-    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="Cherry Wood Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Cherry Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5193,7 +5190,7 @@
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
+    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5229,7 +5226,7 @@
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?CoconutTreePrefab"/>
+    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5265,7 +5262,7 @@
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
+    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5297,7 +5294,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?MeyerLemonPrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5334,7 +5331,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/NutTree.unity3d?NutTreePrefab3"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5371,7 +5368,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5408,7 +5405,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?OrangeTreeBlock"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5445,7 +5442,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?PearTreePrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5517,7 +5514,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5554,7 +5551,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?MapleTreeBlock"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5565,8 +5562,7 @@
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="Maple Sap" count="4" tag="wildCropsHarvest"/>
-    <property name="Create_item" value="Maple Wood Plank"/>
-    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="Maple Wood Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Sugar Maple Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5593,7 +5589,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#Entities/Trees?Maple20Prefab.prefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5604,8 +5600,7 @@
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="Walnut" count="4" tag="wildCropsHarvest"/>
-    <property name="Create_item" value="Walnut Wood Plank"/>
-    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="Walnut Wood Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Walnut Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
@@ -5632,7 +5627,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?WhiteOakPrefab"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="MultiBlockDim" value="1,7,1"/>
 	<property name="FallOver" value="false"/>
@@ -5641,8 +5636,8 @@
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
-    <property name="Create_item" value="White Oak Plank"/>
-    <property name="Create_item_count" count="4" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="White Oak Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="White Oak Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
