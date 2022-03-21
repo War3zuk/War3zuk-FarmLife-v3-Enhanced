@@ -2,20 +2,6 @@
 	
     <append xpath="/items">
 		
-        <item name="Aged Barrel">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeAgedBarrelDesc"/>
-        </item>
         <item name="Aged Bourbon">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -754,20 +740,7 @@
             <property name="CustomIconTint" value="ff7e79"/>
             <property name="DescriptionKey" value="farmLifeBarleyMaltDesc"/>
         </item>
-        <item name="Barrel Roaster">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeBarrelRoasterDesc"/>
-        </item>
+		
         <item name="Basil">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -1845,20 +1818,7 @@
             <property name="Weight" value="5"/>
             <property name="DescriptionKey" value="farmLifeBottleCapDesc"/>
         </item>
-        <item name="Bottle Capper">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeBottleCapperDesc"/>
-        </item>
+		
         <item name="Bourbon">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="3"/>
@@ -2301,20 +2261,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeCannedOlivesDesc"/>
         </item>
-        <item name="Carboy">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeCarboyDesc"/>
-        </item>
+		
         <item name="Carrot">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -2425,20 +2372,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeChardonneDesc"/>
         </item>
-        <item name="Charred Barrel">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeCharredBarrelDesc"/>
-        </item>
+		
         <item name="Cheddar">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -4787,20 +4721,7 @@
             <property name="CustomIcon" value="IngredientIcon"/>
             <property name="DescriptionKey" value="farmLifeFlourTortillasStep1Desc"/>
         </item>
-        <item name="Food Processor">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeFoodProcessorDesc"/>
-        </item>
+		
         <item name="Fried Eggs">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -5974,20 +5895,7 @@
             <property name="CustomIcon" value="IngredientIcon"/>
             <property name="DescriptionKey" value="farmLifeHollandaiseStep2Desc"/>
         </item>
-        <item name="Ice Cream Bowl">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeIceCreamBowlDesc"/>
-        </item>
+		
         <item name="Italian Sausage">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -6064,20 +5972,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeHabaneroPepperDesc"/>
         </item>
-        <item name="Jar Airlock">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeJarAirlockDesc"/>
-        </item>
+		
         <item name="Joel's Breakfast">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -6514,20 +6409,7 @@
             <property name="CustomIcon" value="IngredientIcon"/>
             <property name="DescriptionKey" value="farmLifeMarinatedBBQElkDesc"/>
         </item>
-        <item name="Masher">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeMasherDesc"/>
-        </item>
+		
         <item name="Mayo">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -11177,20 +11059,7 @@
             <property name="CustomIcon" value="IngredientIcon"/>
             <property name="DescriptionKey" value="farmLifeSteepedSorghumDesc"/>
         </item>
-        <item name="Steeping Tun">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeSteepingTunDesc"/>
-        </item>
+		
         <item name="Still">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -12382,20 +12251,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeWholeSalmonDesc"/>
         </item>
-        <item name="Wine Filter">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeWineFilterDesc"/>
-        </item>
+		
         <item name="Wine Tank">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -12780,25 +12636,6 @@
             <property class="Action0">
                 <property name="Class" value="Quest"/>
                 <property name="QuestGiven" value="item_bananna_bread_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
-		
-        <item name="Making an Expert: Barrel Roaster">
-            <property name="DescriptionKey" value="farmLifeMakinganExpert:BarrelRoasterDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_barrel_roaster_1"/>
                 <property name="Delay" value="0"/>
             </property>
         </item>
@@ -13218,24 +13055,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="The Basics: Bottle Capper">
-            <property name="DescriptionKey" value="farmLifeTheBasics:BottleCapperDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_bottle_capper_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Bourbon by stasis78">
             <property name="DescriptionKey" value="farmLifeBourbonbystasis78Desc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13380,24 +13200,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="Carboy - Ancient Arts">
-            <property name="DescriptionKey" value="farmLifeCarboy-AncientArtsDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_carboy_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Guide To: Cast Iron Skillet">
             <property name="DescriptionKey" value="farmLifeGuideTo:CastIronSkilletDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -13452,24 +13255,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="Charred Barrel 1-2-3s">
-            <property name="DescriptionKey" value="farmLifeCharredBarrel1-2-3sDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_charred_barrel_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Making an Expert: Cheddar">
             <property name="DescriptionKey" value="farmLifeMakinganExpert:CheddarDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -14208,24 +13994,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="Making an Expert: Food Processor">
-            <property name="DescriptionKey" value="farmLifeMakinganExpert:FoodProcessorDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_food_processor_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Fried Eggs 1-2-3s">
             <property name="DescriptionKey" value="farmLifeFriedEggs1-2-3sDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -14622,42 +14391,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="The BEST Ice Cream Bowl ever!">
-            <property name="DescriptionKey" value="farmLifeTheBESTIceCreamBowlever!Desc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_ice_cream_bowl_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
-        <item name="Jar Airlock - Ancient Arts">
-            <property name="DescriptionKey" value="farmLifeJarAirlock-AncientArtsDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_jar_airlock_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Joel's Breakfast - YOU Can Too">
             <property name="DescriptionKey" value="farmLifeJoelsBreakfast-YOUCanTooDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -14802,24 +14536,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="Masher JUST DO IT!">
-            <property name="DescriptionKey" value="farmLifeMasherJUSTDOIT!Desc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_masher_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Best Approaches: Meat Grinder">
             <property name="DescriptionKey" value="farmLifeBestApproaches:MeatGrinderDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -16656,24 +16373,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="Steeping Tun For Dumbfucks">
-            <property name="DescriptionKey" value="farmLifeSteepingTunForDumbfucksDesc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_steeping_tun_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Even Idiots Can Make: Still">
             <property name="DescriptionKey" value="farmLifeEvenIdiotsCanMake:StillDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>
@@ -17034,24 +16734,7 @@
                 <property name="Delay" value="0"/>
             </property>
         </item>
-        <item name="The BEST Wine Filter ever!">
-            <property name="DescriptionKey" value="farmLifeTheBESTWineFilterever!Desc"/>
-            <property name="CustomIcon" value="FarmLifeRecipes"/>
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="21"/>
-            <property name="Group" value="SpecialItems"/>
-            <property name="Meshfile" value="Items/Misc/bookPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Mpaper"/>
-            <property name="SellableToTrader" value="false"/>
-            <property name="Weight" value="2"/>
-            <property name="FuelValue" value="2"/>
-            <property class="Action0">
-                <property name="Class" value="Quest"/>
-                <property name="QuestGiven" value="item_wine_filter_1"/>
-                <property name="Delay" value="0"/>
-            </property>
-        </item>
+		
         <item name="Best Approaches: Wine Tank">
             <property name="DescriptionKey" value="farmLifeBestApproaches:WineTankDesc"/>
             <property name="CustomIcon" value="FarmLifeRecipes"/>

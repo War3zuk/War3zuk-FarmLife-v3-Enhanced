@@ -177,8 +177,8 @@
             <property name="name" value="Mashing Time"/>
             <property name="subtitle" value="Mashing"/>
             <property name="group_name" value="Brewing"/>
-            <property name="description" value="Learn how to brew cheap beer. We start off by making some Mash. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
-            <property name="offer" value="Learn how to brew cheap beer. We start off by making some Mash. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
+            <property name="description" value="Learn how to brew cheap beer. We start off by making some Mash. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
+            <property name="offer" value="Learn how to brew cheap beer. We start off by making some Mash. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
             <property name="icon" value="ui_game_symbol_quest"/>
             <property name="repeatable" value="true"/>
             <property name="category_key" value="quest"/>
@@ -193,8 +193,8 @@
             <property name="name" value="All About Wort"/>
             <property name="subtitle" value="Wort"/>
             <property name="group_name" value="Brewing"/>
-            <property name="description" value="After the Mash we need to boil up some Wort. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
-            <property name="offer" value="After the Mash we need to boil up some Wort. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
+            <property name="description" value="After the Mash we need to boil up some Wort. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
+            <property name="offer" value="After the Mash we need to boil up some Wort. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
             <property name="icon" value="ui_game_symbol_quest"/>
             <property name="repeatable" value="true"/>
             <property name="category_key" value="quest"/>
@@ -207,8 +207,8 @@
             <property name="name" value="Primary Fermentation"/>
             <property name="subtitle" value="Fermentation"/>
             <property name="group_name" value="Brewing"/>
-            <property name="description" value="Now we take our Wort and let it ferment into our Raw Beer. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
-            <property name="offer" value="Now we take our Wort and let it ferment into our Raw Beer. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
+            <property name="description" value="Now we take our Wort and let it ferment into our Raw Beer. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
+            <property name="offer" value="Now we take our Wort and let it ferment into our Raw Beer. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
             <property name="icon" value="ui_game_symbol_quest"/>
             <property name="repeatable" value="true"/>
             <property name="category_key" value="quest"/>
@@ -221,8 +221,8 @@
             <property name="name" value="Bottle Time"/>
             <property name="subtitle" value="Bottling"/>
             <property name="group_name" value="Brewing"/>
-            <property name="description" value="Raw Beer needs to be bottled before you can drink it. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
-            <property name="offer" value="Raw Beer needs to be bottled before you can drink it. You must have both: Brew Cooker and Brew Station. Required tools: Masher, Boiler, Carboy, and Bottle Capper."/>
+            <property name="description" value="Raw Beer needs to be bottled before you can drink it. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
+            <property name="offer" value="Raw Beer needs to be bottled before you can drink it. You must have both: Brew Cooker and Brew Station. Required tools: Boiler."/>
             <property name="icon" value="ui_game_symbol_quest"/>
             <property name="repeatable" value="true"/>
             <property name="category_key" value="quest"/>
@@ -325,7 +325,6 @@
             <property name="category_key" value="quest"/>
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="Jar Airlock" value="1" phase="1"/>
             <objective type="FetchKeep" id="Clay Pot" value="1" phase="1"/>
             <objective type="FetchKeep" id="Aging Shelves" value="1" phase="1"/>
             <objective type="FetchKeep" id="Cheese Press" value="1" phase="1"/>
@@ -358,8 +357,6 @@
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
             <objective type="FetchKeep" id="Drying Pan" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Barrel Roaster" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Masher" value="1" phase="1"/>
             <objective type="FetchKeep" id="Boiler" value="1" phase="1"/>
             <objective type="FetchKeep" id="Still" value="1" phase="1"/>
         </quest>
@@ -374,10 +371,7 @@
             <property name="category_key" value="quest"/>
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="Steeping Tun" value="1" phase="1"/>
             <objective type="FetchKeep" id="Malting Trays" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Wine Filter" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Carboy" value="1" phase="1"/>
             <objective type="FetchKeep" id="Wine Tank" value="1" phase="1"/>
             <objective type="FetchKeep" id="Spirits Vat" value="1" phase="1"/>
             <reward type="Quest" id="workstation_brew_station_2"/>
@@ -395,9 +389,7 @@
             <property name="shareable" value="false"/>
             <objective type="FetchKeep" id="Aged Barrel" value="1" phase="1"/>
             <objective type="FetchKeep" id="Oak Barrel" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Charred Barrel" value="1" phase="1"/>
             <objective type="FetchKeep" id="Floor Corker" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Bottle Capper" value="1" phase="1"/>
             <objective type="FetchKeep" id="Mixing Cask" value="1" phase="1"/>
         </quest>
         <quest id="workstation_cold_smoker_1">
@@ -458,12 +450,10 @@
             <property name="shareable" value="false"/>
             <objective type="FetchKeep" id="Dough Hook" value="1" phase="1"/>
             <objective type="FetchKeep" id="Veggie Attachment" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Ice Cream Bowl" value="1" phase="1"/>
             <objective type="FetchKeep" id="Meat Grinder" value="1" phase="1"/>
             <objective type="FetchKeep" id="Grain Miller" value="1" phase="1"/>
             <objective type="FetchKeep" id="Pasta Helper" value="1" phase="1"/>
             <objective type="FetchKeep" id="Mixing Bowl" value="1" phase="1"/>
-            <objective type="FetchKeep" id="Food Processor" value="1" phase="1"/>
         </quest>
         <quest id="workstation_wood_grill_1">
             <property name="name" value="Wood Grill"/>
@@ -680,20 +670,7 @@
             <objective type="FetchKeep" id="Raw Sugar" value="10" phase="1"/>
             <objective type="FetchKeep" id="Salt" value="1" phase="1"/>
         </quest>
-        <quest id="item_barrel_roaster_1">
-            <property name="name" value="Barrel Roaster"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Barrel Roaster"/>
-            <property name="description" value="Find all the ingredients for Barrel Roaster"/>
-            <property name="offer" value="Find all the ingredients for Barrel Roaster"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceForgedIron" value="20" phase="1"/>
-            <objective type="FetchKeep" id="resourceScrapIron" value="100" phase="1"/>
-        </quest>
+		
         <quest id="item_bechamel_1">
             <property name="name" value="Bechamel"/>
             <property name="subtitle" value="Ingredients"/>
@@ -1037,20 +1014,7 @@
             <objective type="FetchKeep" id="Salt and Pepper" value="1" phase="1"/>
             <objective type="FetchKeep" id="White Zin" value="1" phase="1"/>
         </quest>
-        <quest id="item_bottle_capper_1">
-            <property name="name" value="Bottle Capper"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Bottle Capper"/>
-            <property name="description" value="Find all the ingredients for Bottle Capper"/>
-            <property name="offer" value="Find all the ingredients for Bottle Capper"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceForgedIron" value="20" phase="1"/>
-            <objective type="FetchKeep" id="resourceMechanicalParts" value="10" phase="1"/>
-        </quest>
+		
         <quest id="item_bourbon_1">
             <property name="name" value="Bourbon"/>
             <property name="subtitle" value="Ingredients"/>
@@ -1166,19 +1130,7 @@
             <objective type="FetchKeep" id="drinkJarBoiledWater" value="1" phase="1"/>
             <objective type="FetchKeep" id="Olive" value="10" phase="1"/>
         </quest>
-        <quest id="item_carboy_1">
-            <property name="name" value="Carboy"/>
-            <property name="subtitle" value="Forge"/>
-            <property name="group_name" value="Carboy"/>
-            <property name="description" value="Use a forge to craft the Carboy."/>
-            <property name="offer" value="Use a forge to craft the Carboy."/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="Craft" id="Carboy" value="1" phase="1"/>
-        </quest>
+		
         <quest id="item_Cast_iron_skillet_1">
             <property name="name" value="Cast Iron Skillet"/>
             <property name="subtitle" value="Forge"/>
@@ -1218,19 +1170,7 @@
             <property name="shareable" value="false"/>
             <objective type="FetchKeep" id="Filtered Chardonne" value="1" phase="1"/>
         </quest>
-        <quest id="item_charred_barrel_1">
-            <property name="name" value="Charred Barrel"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Charred Barrel"/>
-            <property name="description" value="Find all the ingredients for Charred Barrel"/>
-            <property name="offer" value="Find all the ingredients for Charred Barrel"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="Oak Barrel" value="1" phase="1"/>
-        </quest>
+		
         <quest id="item_cheddar_1">
             <property name="name" value="Cheddar"/>
             <property name="subtitle" value="Ingredients"/>
@@ -1882,21 +1822,7 @@
             <objective type="FetchKeep" id="Lard" value="2" phase="1"/>
             <objective type="FetchKeep" id="Salt" value="1" phase="1"/>
         </quest>
-        <quest id="item_food_processor_1">
-            <property name="name" value="Food Processor"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Food Processor"/>
-            <property name="description" value="Find all the ingredients for Food Processor"/>
-            <property name="offer" value="Find all the ingredients for Food Processor"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
-            <objective type="FetchKeep" id="resourceMechanicalParts" value="10" phase="1"/>
-            <objective type="FetchKeep" id="resourceScrapPolymers" value="100" phase="1"/>
-        </quest>
+		
         <quest id="item_fried_eggs_1">
             <property name="name" value="Fried Eggs"/>
             <property name="subtitle" value="Ingredients"/>
@@ -2235,32 +2161,7 @@
             <objective type="FetchKeep" id="foodCropPotato" value="2" phase="1"/>
             <objective type="FetchKeep" id="Salt" value="1" phase="1"/>
         </quest>
-        <quest id="item_ice_cream_bowl_1">
-            <property name="name" value="Ice Cream Bowl"/>
-            <property name="subtitle" value="Forge"/>
-            <property name="group_name" value="Ice Cream Bowl"/>
-            <property name="description" value="Use a forge to craft the Ice Cream Bowl."/>
-            <property name="offer" value="Use a forge to craft the Ice Cream Bowl."/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="Craft" id="Ice Cream Bowl" value="1" phase="1"/>
-        </quest>
-        <quest id="item_jar_airlock_1">
-            <property name="name" value="Jar Airlock"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Jar Airlock"/>
-            <property name="description" value="Find all the ingredients for Jar Airlock"/>
-            <property name="offer" value="Find all the ingredients for Jar Airlock"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceScrapPolymers" value="100" phase="1"/>
-        </quest>
+		
         <quest id="item_joel's_breakfast_1">
             <property name="name" value="Joel's Breakfast"/>
             <property name="subtitle" value="Ingredients"/>
@@ -2386,20 +2287,7 @@
             <objective type="FetchKeep" id="Ground Oregano" value="2" phase="1"/>
             <objective type="FetchKeep" id="Salt" value="1" phase="1"/>
         </quest>
-        <quest id="item_masher_1">
-            <property name="name" value="Masher"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Masher"/>
-            <property name="description" value="Find all the ingredients for Masher"/>
-            <property name="offer" value="Find all the ingredients for Masher"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceForgedIron" value="20" phase="1"/>
-            <objective type="FetchKeep" id="resourceMechanicalParts" value="10" phase="1"/>
-        </quest>
+		
         <quest id="item_meat_grinder_1">
             <property name="name" value="Meat Grinder"/>
             <property name="subtitle" value="Ingredients"/>
@@ -3909,19 +3797,7 @@
             <objective type="FetchKeep" id="Corn Husk" value="1" phase="1"/>
             <objective type="FetchKeep" id="drinkJarBoiledWater" value="1" phase="1"/>
         </quest>
-        <quest id="item_steeping_tun_1">
-            <property name="name" value="Steeping Tun"/>
-            <property name="subtitle" value="Forge"/>
-            <property name="group_name" value="Steeping Tun"/>
-            <property name="description" value="Use a forge to craft the Steeping Tun."/>
-            <property name="offer" value="Use a forge to craft the Steeping Tun."/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="Craft" id="Steeping Tun" value="1" phase="1"/>
-        </quest>
+		
         <quest id="item_still_1">
             <property name="name" value="Still"/>
             <property name="subtitle" value="Forge"/>
@@ -4243,20 +4119,7 @@
             <property name="shareable" value="false"/>
             <objective type="FetchKeep" id="Filtered White Zin" value="1" phase="1"/>
         </quest>
-        <quest id="item_wine_filter_1">
-            <property name="name" value="Wine Filter"/>
-            <property name="subtitle" value="Ingredients"/>
-            <property name="group_name" value="Wine Filter"/>
-            <property name="description" value="Find all the ingredients for Wine Filter"/>
-            <property name="offer" value="Find all the ingredients for Wine Filter"/>
-            <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
-            <property name="category_key" value="quest"/>
-            <property name="difficulty" value="easy"/>
-            <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="resourceMechanicalParts" value="10" phase="1"/>
-            <objective type="FetchKeep" id="resourceScrapPolymers" value="100" phase="1"/>
-        </quest>
+		
         <quest id="item_wine_tank_1">
             <property name="name" value="Wine Tank"/>
             <property name="subtitle" value="Ingredients"/>

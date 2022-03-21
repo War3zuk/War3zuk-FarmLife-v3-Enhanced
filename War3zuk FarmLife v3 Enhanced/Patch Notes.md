@@ -1,5 +1,30 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.07
+
+Edited KitchnAid (Simplified Addons)
+Removed Food Processor Item/Recipe
+Removed Ice Cream Bowl Item/Recipe
+
+Edited BrewCooker (Simplified Addons)
+Removed Masher Item/Recipe
+Removed Barrel Roaster Item/Recipe
+
+Edited Brew Station (Simplified Addons)
+Removed Steeping Tun Item/Recipe
+Removed Carboy Item/Recipe
+Removed Aged Barrell Item/Recipe
+Removed Bottle Capper Item/Recipe
+Removed Wine Filter Item/Recipe
+Removed Charred Barrel Item/Recipe
+
+Edited Fermentor Bench (Simplified Addons)
+Removed Jar Airlock Item/Recipe
+
+Removed Old Quests From Removed Addons
+Cleaned Old Recipe Code
+Cleaned Old Item Code
+
 Version 1.06
 
 Fixed Wood Planks Harvesting

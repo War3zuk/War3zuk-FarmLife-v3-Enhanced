@@ -203,27 +203,27 @@
 								Drinks
 		===============================================================
 		-->
-		 <recipe name="Aged Bourbon" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Charred Barrel">
+		 <recipe name="Aged Bourbon" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Oak Barrel">
             <ingredient name="Distilled Bourbon" count="1"/>
-            <ingredient name="Charred Barrel" count="1"/>
+            <ingredient name="Oak Barrel" count="1"/>
         </recipe>
 		
-        <recipe name="Aged Bulleeet" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Charred Barrel">
+        <recipe name="Aged Bulleeet" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Oak Barrel">
             <ingredient name="Distilled Bulleeet" count="1"/>
-            <ingredient name="Charred Barrel" count="1"/>
+            <ingredient name="Oak Barrel" count="1"/>
         </recipe>        
 		
         <recipe name="Aged Double IPA" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Oak Barrel">
             <ingredient name="Double IPA Raw" count="1"/>
         </recipe>
 		
-        <recipe name="Aged Port Wine" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Aged Barrel">
+        <recipe name="Aged Port Wine" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Spirits Vat">
             <ingredient name="Filtered Merlot" count="1"/>
         </recipe>
 		
-        <recipe name="Aged Scotch" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Aged Barrel">
+        <recipe name="Aged Scotch" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Spirits Vat">
             <ingredient name="Distilled Scotch" count="1"/>
-            <ingredient name="Aged Barrel" count="1"/>
+            <ingredient name="Oak Barrel" count="1"/>
             <ingredient name="Air of Scotland" count="5"/>
         </recipe>       
 		
@@ -242,16 +242,16 @@
             <ingredient name="Spouted Barley" count="50"/>
         </recipe>        
 		
-        <recipe name="Beer Cheap" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Bottle Capper">
+        <recipe name="Beer Cheap" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Floor Corker">
             <ingredient name="Beer Cheap Raw" count="1"/>
         </recipe>
 		
-        <recipe name="Beer Cheap Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Beer Cheap Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Light Malt" count="25"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Beer Cheap Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Carboy">
+        <recipe name="Beer Cheap Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Beer Cheap Wort" count="1"/>
         </recipe>
 		
@@ -259,21 +259,21 @@
             <ingredient name="Beer Cheap Mash" count="1"/>
         </recipe>
 		
-        <recipe name="Beer Double IPA" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Bottle Capper">
+        <recipe name="Beer Double IPA" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Floor Corker">
             <ingredient name="Aged Double IPA" count="1"/>
             <ingredient name="Bottle Cap" count="5"/>
         </recipe>
 		
-        <recipe name="Beer IPA" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Bottle Capper">
+        <recipe name="Beer IPA" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Floor Corker">
             <ingredient name="Beer IPA Raw" count="1"/>
         </recipe>
 		
-        <recipe name="Beer IPA Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Beer IPA Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Golden Malt" count="25"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Beer IPA Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Carboy">
+        <recipe name="Beer IPA Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Beer IPA Wort" count="1"/>
         </recipe>
 		
@@ -283,16 +283,16 @@
             <ingredient name="Floral Hops" count="15"/>
         </recipe>
 		
-        <recipe name="Beer Lager" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Bottle Capper">
+        <recipe name="Beer Lager" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Floor Corker">
             <ingredient name="Beer Lager Raw" count="1"/>
         </recipe>
 		
-        <recipe name="Beer Lager Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Beer Lager Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Light Malt" count="25"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Beer Lager Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Carboy">
+        <recipe name="Beer Lager Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Beer Lager Wort" count="1"/>
         </recipe>
 		
@@ -301,16 +301,16 @@
             <ingredient name="Floral Hops" count="15"/>
         </recipe>
 		
-        <recipe name="Beer Stout" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Bottle Capper">
+        <recipe name="Beer Stout" count="15" craft_time="30" craft_area="Brew Station" craft_tool="Floor Corker">
             <ingredient name="Beer Stout Raw" count="1"/>
         </recipe>
 		
-        <recipe name="Beer Stout Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Beer Stout Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Dark Malt" count="25"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Beer Stout Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Carboy">
+        <recipe name="Beer Stout Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Beer Stout Wort" count="1"/>
         </recipe>
 		
@@ -324,7 +324,7 @@
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
 		
-        <recipe name="Bourbon Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Bourbon Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="foodCropCorn" count="21"/>
             <ingredient name="Rye Malt" count="14"/>
             <ingredient name="Barley Malt" count="5"/>
@@ -335,7 +335,7 @@
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Bulleeet Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Bulleeet Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Rye" count="39"/>
             <ingredient name="Barley Malt" count="1"/>
         </recipe>
@@ -381,12 +381,12 @@
             <ingredient name="Raw White Rum" count="1"/>
         </recipe>
 		
-        <recipe name="Double IPA Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Double IPA Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Golden Malt" count="50"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Double IPA Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Carboy">
+        <recipe name="Double IPA Raw" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Double IPA Wort" count="1"/>
         </recipe>
 		
@@ -403,23 +403,23 @@
 			<ingredient name="foodCropBlueberries" count="5"/>
 		</recipe>
 		
-		 <recipe name="Filtered Cabernet" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Filter">
+		 <recipe name="Filtered Cabernet" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Raw Cabernet" count="1"/>
         </recipe>
 		
-        <recipe name="Filtered Chardonne" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Filter">
+        <recipe name="Filtered Chardonne" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Raw Chardonne" count="1"/>
         </recipe>
 		
-        <recipe name="Filtered Merlot" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Filter">
+        <recipe name="Filtered Merlot" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Raw Merlot" count="1"/>
         </recipe>
 		
-        <recipe name="Filtered Pink Rose" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Filter">
+        <recipe name="Filtered Pink Rose" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Raw Pink Rose" count="1"/>
         </recipe>
 		
-        <recipe name="Filtered White Zin" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Filter">
+        <recipe name="Filtered White Zin" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Raw White Zin" count="1"/>
         </recipe>
 		
@@ -477,7 +477,7 @@
             <ingredient name="drinkJarEmpty" count="1"/>
         </recipe>
 		
-		<recipe name="Pina Colada" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+		<recipe name="Pina Colada" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Pineapple" count="2"/>
             <ingredient name="Coconut" count="2"/>
             <ingredient name="Cherry" count="1"/>
@@ -558,7 +558,7 @@
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
 		
-        <recipe name="Scotch Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Scotch Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Barley Malt" count="50"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
@@ -575,17 +575,17 @@
             <ingredient name="Steeped Sorghum" count="50"/>
         </recipe>
 		
-		<recipe name="Steeped Barley" count="50" craft_time="30" craft_area="Brew Station" craft_tool="Steeping Tun">
+		<recipe name="Steeped Barley" count="50" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Barley" count="50"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Steeped Rye" count="50" craft_time="30" craft_area="Brew Station" craft_tool="Steeping Tun">
+        <recipe name="Steeped Rye" count="50" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Rye" count="50"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Steeped Sorghum" count="50" craft_time="30" craft_area="Brew Station" craft_tool="Steeping Tun">
+        <recipe name="Steeped Sorghum" count="50" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">
             <ingredient name="Sorghum" count="50"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>				
@@ -601,7 +601,7 @@
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
 		
-        <recipe name="Vodka Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Vodka Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Barley Malt" count="5"/>
             <ingredient name="foodCropPotato" count="20"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
@@ -612,7 +612,7 @@
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
 		
-        <recipe name="Whiskey Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="Whiskey Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Barley Malt" count="4"/>
             <ingredient name="foodCropCorn" count="30"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
@@ -623,7 +623,7 @@
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
 		
-        <recipe name="White Rum Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Masher">
+        <recipe name="White Rum Mash" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Still">
             <ingredient name="Raw Sugar" count="25"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
@@ -1741,10 +1741,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="Making an Expert: Barrel Roaster" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Making an Expert: BBQ Elk Jerky" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -1833,10 +1830,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="The Basics: Bottle Capper" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Bourbon by stasis78" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -1869,10 +1863,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="Carboy - Ancient Arts" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Guide To: Cast Iron Skillet" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -1885,10 +1876,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="Charred Barrel 1-2-3s" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Making an Expert: Cheddar" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -2053,10 +2041,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="Making an Expert: Food Processor" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Fried Eggs 1-2-3s" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -2145,14 +2130,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="The BEST Ice Cream Bowl ever!" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
-        <recipe name="Jar Airlock - Ancient Arts" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Joel's Breakfast - YOU Can Too" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -2185,10 +2163,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="Masher JUST DO IT!" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Best Approaches: Meat Grinder" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -2597,10 +2572,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="Steeping Tun For Dumbfucks" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Even Idiots Can Make: Still" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -2681,10 +2653,7 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
-        <recipe name="The BEST Wine Filter ever!" count="1" craft_area="Farm Table">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+		
         <recipe name="Best Approaches: Wine Tank" count="1" craft_area="Farm Table">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -2881,10 +2850,6 @@
 						WORKSTATION TOOLS
 		==========================================================
 		-->
-		<recipe name="Aged Barrel" count="1" craft_time="30" craft_area="Farm Table" tags="perkFarmLife,FarmLifeCrafting">
-            <ingredient name="Oak Barrel" count="1"/>
-            <ingredient name="drinkJarBeer" count="10"/>
-        </recipe>
 		
 		<recipe name="Aging Shelves" count="1" craft_time="30" craft_area="workbench">
             <ingredient name="Walnut Wood Plank" count="10"/>
@@ -2897,23 +2862,8 @@
             <ingredient name="unit_clay" count="10"/>
         </recipe>
 		
-		<recipe name="Barrel Roaster" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceForgedIron" count="20"/>
-            <ingredient name="resourceScrapIron" count="100"/>
-        </recipe>
-		
 		<recipe name="Boiler" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
-            <ingredient name="unit_clay" count="100"/>
-        </recipe>
-		
-		<recipe name="Bottle Capper" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceForgedIron" count="20"/>
-            <ingredient name="resourceMechanicalParts" count="10"/>
-        </recipe>
-		
-		<recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
-            <ingredient name="unit_glass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
@@ -2925,10 +2875,6 @@
 		<recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
-        </recipe>
-		
-		<recipe name="Charred Barrel" count="1" craft_time="30" craft_area="Brew Cooker" craft_tool="Barrel Roaster">
-            <ingredient name="Oak Barrel" count="1"/>
         </recipe>
 		
 		<recipe name="Cheese Press" count="1" craft_time="30" craft_area="workbench">
@@ -2969,35 +2915,15 @@
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
-		<recipe name="Food Processor" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceScrapPolymers" count="100"/>
-            <ingredient name="resourceMechanicalParts" count="10"/>
-            <ingredient name="resourceForgedSteel" count="10"/>
-        </recipe>
-		
 		<recipe name="Grain Miller" count="1" craft_time="30" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="4"/>
             <ingredient name="resourceMechanicalParts" count="4"/>
             <ingredient name="resourceScrapPolymers" count="4"/>
         </recipe>
 		
-		<recipe name="Ice Cream Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" >
-            <ingredient name="unit_iron" count="100"/>
-            <ingredient name="unit_clay" count="10"/>
-        </recipe>
-		
-		<recipe name="Jar Airlock" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceScrapPolymers" count="100"/>
-        </recipe>
-		
 		<recipe name="Malting Trays" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
-        </recipe>
-		
-		<recipe name="Masher" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceForgedIron" count="20"/>
-            <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
 		<recipe name="Meat Grinder" count="1" craft_time="30" craft_area="workbench">
@@ -3077,11 +3003,6 @@
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
-		<recipe name="Steeping Tun" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
-            <ingredient name="unit_iron" count="1000"/>
-            <ingredient name="unit_clay" count="100"/>
-        </recipe>
-		
 		<recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" >
             <ingredient name="unit_brass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
@@ -3105,11 +3026,6 @@
 		
 		<recipe name="Walnut Shelve" count="1" craft_time="30" craft_area="Farm Table"> <!-- Changed from Table Saw -->
             <ingredient name="Walnut Wood Plank" count="5"/>
-        </recipe>
-		
-		<recipe name="Wine Filter" count="1" craft_time="30" craft_area="workbench">
-            <ingredient name="resourceScrapPolymers" count="100"/>
-            <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
         <recipe name="Wine Tank" count="1" craft_time="30" craft_area="workbench">
@@ -3334,7 +3250,7 @@
             <ingredient name="Black Pepper Tin" count="1"/>
         </recipe>
 		
-        <recipe name="Blueberry Ice Cream" count="10" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+        <recipe name="Blueberry Ice Cream" count="10" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Milk" count="10"/>
             <ingredient name="foodCropBlueberries" count="10"/>
             <ingredient name="Raw Sugar" count="5"/>
@@ -3422,7 +3338,7 @@
             <ingredient name="Salt" count="1"/>
         </recipe>
 		
-        <recipe name="Breadcrumbs" count="20" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Breadcrumbs" count="20" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Breadcrumbs Step 1" count="1"/>
         </recipe>
 		
@@ -3523,7 +3439,7 @@
             <ingredient name="Cheddar" count="1"/>
         </recipe>
 		
-        <recipe name="Cherry Ice Cream" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+        <recipe name="Cherry Ice Cream" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Milk" count="10"/>
             <ingredient name="Cherry" count="10"/>
             <ingredient name="Raw Sugar" count="5"/>
@@ -3568,7 +3484,7 @@
             <ingredient name="Pulled Chicken" count="5"/>
         </recipe>
 		
-        <recipe name="Chicken Tamale Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Chicken Tamale Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Tomatillo" count="5"/>
             <ingredient name="Jalapeno Pepper" count="2"/>
             <ingredient name="Cilantro" count="5"/>
@@ -3615,7 +3531,7 @@
             <ingredient name="Aged Wheat Flour" count="1"/>
         </recipe>
 		
-        <recipe name="Chilled Cucumber Step 1" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Chilled Cucumber Step 1" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Grated Cucumber" count="5"/>
             <ingredient name="Meyer Lemon" count="1"/>
             <ingredient name="Diced Mint" count="5"/>
@@ -3644,11 +3560,11 @@
             <ingredient name="Romaine" count="3"/>
         </recipe>
 		
-        <recipe name="Chopped Walnuts" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Chopped Walnuts" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Walnut" count="3"/>
         </recipe>        
 		
-        <recipe name="Coconut Ice Cream" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+        <recipe name="Coconut Ice Cream" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Milk" count="10"/>
             <ingredient name="Coconut" count="10"/>
             <ingredient name="Raw Sugar" count="5"/>
@@ -3776,11 +3692,11 @@
             <ingredient name="Celery" count="5"/>
         </recipe>
 		
-        <recipe name="Diced Cilantro" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Diced Cilantro" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Cilantro" count="3"/>
         </recipe>
 		
-        <recipe name="Diced Dill" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Diced Dill" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Dill" count="3"/>
         </recipe>
 		
@@ -3796,7 +3712,7 @@
             <ingredient name="Mint" count="3"/>
         </recipe>
 		
-        <recipe name="Diced Mint" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Diced Mint" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Mint" count="3"/>
         </recipe>
 		
@@ -4105,7 +4021,7 @@
         <recipe name="Guacamole Step 1" count="1" craft_time="30" craft_area="Chopping Board" craft_tool="Damascus Knife">
             <ingredient name="Sliced Avocado" count="15"/>
         </recipe>
-        <recipe name="Guacamole Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Guacamole Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Guacamole Step 1" count="1"/>
             <ingredient name="Diced Cilantro" count="2"/>
             <ingredient name="Diced Tomatos" count="2"/>
@@ -4286,10 +4202,10 @@
             <ingredient name="Refried Beans" count="3"/>
             <ingredient name="Spanish Rice" count="3"/>
         </recipe>        
-        <recipe name="Minced Garlic" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Minced Garlic" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Garlic" count="3"/>
         </recipe>
-        <recipe name="Minced Onion" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Minced Onion" count="5" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Onion" count="3"/>
         </recipe>
         <recipe name="Miso Paste" count="10" craft_time="30" craft_area="Fermentor Bench" craft_tool="Clay Pot">
@@ -4316,7 +4232,7 @@
             <ingredient name="Salt and Pepper" count="1"/>
             <ingredient name="Olive Oil" count="1"/>
         </recipe>
-        <recipe name="Mixed Herbs" count="3" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Mixed Herbs" count="3" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Basil" count="1"/>
             <ingredient name="Thyme" count="1"/>
             <ingredient name="Cilantro" count="1"/>
@@ -4438,7 +4354,7 @@
             <ingredient name="Cooking Vinegar" count="1"/>
             <ingredient name="Raw Sugar" count="3"/>
         </recipe>        
-        <recipe name="Plain Ice Cream" count="10" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+        <recipe name="Plain Ice Cream" count="10" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Milk" count="10"/>
             <ingredient name="Raw Sugar" count="5"/>
             <ingredient name="Salt" count="1"/>
@@ -4494,7 +4410,7 @@
             <ingredient name="Queso Fresco Step 2" count="1"/>
             <ingredient name="Cheese Cloth" count="1"/>
         </recipe>
-        <recipe name="Raspberry Ice Cream" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+        <recipe name="Raspberry Ice Cream" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Milk" count="10"/>
             <ingredient name="Raspberry" count="10"/>
             <ingredient name="Raw Sugar" count="5"/>
@@ -4852,7 +4768,7 @@
             <ingredient name="Minced Garlic" count="5"/>
             <ingredient name="Salt" count="2"/>
         </recipe>
-        <recipe name="Sriracha Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+        <recipe name="Sriracha Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Sriracha Step 1" count="1"/>
             <ingredient name="drinkJarRiverWater" count="1"/>
             <ingredient name="Raw Sugar" count="5"/>
@@ -4888,7 +4804,7 @@
             <ingredient name="Olive Oil" count="1"/>
             <ingredient name="Salt and Pepper" count="1"/>
         </recipe>
-        <recipe name="Strawberry Ice Cream" count="10" craft_time="30" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
+        <recipe name="Strawberry Ice Cream" count="10" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Milk" count="10"/>
             <ingredient name="Strawberry" count="10"/>
             <ingredient name="Raw Sugar" count="5"/>
@@ -5150,7 +5066,7 @@
 			<ingredient name="Wool" count="10"/>
 		</recipe>
 		
-		<recipe name="Mashed Potatoes" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+		<recipe name="Mashed Potatoes" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="foodCropPotato" count="4"/>
             <ingredient name="Fresh Butter" count="2"/>			
             <ingredient name="Salt and Pepper" count="1"/>
@@ -5179,21 +5095,21 @@
             <ingredient name="Aged Wheat Flour" count="1"/>
         </recipe>
 		
-		<recipe name="Turkey Diner" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+		<recipe name="Turkey Diner" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Whole Turkey" count="1"/>
             <ingredient name="Mashed Potatoes" count="1"/>
             <ingredient name="Biscuits and Gravy" count="1"/>
             <ingredient name="foodPumpkinPie" count="1"/>
         </recipe>
 		
-		<recipe name="Turkey Diner Stuffed Biscuits" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+		<recipe name="Turkey Diner Stuffed Biscuits" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Turkey Parts" count="1"/>
             <ingredient name="Biscuit" count="4"/>
             <ingredient name="Turkey Gravy" count="1"/>
             <ingredient name="foodPumpkinPie" count="1"/>
         </recipe>
 		
-		<recipe name="Turkey Club Sandwich" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Food Processor">
+		<recipe name="Turkey Club Sandwich" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Shaved Turkey" count="1"/>
             <ingredient name="Sliced Bread" count="2"/>
             <ingredient name="Turkey Gravy" count="1"/>
