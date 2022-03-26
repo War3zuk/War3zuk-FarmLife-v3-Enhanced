@@ -214,537 +214,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<drop event="Harvest" name="Raw Pork" count="40" tag="cropHarvest,butcherHarvest"/>
 			<property name="FilterTags" value="fother"/>
-		</block>	
-		<!-- STATIONARY ANIMALS -->       
-		<!-- ANGUS -->
-		<block name="Hungry Angus Pen" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Feeding Angus Pen 1"/>
-                <property name="Item" value="Animal Feed"/>
-                <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Angus Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryAngusPenPrefab"/>
-            <property name="DescriptionKey" value="farmLifeHungryAngusPenDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Feeding Angus Pen 1"/>
-			
-        </block>        
-		<block name="Feeding Angus Pen 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Angus Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="6"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingAngusPenPrefab"/>
-            <property name="UpgradeRated.ToBlock" value="Full Angus Pen"/>
-        </block>
-        <block name="Full Angus Pen" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>			
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>            
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullAngusPenPrefab"/>
-            <property name="DowngradeBlock" value="Hungry Angus Pen"/>            
-            <drop event="Harvest" name="Delmontico" count="2,4" tag="cropHarvest"/>
-            <drop event="Harvest" name="Rump Roast" count="2,4" tag="cropHarvest"/>
-            <drop event="Harvest" name="Porterhouse" count="2,4" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceAnimalFat" count="2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceBone" count="2" tag="cropHarvest"/>
-        </block>
-		 <!-- CHICKEN -->
-		<block name="Hungry Chicken Pen" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Feeding Chicken Pen 1"/>
-                <property name="Item" value="Animal Feed"/>
-                <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="3,1,3"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Chicken Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryChickenCoop"/>
-            <property name="DescriptionKey" value="farmLifeHungryChickenCoopDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Feeding Chicken Pen 1"/>
-			
-        </block>
-        <block name="Feeding Chicken Pen 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="3,1,3"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Chicken Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingChickenCoop"/>
-            <property name="UpgradeRated.ToBlock" value="Full Chicken Pen"/>
-        </block>
-        <block name="Full Chicken Pen" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="3,1,3"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>        
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>            
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullChickenCoop"/>
-            <property name="DowngradeBlock" value="Hungry Chicken Pen"/>
-			<drop event="Harvest" name="Raw Chicken" count="10" tag="wildCropsHarvest"/>
-            <drop event="Harvest" name="Chicken Breast" count="5" tag="cropHarvest"/>
-            <drop event="Harvest" name="Chicken Wing" count="5" tag="cropHarvest"/>
-            <drop event="Harvest" name="Whole Chicken" count="2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceFeather" count="10,20" tag="cropHarvest"/>
-            <drop event="Harvest" name="foodEgg" count="10,20" tag="cropHarvest"/>
-        </block>
-        <!-- ELK -->
-		<block name="Hungry Elk Pen" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>			
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Feeding Elk Pen 1"/>
-                <property name="Item" value="Animal Feed"/>
-                <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Elk Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryElkPenPrefab"/>
-            <property name="DescriptionKey" value="farmLifeHungryElkPenDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Feeding Elk Pen 1"/>
-			
-        </block>
-        <block name="Feeding Elk Pen 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Elk Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingElkPenPrefab"/>
-            <property name="UpgradeRated.ToBlock" value="Full Elk Pen"/>
-        </block>
-        <block name="Full Elk Pen" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>        
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullElkPenPrefab"/>
-            <property name="DowngradeBlock" value="Hungry Elk Pen"/>
-            <drop event="Harvest" name="Elk Scraps" count="20,40" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceLeather" count="5,10" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
-        </block>
-		<!-- HOLSTEIN -->
-        <block name="Hungry Holstein Pen" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Feeding Holstein Pen 1"/>
-                <property name="Item" value="Animal Feed"/>
-                <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Holstein Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryHolsteinPenPrefab"/>
-            <property name="DescriptionKey" value="farmLifeHungryHolsteinPenDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Feeding Holstein Pen 1"/>
-			
-        </block>
-        <block name="Feeding Holstein Pen 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Holstein Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingHolsteinPenPrefab"/>
-            <property name="UpgradeRated.ToBlock" value="Full Holstein Pen"/>
-        </block>
-        <block name="Full Holstein Pen" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullHolsteinPenPrefab"/>
-            <property name="DowngradeBlock" value="Hungry Holstein Pen"/>
-            <drop event="Harvest" name="Raw Milk" count="2,8" tag="cropHarvest"/>
-        </block>
-		<!-- PIG -->
-        <block name="Hungry Pig Pen" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Feeding Pig Pen 1"/>
-                <property name="Item" value="Animal Feed"/>
-                <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Pig Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryPigPenPrefab"/>
-            <property name="DescriptionKey" value="farmLifeHungryPigPenDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Feeding Pig Pen 1"/>
-			
-        </block>
-        <block name="Feeding Pig Pen 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Pig Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingPigPenPrefab"/>
-            <property name="UpgradeRated.ToBlock" value="Full Pig Pen"/>
-        </block>
-        <block name="Full Pig Pen" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullPigPenPrefab"/>
-            <property name="DowngradeBlock" value="Hungry Pig Pen"/>
-            <drop event="Harvest" name="Pork Belly" count="2,4" tag="cropHarvest"/>
-            <drop event="Harvest" name="Ham" count="2,4" tag="cropHarvest"/>
-            <drop event="Harvest" name="Pork Ribs" count="2,4" tag="cropHarvest"/>
-            <drop event="Harvest" name="Pork Fat" count="1,2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
-        </block>
-		<!-- SALMON -->
-		<block name="Salmon Pond" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Spawning Salmon Pond 1"/>
-                <property name="Item" value="Fish Pellets"/>
-                <property name="ItemCount" value="5"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="5,1,5"/>
-			<property name="ModelOffset" value="0,0.5,0"/>
-            <property name="Material" value="Mconcrete"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Salmon Pond"/>
-            <property class="RepairItems">
-                <property name="resourceConcreteMix" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?SalmonPoolPrefab"/>
-            <property name="DescriptionKey" value="farmLifeSalmonPondDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Spawning Salmon Pond 1"/>
-			
-        </block>
-        <block name="Spawning Salmon Pond 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="5,1,5"/>
-			<property name="ModelOffset" value="0,0.5,0"/>
-            <property name="Material" value="Mconcrete"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Salmon Pond"/>
-            <property class="RepairItems">
-                <property name="resourceConcreteMix" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?SpawningSalmonPoolPrefab"/>
-            <property name="UpgradeRated.ToBlock" value="Full Salmon Pond"/>
-        </block>
-        <block name="Full Salmon Pond" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="5,1,5"/>
-			<property name="ModelOffset" value="0,0.5,0"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?FullSalmonPoolPrefab"/>
-            <property name="DowngradeBlock" value="Salmon Pond"/>
-            <drop event="Harvest" name="Whole Salmon" count="4" tag="cropHarvest"/>
-            <drop event="Harvest" name="Salmon Roe" count="2" tag="cropHarvest"/>
-            <drop event="Harvest" name="Seaweed" count="1" tag="cropHarvest"/>
-        </block>
-		<!-- VEAL -->
-		<block name="Hungry Veal Pen" farmLifeGrowing="true">
-            <property name="CreativeMode" value="Player"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources,Breeding,All"/>
-            <property name="FilterTags" value="fother"/>
-            <property class="UpgradeBlock">
-                <property name="ToBlock" value="Feeding Veal Pen 1"/>
-                <property name="Item" value="Animal Feed"/>
-                <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="4"/>
-            </property>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Veal Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryVealPenPrefab"/>
-            <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
-            <property name="UpgradeRated.ToBlock" value="Feeding Veal Pen 1"/>
-			
-        </block>
-        <block name="Feeding Veal Pen 1" farmLifeGrowing="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Miron_scrap"/>
-            <property name="MaxDamage" value="2000"/>
-            <property name="Class" value="UpgradeRated"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="1" name="Hungry Veal Pen"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="10"/>
-            </property>
-            <property name="UpgradeRated.Rate" value="60"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingVealPenPrefab"/>
-            <property name="UpgradeRated.ToBlock" value="Full Veal Pen"/>
-        </block>
-        <block name="Full Veal Pen" farmLifeGrown="true">
-            <property name="CreativeMode" value="None"/>
-            <property name="DisplayInfo" value="Name"/>
-			<property name="CustomIcon" value="missingImageFile" />
-            <property name="Group" value="Resources"/>
-            <property name="FilterTags" value="fother"/>
-            <property name="DisplayType" value="blockMulti"/>
-            <property name="MultiBlockDim" value="4,1,4"/>
-			<property name="ModelOffset" value="0.5,0.5,0.5"/>
-            <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullVealPenPrefab"/>
-            <property name="DowngradeBlock" value="Hungry Veal Pen"/>
-            <drop event="Harvest" name="Veal" count="2,8" tag="cropHarvest"/>
-            <drop event="Harvest" name="Calf Stomache" count="1,2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceAnimalFat" count="1,5" tag="cropHarvest"/>
-        </block>
-		
+		</block>
 		<!-- TESTING -->
 		<!-- TURKEY -->
 		<block name="Fertile Turkey Egg">
@@ -5657,6 +5127,572 @@
 	<property name="Collide" value="movement,melee"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
+</block>
+
+		<!-- STATIONARY ANIMALS -->       
+		<!-- ANGUS -->
+
+<block name="Baby Chicken">
+	<property name="CustomIcon" value="Hungry Chicken Pen"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="3,1,3"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryChickenCoop"/>
+    <property name="DescriptionKey" value="farmLifeHungryChickenCoopDesc"/>			
+	<property name="PlantGrowing.Next" value="Maturing Chicken"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>		
+		
+<block name="Maturing Chicken">
+	<property name="CustomIcon" value="Hungry Angus Pen"/>
+	<property name="Extends" value="Baby Chicken"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="3,1,3"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingChickenCoop"/>
+	<property name="PlantGrowing.Next" value="Adult Chicken"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Chicken">
+	<property name="CustomIcon" value="Hungry Angus Pen"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="3,1,3"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullChickenCoop"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="Raw Chicken" count="4" tag="wildCropsHarvest"/>
+    <drop event="Harvest" name="Chicken Breast" count="2" tag="cropHarvest"/>
+    <drop event="Harvest" name="Chicken Wing" count="2" tag="cropHarvest"/>
+    <drop event="Harvest" name="Whole Chicken" count="1" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceFeather" count="4,8" tag="cropHarvest"/>
+    <drop event="Harvest" name="foodEgg" count="2,4" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Chicken"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Baby Pig">
+	<property name="CustomIcon" value="Hungry Pig Pen"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryPigPenPrefab"/>
+    <property name="DescriptionKey" value="farmLifeHungryPigPenDesc"/>
+	<property name="PlantGrowing.Next" value="Maturing Elk"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>
+
+<block name="Maturing Pig">
+	<property name="CustomIcon" value="Hungry Pig Pen"/>
+	<property name="Extends" value="Baby Pig"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingPigPenPrefab"/>
+	<property name="PlantGrowing.Next" value="Adult Pig"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Pig">
+	<property name="CustomIcon" value="Hungry Pig Pen"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullPigPenPrefab"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+    <drop event="Harvest" name="Pork Belly" count="2,4" tag="cropHarvest"/>
+    <drop event="Harvest" name="Ham" count="2,4" tag="cropHarvest"/>
+    <drop event="Harvest" name="Pork Ribs" count="2,4" tag="cropHarvest"/>
+    <drop event="Harvest" name="Pork Fat" count="2,4" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Pig"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Baby Angus">
+	<property name="CustomIcon" value="Hungry Angus Pen"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryAngusPenPrefab"/>
+    <property name="DescriptionKey" value="farmLifeHungryAngusPenDesc"/>			
+	<property name="PlantGrowing.Next" value="Maturing Angus"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>
+
+<block name="Maturing Angus">
+	<property name="CustomIcon" value="Hungry Angus Pen"/>
+	<property name="Extends" value="Baby Angus"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingAngusPenPrefab"/>
+	<property name="PlantGrowing.Next" value="Adult Angus"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Angus">
+	<property name="CustomIcon" value="Hungry Angus Pen"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullAngusPenPrefab"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+    <drop event="Harvest" name="Delmontico" count="1,2" tag="cropHarvest"/>
+    <drop event="Harvest" name="Rump Roast" count="1,2" tag="cropHarvest"/>
+    <drop event="Harvest" name="Porterhouse" count="1,2" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceBone" count="2,4" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Angus"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Baby Holstein">
+	<property name="CustomIcon" value="Hungry Holstein Pen"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryHolsteinPenPrefab"/>
+    <property name="DescriptionKey" value="farmLifeHungryHolsteinPenDesc"/>			
+	<property name="PlantGrowing.Next" value="Maturing Holstein"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>
+
+<block name="Maturing Holstein">
+	<property name="CustomIcon" value="Hungry Holstein Pen"/>
+	<property name="Extends" value="Baby Angus"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingHolsteinPenPrefab"/>
+	<property name="PlantGrowing.Next" value="Adult Holstein"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Holstein">
+	<property name="CustomIcon" value="Hungry Holstein Pen"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullHolsteinPenPrefab"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+    <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceBone" count="2,4" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Holstein"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Baby Elk">
+	<property name="CustomIcon" value="Hungry Elk Pen"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryElkPenPrefab"/>
+    <property name="DescriptionKey" value="farmLifeHungryElkPenDesc"/>
+	<property name="PlantGrowing.Next" value="Maturing Elk"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>
+
+<block name="Maturing Elk">
+	<property name="CustomIcon" value="Hungry Elk Pen"/>
+	<property name="Extends" value="Baby Elk"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingElkPenPrefab"/>
+	<property name="PlantGrowing.Next" value="Adult Elk"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Elk">
+	<property name="CustomIcon" value="Hungry Elk Pen"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullElkPenPrefab"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+    <drop event="Harvest" name="Elk Scraps" count="10,20" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceLeather" count="4,8" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Elk"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Baby Veal Calve">
+	<property name="CustomIcon" value="Hungry Veal Pen"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryVealPenPrefab"/>
+    <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
+	<property name="PlantGrowing.Next" value="Maturing Veal Calve"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>
+
+<block name="Maturing Veal Calve">
+	<property name="CustomIcon" value="Hungry Veal Pen"/>
+	<property name="Extends" value="Baby Veal Calve"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingVealPenPrefab"/>
+	<property name="PlantGrowing.Next" value="Adult Veal Calve"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Veal Calve">
+	<property name="CustomIcon" value="Hungry Veal Pen"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="4,1,4"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullVealPenPrefab"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+    <drop event="Harvest" name="Veal" count="4,8" tag="cropHarvest"/>
+    <drop event="Harvest" name="Calf Stomache" count="1" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
+    <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Veal Calve"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Baby Salmon Pond">
+	<property name="CustomIcon" value="Salmon Pond"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="5,1,5"/>
+	<property name="ModelOffset" value="0,0.5,0"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?SalmonPoolPrefab"/>
+    <property name="DescriptionKey" value="farmLifeSalmonPondDesc"/>
+	<property name="PlantGrowing.Next" value="Maturing Salmon Pond"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0" />
+</block>
+
+<block name="Maturing Salmon Pond">
+	<property name="CustomIcon" value="Salmon Pond"/>
+	<property name="Extends" value="Baby Salmon Pond"/>
+	<property name="Class" value="PlantGrowing"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="5,1,5"/>
+	<property name="ModelOffset" value="0,0.5,0"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?SpawningSalmonPoolPrefab"/>
+	<property name="PlantGrowing.Next" value="Adult Salmon Pond"/>
+	<property name="PlantGrowing.GrowthRate" value="2"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+	<drop event="Destroy" count="0"/>
+</block>
+
+<block name="Adult Salmon Pond">
+	<property name="CustomIcon" value="Salmon Pond"/>
+    <property name="CreativeMode" value="Dev"/>
+    <property name="DisplayInfo" value="Name"/>
+    <property name="Group" value="Resources,Breeding,All"/>
+    <property name="FilterTags" value="fother"/>
+    <property name="DisplayType" value="blockMulti"/>
+    <property name="MultiBlockDim" value="5,1,5"/>
+	<property name="ModelOffset" value="0,0.5,0"/>
+    <property name="Material" value="Morganic"/>
+    <property name="MaxDamage" value="750"/>
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?FullSalmonPoolPrefab"/>
+	<property class="RepairItems">
+		<property name="Animal Feed" value="2"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
+    <drop event="Harvest" name="Whole Salmon" count="4" tag="cropHarvest"/>
+    <drop event="Harvest" name="Salmon Roe" count="4" tag="cropHarvest"/>
+    <drop event="Harvest" name="Seaweed" count="4" tag="cropHarvest"/>
+	<property name="DowngradeBlock" value="Baby Salmon Pond"/>
+	<drop event="Destroy" count="0"/>
 </block>
 
 </append>

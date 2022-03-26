@@ -1,5 +1,25 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.08
+
+Removed Old Quests
+Removed Old Code Quests/Items
+Updated Recipes/Resources Required
+Rebuilt Code Hungry Chicken Pen
+Rebuilt Code Hungry Pig Pen
+Rebuilt Code Hungry Angus Pen
+Rebuilt Code Hungry Holstein Pen
+Rebuilt Code Hungry Elk Pen
+Rebuilt Code Hungry Veal Pen
+Rebuilt Code Salmon Pond
+Rebuilt Recipe Hungry Chicken Pen
+Rebuilt Recipe Hungry Pig Pen
+Rebuilt Recipe Hungry Angus Pen
+Rebuilt Recipe Hungry Holstein Pen
+Rebuilt Recipe Hungry Elk Pen
+Rebuilt Recipe Hungry Veal Pen
+Rebuilt Recipe Salmon Pond
+
 Version 1.07
 
 Edited KitchnAid (Simplified Addons)
