@@ -397,7 +397,7 @@
             <ingredient name="Filtered Merlot" count="1"/>
         </recipe>
 		
-		<recipe name="Milk" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+		<recipe name="Milk" count="10" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Raw Milk" count="1"/>
         </recipe>
 		

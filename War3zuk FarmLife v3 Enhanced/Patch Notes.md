@@ -2,6 +2,7 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.09
 
+Fixed Milk Recipe Area
 Removed BeeHive (Un-used Model)
 Removed BeeHive HoneyComb (Not Needed)
 Removed BeeHive Honey (Not Needed)
