@@ -5148,7 +5148,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryChickenCoop"/>
     <property name="DescriptionKey" value="farmLifeHungryChickenCoopDesc"/>			
 	<property name="PlantGrowing.Next" value="Maturing Chicken"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5174,7 +5174,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingChickenCoop"/>
 	<property name="PlantGrowing.Next" value="Adult Chicken"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5228,7 +5228,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryPigPenPrefab"/>
     <property name="DescriptionKey" value="farmLifeHungryPigPenDesc"/>
 	<property name="PlantGrowing.Next" value="Maturing Elk"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5255,7 +5255,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingPigPenPrefab"/>
 	<property name="PlantGrowing.Next" value="Adult Pig"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5310,7 +5310,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryAngusPenPrefab"/>
     <property name="DescriptionKey" value="farmLifeHungryAngusPenDesc"/>			
 	<property name="PlantGrowing.Next" value="Maturing Angus"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5337,7 +5337,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingAngusPenPrefab"/>
 	<property name="PlantGrowing.Next" value="Adult Angus"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5392,7 +5392,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryHolsteinPenPrefab"/>
     <property name="DescriptionKey" value="farmLifeHungryHolsteinPenDesc"/>			
 	<property name="PlantGrowing.Next" value="Maturing Holstein"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5419,7 +5419,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingHolsteinPenPrefab"/>
 	<property name="PlantGrowing.Next" value="Adult Holstein"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5471,7 +5471,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryElkPenPrefab"/>
     <property name="DescriptionKey" value="farmLifeHungryElkPenDesc"/>
 	<property name="PlantGrowing.Next" value="Maturing Elk"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5498,7 +5498,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingElkPenPrefab"/>
 	<property name="PlantGrowing.Next" value="Adult Elk"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5551,7 +5551,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryVealPenPrefab"/>
     <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
 	<property name="PlantGrowing.Next" value="Maturing Veal Calve"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5578,7 +5578,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FeedingVealPenPrefab"/>
 	<property name="PlantGrowing.Next" value="Adult Veal Calve"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5632,7 +5632,7 @@
     <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?SalmonPoolPrefab"/>
     <property name="DescriptionKey" value="farmLifeSalmonPondDesc"/>
 	<property name="PlantGrowing.Next" value="Maturing Salmon Pond"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
@@ -5659,7 +5659,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?SpawningSalmonPoolPrefab"/>
 	<property name="PlantGrowing.Next" value="Adult Salmon Pond"/>
-	<property name="PlantGrowing.GrowthRate" value="2"/>
+	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property class="RepairItems">
