@@ -1613,13 +1613,6 @@
 
 		<!-- Animal Workstations -->
 		
-		<recipe name="Beehive" count="1" craft_time="30" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="Apple Wood Plank" count="20"/>
-			<ingredient name="resourceNail" count="40"/>
-			<ingredient name="Brass Hinge" count="2"/>
-			<ingredient name="cryogenicContainerBee" count="1"/>			
-		</recipe>
-		
 		<recipe name="Chicken" count="1" craft_time="300" craft_area="Farm Table" tags="learnable,perkFarmLife">
 			<ingredient name="resourceScrapIron" count="25"/>
 			<ingredient name="Animal Feed" count="60"/>
@@ -3925,14 +3918,6 @@
 		<recipe name="Horse" count="1" craft_time="900" craft_area="Farm Table" tags="learnable,perkFarmLife">
 			<ingredient name="hayBaleSquare" count="20"/>
 			<ingredient name="Animal Feed" count="60"/>
-		</recipe>
-		
-		<recipe name="foodHoney" count="20" craft_time="90" craft_area="Beehive" tags="learnable,perkFarmLife">
-			<ingredient name="Honeycomb" count="20"/>
-		</recipe>
-		
-		<recipe name="Honeycomb" count="20" craft_time="10" craft_area="Beehive">
-			<ingredient name="resourceCropChrysanthemumPlant" count="20"/>
 		</recipe>
 		
 		<recipe name="Brass Hinge" count="2" craft_time="30" craft_area="Farm Forge" craft_tool="toolAnvil" >

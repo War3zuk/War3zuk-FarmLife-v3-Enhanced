@@ -15185,24 +15185,9 @@
             <property name="Weight" value="5"/>            
             <property name="DescriptionKey" value="FLEHorseHideDesc"/>
         </item>
-
-		<item name="Honeycomb">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="DisplayType" value="food"/>
-            <property name="Group" value="All,Food/Cooking"/>
-            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-            <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="50000"/>
-            <property name="EconomicValue" value="4"/>
-            <property name="EconomicBundleSize" value="5"/>
-            <property name="CraftingIngredientTime" value="5"/>
-            <property name="Weight" value="5"/>            
-            <property name="DescriptionKey" value="FLEHoneycombDesc"/>
-			<property name="CustomIcon" value="Honey Comb" />
-        </item>
+		
 		<!-- NEEDS RECIPE -->
+		
 		<item name="Pheasant Egg">
 			<property name="HoldType" value="31"/>
 			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>

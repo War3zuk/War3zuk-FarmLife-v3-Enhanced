@@ -2,6 +2,10 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.09
 
+Removed BeeHive (Un-used Model)
+Removed BeeHive HoneyComb (Not Needed)
+Removed BeeHive Honey (Not Needed)
+Removed BeeHive Recipe (Not Needed)
 Fixed 25 Recipes For Skillet
 Reset Groth Timers From 2 Testing To (62)
 

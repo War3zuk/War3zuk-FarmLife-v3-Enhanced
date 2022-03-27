@@ -4436,44 +4436,6 @@
 		
 		
 		<!-- TESTING -->
-		<block name="Beehive">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Beehive.unity3d?Beehive" param1="main_mesh"/>
-			<property name="FilterTags" value="floot,ffurniture"/>
-			<property name="Path" value="solid"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,2,1"/>
-			<property name="ParticleOffset" value="0,-.5,0"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="Class" value="Workstation"/>
-			<property name="Material" value="MwoodReinforced"/>
-			<property name="MaxDamage" value="6000"/>
-			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>
-			<property name="Stacknumber" value="1"/>
-			
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="Beehive"/></property>
-			<property name="WorkstationIcon" value="ui_game_symbol_workbench" />
-			<property name="OpenSound" value="beeopen" />
-			<property name="CloseSound" value="beeclose" />
-			<property name="CraftSound" value="beecraft" />
-			<property name="CraftCompleteSound" value="beecomplete" />
-			<property name="WorkstationJournalTip" value="workbenchTip" />
-			<property class="RepairItems">
-				<property name="Animal Feed" value="5"/></property>
-			<property name="TakeDelay" value="15"/>
-			<property name="DescriptionKey" value="BeehiveDesc"/>
-			<property name="CustomIcon" value="beehive"/>
-			<property name="EconomicValue" value="776"/>
-			<property name="Group" value="Workbenches,All"/>
-			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
-		</block>
 		
 		<block name="Tractor">			
 			<property name="DescriptionKey" value="TractorDesc"/>
