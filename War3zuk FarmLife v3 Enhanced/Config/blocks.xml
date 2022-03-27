@@ -5129,8 +5129,7 @@
 	<drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
 </block>
 
-		<!-- STATIONARY ANIMALS -->       
-		<!-- ANGUS -->
+		<!-- STATIONARY ANIMALS -->
 
 <block name="Baby Chicken">
 	<property name="CustomIcon" value="Hungry Chicken Pen"/>
