@@ -3007,7 +3007,7 @@
 		<recipe name="Lamb Chop" count="10" craft_time="15" craft_area="Chopping Board">
 			<ingredient name="Raw Lamb" count="1"/>
 		</recipe>
-		<recipe name="Lamb with Charred Cherry Tomatoes" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="Wok">
+		<recipe name="Lamb with Charred Cherry Tomatoes" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="Wok">
             <ingredient name="Charred Cherry Tomatoes" count="2"/>
             <ingredient name="Lamb Chop" count="10"/>
 			<ingredient name="Rosemary" count="1"/>
@@ -3690,7 +3690,7 @@
             <ingredient name="Corn Husk" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>       
-        <recipe name="Stir Fry Vegetables" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="Wok">
+        <recipe name="Stir Fry Vegetables" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="Wok">
             <ingredient name="Carrot" count="1"/>
             <ingredient name="Broccoli" count="1"/>
             <ingredient name="Squash" count="1"/>
