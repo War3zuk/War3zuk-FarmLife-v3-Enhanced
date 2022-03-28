@@ -2047,7 +2047,7 @@
             <ingredient name="Ground Cinnamon" count="1"/>
         </recipe>
 		
-		<recipe name="Bechamel" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+		<recipe name="Bechamel" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Wheat Flour" count="1"/>
             <ingredient name="Milk" count="2"/>
             <ingredient name="Salt" count="1"/>
@@ -2105,7 +2105,7 @@
             <ingredient name="Salt and Pepper" count="1"/>
         </recipe>
 		
-        <recipe name="Beet Salad Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Beet Salad Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Sliced Beets" count="5"/>
             <ingredient name="Corn Husk" count="2"/>
             <ingredient name="Diced Onions" count="2"/>
@@ -2150,19 +2150,19 @@
             <ingredient name="Salt" count="1"/>
         </recipe>
 		
-        <recipe name="Boiled Egg Noodles" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Boiled Egg Noodles" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Egg Noodles" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
 		
-        <recipe name="Boiled Linguini" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Boiled Linguini" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Linguini" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
 		
-        <recipe name="Boiled Penne" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Boiled Penne" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Penne" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Salt" count="1"/>
@@ -2174,26 +2174,26 @@
             <ingredient name="Salt" count="1"/>
         </recipe>
 		
-        <recipe name="Boiled Spaghetti" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Boiled Spaghetti" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Spaghetti" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
         
-        <recipe name="Bolognese Dish" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Bolognese Dish" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Bolognese Sauce" count="1"/>
             <ingredient name="Boiled Penne" count="1"/>
             <ingredient name="Parmesan" count="1"/>
             <ingredient name="Butter" count="1"/>
         </recipe>
 		
-        <recipe name="Bolognese Sauce" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Bolognese Sauce" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Bolognese Sauce Step 3" count="1"/>
             <ingredient name="White Zin" count="1"/>
             <ingredient name="Crushed Tomato" count="1"/>
         </recipe>
 		
-        <recipe name="Bolognese Sauce Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Bolognese Sauce Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Olive Oil" count="1"/>
             <ingredient name="Butter" count="1"/>
             <ingredient name="Diced Onions" count="10"/>
@@ -2201,19 +2201,19 @@
             <ingredient name="Carrot" count="1"/>
         </recipe>
 		
-        <recipe name="Bolognese Sauce Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Bolognese Sauce Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Bolognese Sauce Step 1" count="1"/>
             <ingredient name="Ground Veal" count="5"/>
             <ingredient name="Salt and Pepper" count="1"/>
             <ingredient name="Ground Oregano" count="2"/>
         </recipe>
 		
-        <recipe name="Bolognese Sauce Step 3" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Bolognese Sauce Step 3" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Bolognese Sauce Step 2" count="1"/>
             <ingredient name="Milk" count="1"/>
         </recipe>
 		
-		 <recipe name="Bowl of Rice" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+		 <recipe name="Bowl of Rice" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Rice" count="2"/>
             <ingredient name="drinkJarRiverWater" count="2"/>
         </recipe>
@@ -2273,7 +2273,7 @@
             <ingredient name="Salt and Pepper" count="2"/>
         </recipe>
 		
-		<recipe name="Canned Olives" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+		<recipe name="Canned Olives" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Olive" count="10"/>
             <ingredient name="drinkCanEmpty" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
@@ -2359,12 +2359,12 @@
             <ingredient name="Shredded Lettuce" count="1"/>
         </recipe>
 		
-		<recipe name="Chicken Stock" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+		<recipe name="Chicken Stock" count="5" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Whole Chicken" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
 		
-        <recipe name="Chicken Tamale" count="20" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Chicken Tamale" count="20" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Chicken Tamale Step 5" count="1"/>
             <ingredient name="Dried Husk" count="20"/>
         </recipe>
@@ -2472,7 +2472,7 @@
             <ingredient name="Smoked Bacon" count="1"/>
         </recipe>
 		
-        <recipe name="Cooked Black Bean" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Cooked Black Bean" count="5" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Black Bean" count="5"/>
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
@@ -2485,12 +2485,12 @@
             <ingredient name="Cured Ham" count="1"/>
         </recipe>
 		
-        <recipe name="Cooked Kidney Bean" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Cooked Kidney Bean" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Kidney Bean" count="5"/>
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
 		
-        <recipe name="Cooked Pinto Bean" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Cooked Pinto Bean" count="5" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Pinto Bean" count="5"/>
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
@@ -2626,7 +2626,7 @@
 			<ingredient name="Dough" count="1"/>
 		</recipe>
 		
-        <recipe name="Egg Noodle Soup" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Egg Noodle Soup" count="5" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Egg Noodle Soup Step 1" count="1"/>
             <ingredient name="Boiled Egg Noodles" count="1"/>
             <ingredient name="Chicken Stock" count="5"/>
@@ -2634,7 +2634,7 @@
             <ingredient name="Salt and Pepper" count="1"/>
         </recipe>
 		
-        <recipe name="Egg Noodle Soup Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Egg Noodle Soup Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Butter" count="2"/>
             <ingredient name="Diced Onions" count="2"/>
             <ingredient name="Diced Celery" count="2"/>
@@ -2797,7 +2797,7 @@
             <ingredient name="Meyer Lemon" count="1"/>
         </recipe>
 		
-        <recipe name="Garlic Green Beans Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Garlic Green Beans Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Cut Green Beans" count="10"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Salt" count="1"/>
@@ -2833,7 +2833,7 @@
             <ingredient name="Smoked Bacon" count="5"/>
         </recipe>
 		
-        <recipe name="Green Beans Bacon Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Green Beans Bacon Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Cut Green Beans" count="8"/>
             <ingredient name="drinkJarBoiledWater" count="4"/>
         </recipe>
@@ -2858,7 +2858,7 @@
             <ingredient name="Black Pepper" count="1"/>
         </recipe>
 		
-        <recipe name="Grits" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Grits" count="5" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="foodCornMeal" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Milk" count="1"/>
@@ -2957,7 +2957,7 @@
             <ingredient name="foodEgg" count="4"/>
             <ingredient name="Meyer Lemon" count="1"/>
         </recipe>
-        <recipe name="Hollandaise Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Hollandaise Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Hollandaise Step 1" count="1"/>
             <ingredient name="Butter" count="3"/>
         </recipe>        
@@ -2990,12 +2990,12 @@
             <ingredient name="drinkJarEmpty" count="15"/>
             <ingredient name="Cheese Cloth" count="1"/>
         </recipe>
-        <recipe name="Ketchup" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Ketchup" count="10" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Ketchup Step 1" count="1"/>
             <ingredient name="Crushed Tomato" count="2"/>
             <ingredient name="Cooking Vinegar" count="1"/>
         </recipe>
-        <recipe name="Ketchup Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Ketchup Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Sauteed Onions" count="2"/>
             <ingredient name="Olive Oil" count="1"/>
             <ingredient name="Ground Hot Pepper" count="1"/>
@@ -3036,7 +3036,7 @@
         <recipe name="Maple Syrup" count="10" craft_time="30" craft_area="Brew Cooker" craft_tool="Boiler">
             <ingredient name="Maple Sap" count="40"/>
         </recipe>        
-        <recipe name="Marinara" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Marinara" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Crushed Tomato" count="2"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
             <ingredient name="Salt" count="1"/>
@@ -3105,7 +3105,7 @@
             <ingredient name="Miso Paste Step 2" count="1"/>
             <ingredient name="Salt" count="10"/>
         </recipe>
-        <recipe name="Miso Paste Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Miso Paste Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Soy Bean" count="10"/>
             <ingredient name="drinkJarRiverWater" count="10"/>
         </recipe>
@@ -3114,7 +3114,7 @@
             <ingredient name="Salt" count="2"/>
             <ingredient name="Koji Culture" count="10"/>
         </recipe>
-        <recipe name="Miso Soup" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Miso Soup" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Miso Paste" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
@@ -3195,7 +3195,7 @@
             <ingredient name="Chardonne" count="2"/>
             <ingredient name="Boiled Linguini" count="1"/>
         </recipe>
-        <recipe name="Parmesan" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Parmesan" count="10" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Raw Milk" count="1"/>
             <ingredient name="Milk" count="5"/>
             <ingredient name="Briney Water" count="1"/>
@@ -3243,7 +3243,7 @@
             <ingredient name="Sliced Ginger" count="10"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
-        <recipe name="Pickled Ginger Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Pickled Ginger Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Cooking Vinegar" count="1"/>
             <ingredient name="Raw Sugar" count="3"/>
         </recipe>        
@@ -3263,7 +3263,7 @@
             <ingredient name="drinkJarEmpty" count="19"/>
             <ingredient name="Cheese Cloth" count="1"/>
         </recipe>
-        <recipe name="Poached Eggs" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Poached Eggs" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="foodEgg" count="2"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
@@ -3287,19 +3287,19 @@
         <recipe name="Pulled Pork" count="10" craft_time="30" craft_area="Chopping Board">
             <ingredient name="Smoked Pork Ribs" count="1"/>
         </recipe>        
-        <recipe name="Queso Fresco" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Queso Fresco" count="10" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Queso Fresco Step 3" count="1"/>
         </recipe>
-        <recipe name="Queso Fresco Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Queso Fresco Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Raw Milk" count="1"/>
             <ingredient name="Milk" count="5"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
-        <recipe name="Queso Fresco Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Queso Fresco Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Queso Fresco Step 1" count="1"/>
             <ingredient name="Cooking Vinegar" count="3"/>
         </recipe>
-        <recipe name="Queso Fresco Step 3" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Queso Fresco Step 3" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Queso Fresco Step 2" count="1"/>
             <ingredient name="Cheese Cloth" count="1"/>
         </recipe>
@@ -3323,7 +3323,7 @@
             <ingredient name="Refried Beans Step 2" count="1"/>
             <ingredient name="Salt and Pepper" count="5"/>
         </recipe>
-        <recipe name="Refried Beans Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Refried Beans Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Cooked Pinto Bean" count="10"/>
             <ingredient name="Onion" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
@@ -3477,7 +3477,7 @@
         <recipe name="Side of Bacon" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="Cast Iron Skillet">
             <ingredient name="Cooked Bacon" count="4"/>
         </recipe>
-        <recipe name="Simple Syrup" count="15" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Simple Syrup" count="15" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="drinkJarBoiledWater" count="10"/>
             <ingredient name="Raw Sugar" count="10"/>
         </recipe>
@@ -3597,12 +3597,12 @@
             <ingredient name="foodEgg" count="2"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
-        <recipe name="Spaghetti and Meatballs" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Spaghetti and Meatballs" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Boiled Spaghetti" count="1"/>
             <ingredient name="Meatballs" count="10"/>
             <ingredient name="Parmesan" count="2"/>
         </recipe>
-        <recipe name="Spanish Rice" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Spanish Rice" count="10" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Spanish Rice Step 2" count="1"/>
             <ingredient name="Ground Ancho" count="2"/>
             <ingredient name="Ground Cumin" count="2"/>
@@ -3611,13 +3611,13 @@
             <ingredient name="Rice" count="5"/>
             <ingredient name="Olive Oil" count="4"/>
         </recipe>
-        <recipe name="Spanish Rice Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Spanish Rice Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Spanish Rice Step 1" count="1"/>
             <ingredient name="Chicken Stock" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Minced Garlic" count="1"/>
         </recipe>        
-        <recipe name="Spicy BBQ Sauce" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Spicy BBQ Sauce" count="10" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Ketchup" count="10"/>
             <ingredient name="Ground Hot Pepper" count="4"/>
             <ingredient name="Cooking Vinegar" count="1"/>
@@ -3652,7 +3652,7 @@
             <ingredient name="Lime" count="1"/>
             <ingredient name="Salt" count="3"/>
         </recipe>       
-        <recipe name="Sriracha" count="20" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Sriracha" count="20" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Sriracha Step 3" count="1"/>
         </recipe>
         <recipe name="Sriracha Step 1" count="1" craft_time="30" craft_area="Chopping Board">
@@ -3685,7 +3685,7 @@
             <ingredient name="Refried Beans" count="1"/>
             <ingredient name="Flour Tortillas" count="1"/>
         </recipe>
-        <recipe name="Steamed Broccoli" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Steamed Broccoli" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Broccoli" count="1"/>
             <ingredient name="Corn Husk" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
@@ -3721,12 +3721,12 @@
             <ingredient name="Sushi Rice Step 1" count="1"/>
             <ingredient name="Sushi Rice Step 2" count="1"/>
         </recipe>
-        <recipe name="Sushi Rice Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Sushi Rice Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Cooking Vinegar" count="2"/>
             <ingredient name="Raw Sugar" count="2"/>
             <ingredient name="Salt" count="2"/>
         </recipe>
-        <recipe name="Sushi Rice Step 2" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Sushi Rice Step 2" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Rice" count="5"/>
             <ingredient name="drinkJarBoiledWater" count="5"/>
         </recipe>
@@ -3810,7 +3810,7 @@
         <recipe name="Vegetable Oil Step 1" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Veggie Attachment">
             <ingredient name="Soy Bean" count="5"/>
         </recipe>
-        <recipe name="Vegetable Pasta Meal" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Vegetable Pasta Meal" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Boiled Penne" count="1"/>
             <ingredient name="Marinara" count="2"/>
             <ingredient name="Carrot" count="1"/>
@@ -3846,7 +3846,7 @@
             <ingredient name="drinkJarEmpty" count="15"/>
             <ingredient name="Cheese Cloth" count="1"/>
         </recipe>
-        <recipe name="Yogurt Step 1" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+        <recipe name="Yogurt Step 1" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="Raw Milk" count="2"/>
         </recipe>
         <recipe name="Yogurt Step 2" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
@@ -4001,7 +4001,7 @@
             <ingredient name="foodPumpkinPie" count="1"/>
         </recipe>
 		
-		<recipe name="Poached Eggs" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+		<recipe name="Poached Eggs" count="1" craft_time="30" craft_area="Gas Cooktop" craft_tool="toolCookingPot">
             <ingredient name="foodEgg" count="2"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
