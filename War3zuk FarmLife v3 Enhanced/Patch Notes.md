@@ -2,6 +2,9 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.09
 
+Removed BeeHive XUI Code
+Fixed FarmForge Retrieve Smelted Resources
+Fixed Sheep Sheers Tag
 Fixed 2 Recipes GasCookTop (Wok)
 Fixed 50 Recipes For GasCookTop
 Fixed Milk Recipe Area

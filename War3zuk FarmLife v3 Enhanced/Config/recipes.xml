@@ -1,6 +1,30 @@
 <configs>
 	
     <append xpath="/recipes">
+		
+<recipe name="resourceClayLump" count="1" material_based="true" craft_area="Farm Forge" craft_time="0.5" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_clay" count="5"/>
+</recipe>
+
+<recipe name="resourceCrushedSand" count="1" material_based="true" craft_area="Farm Forge" craft_time="0.5" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_glass" count="4"/>
+</recipe>
+
+<recipe name="resourceRockSmall" count="1" material_based="true" craft_area="Farm Forge" craft_time="0.5" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_stone" count="5"/>
+</recipe>
+
+<recipe name="resourceScrapBrass" count="1" material_based="true" craft_area="Farm Forge" craft_time="0.5" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_brass" count="1"/>
+</recipe>
+
+<recipe name="resourceScrapIron" count="1" material_based="true" craft_area="Farm Forge" craft_time="0.5" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_iron" count="1"/>
+</recipe>
+
+<recipe name="resourceScrapLead" count="1" material_based="true" craft_area="Farm Forge" craft_time="0.5" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_lead" count="1"/>
+</recipe>
 	
 		<!-- Animal Station Recipes -->
 		

@@ -1,12 +1,6 @@
 <configs>
 	
 	<append xpath="/ui_display_info/crafting_category_display">
-		<!-- ANIMAL WORKSTATIONS -->
-		<crafting_category_list display_type="Beehive">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
-			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
-		</crafting_category_list>
 		
 		<crafting_category_list display_type="Chicken">
 			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
@@ -89,17 +83,15 @@
 		</crafting_category_list>
 	
 		<crafting_category_list display_type="Farm Forge">
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Food/Cooking" icon="ui_game_symbol_farm_life" display_name="lblCategoryFoodCooking" />
 			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Food/Cooking" icon="ui_game_symbol_farm_life" display_name="lblCategoryFoodCooking" />			
 		</crafting_category_list>
 	
 		<crafting_category_list display_type="Farm Table">
 			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
 			<crafting_category name="Seeds" icon="ui_game_symbol_tree" display_name="Seeds" icon_color="0,153,0"/>
-			<!--<crafting_category name="SeedP" icon="ui_game_symbol_add" display_name="Seed Packs" icon_color="0,153,0"/>-->
-			<!--<crafting_category name="Workbenches" icon="ui_game_symbol_workbench" display_name="Workbenches" icon_color="0,0,255"/>-->
 			<crafting_category name="Animals" icon="ui_game_symbol_resource" display_name="Animal Resources" icon_color="255,255,0" />
-			<!--<crafting_category name="CTools" icon="ui_game_symbol_tool" display_name="Tools" />-->
 			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
 			<crafting_category name="SpecialItems" icon="ui_game_symbol_farm_life" display_name="Farm Life Quests" />
 		</crafting_category_list>
@@ -150,11 +142,5 @@
 			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Wood Grill" icon_color="174,0,255"/>
 		</crafting_category_list>
 		
-</append>
-
-<append xpath="/ui_display_info/item_display">
-
-
-
 </append>
 </configs>

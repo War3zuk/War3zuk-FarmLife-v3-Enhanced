@@ -15275,7 +15275,7 @@
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
             <property name="DisplayType" value="food"/>
-            <property name="Group" value="All,Resources,Clothing"/>
+            <property name="Group" value="All,Clothing"/>
             <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Morganic"/>
