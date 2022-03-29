@@ -2,6 +2,18 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.09
 
+Fixed Tag Lamb With Charred Tomtatoes
+Fixed Tag Penne Pesto
+Fixed Tag Turkey Gravy Step 1
+Fixed Tag Turkey Gravy Step 2
+Fixed Tag Turkey Gravy Step 3
+Combined Recipes GasCookTop To Gas Oven
+Removed GasCookTop Model
+Removed GasCookTop Recipe
+Removed GasCookTop Block
+Removed GasCookTop Windows
+Removed GasCookTop XUI
+Added CornHusk To (DeadCorn PlayerCorn)
 Removed BeeHive XUI Code
 Fixed FarmForge Retrieve Smelted Resources
 Fixed Sheep Sheers Tag

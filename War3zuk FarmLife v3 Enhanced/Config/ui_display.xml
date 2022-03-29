@@ -107,13 +107,7 @@
 			<crafting_category name="Fermentor" icon="ui_game_symbol_beer" display_name="Fermentor" />
 		</crafting_category_list>
 		
-		<crafting_category_list display_type="Gas Cooktop">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
-			<crafting_category name="Gas Cooktop" icon="ui_game_symbol_spatula" display_name="Gas Cooktop" />
-		</crafting_category_list>
-		
 		<crafting_category_list display_type="Gas Oven">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" icon_color="0,153,0"/>
 			<crafting_category name="Gas Oven" icon="ui_game_symbol_spatula" display_name="Gas Oven" />			
 		</crafting_category_list>
 		

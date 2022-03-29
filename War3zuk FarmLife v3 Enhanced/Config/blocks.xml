@@ -4186,47 +4186,7 @@
             </property>
 			<property name="DescriptionKey" value="FermentorBenchDesc"/>
         </block>        
-        <block name="Gas Cooktop">
-            <property name="OnlySimpleRotations" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="IsTerrainDecoration" value="true"/>
-            <property name="Group" value="Building,Food/Cooking,Workbenches"/>
-            <property name="FilterTags" value="fdecor,fother,ffurniture"/>
-            <property name="SortOrder1" value="70i0"/>
-            <property name="TakeDelay" value="15"/>
-            <property name="EconomicValue" value="1544"/>
-            <property name="Place" value="Spotlight"/>
-            <property name="Class" value="Campfire"/>
-            <property name="Material" value="MmetalNoGlue"/>
-            <property name="MaxDamage" value="800"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#@modfolder:Resources/FarmLife.unity3d?StoveTopPrefab"/>
-            <property name="MultiBlockDim" value="1,1,1"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="ParticleName" value="hotembers"/>
-            <property name="ParticleOffset" value="0.5,0.0,0.5"/>
-            <property name="Stacknumber" value="1"/>
-			<property name="HeatMapStrength" value=".5"/>
-			<property name="HeatMapTime" value="500"/>
-			<property name="HeatMapFrequency" value="20"/>
-            <property class="Workstation">
-                <property name="Modules" value="tools,output,fuel,input"/>
-                <property name="Collide" value="melee,bullet,arrow,rocket"/>
-            </property>
-            <property name="WorkstationIcon" value="ui_game_symbol_spatula"/>
-            <property name="CraftActionName" value="BURNER"/>
-            <property name="CraftIcon" value="ui_game_symbol_spatula"/>
-            <property name="OpenSound" value="campfire_open"/>
-            <property name="CloseSound" value="campfire_close"/>
-            <property name="CraftSound" value="campfire_cook_click"/>
-            <property name="CraftCompleteSound" value="campfire_complete_item"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="25"/>
-            </property>
-			<property name="DescriptionKey" value="GasCooktopDesc"/>
-        </block>
+
 		<block name="Gas Oven">
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -5657,4 +5617,13 @@
 </block>
 
 </append>
+	
+	<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+    	<drop event="Harvest" name="Corn Husk" count="2" prob="1" tag="cropHarvest"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCornDead']">
+    	<drop event="Harvest" name="Corn Husk" count="2" prob="1" tag="cropHarvest"/>
+	</append>
+	
 </configs>

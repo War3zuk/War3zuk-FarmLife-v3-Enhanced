@@ -7631,7 +7631,7 @@
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
             <property name="DisplayType" value="food"/>
-            <property name="Group" value="Food/Cooking,KitchNaid,All,Gas Oven"/>
+            <property name="Group" value="Food/Cooking,KitchNaid,Gas Oven"/>
             <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Morganic"/>
@@ -14274,7 +14274,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven,All,Gas Oven"/>
+			<property name="Group" value="Oven,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -15382,7 +15382,7 @@
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
+			<property name="Group" value="Food/Cooking"/>
 			<property name="DescriptionKey" value="Desc"/>
 		</item>		
 		<!-- TEMP PLACEHOLDER -->
@@ -15448,7 +15448,7 @@
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
+			<property name="Group" value="Food/Cooking"/>
 			<property name="DescriptionKey" value="Desc"/>			
 		</item>		
 		<!-- TEMP PLACEHOLDER -->
@@ -15461,7 +15461,7 @@
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
+			<property name="Group" value="Food/Cooking"/>
 			<property name="DescriptionKey" value="Desc"/>			
 		</item>		
 		<!-- TEMP PLACEHOLDER -->
@@ -15474,7 +15474,7 @@
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
+			<property name="Group" value="Food/Cooking"/>
 			<property name="DescriptionKey" value="Desc"/>			
 		</item>		
 		<!-- TEMP PLACEHOLDER -->
