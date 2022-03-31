@@ -5149,7 +5149,7 @@
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?HungryPigPenPrefab"/>
     <property name="DescriptionKey" value="farmLifeHungryPigPenDesc"/>
-	<property name="PlantGrowing.Next" value="Maturing Elk"/>
+	<property name="PlantGrowing.Next" value="Maturing Pig"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>

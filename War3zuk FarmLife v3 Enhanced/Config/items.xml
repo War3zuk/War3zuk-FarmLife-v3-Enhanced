@@ -13034,7 +13034,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13084,7 +13084,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13545,7 +13545,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13677,7 +13677,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven,All,Webber Grill"/>
+			<property name="Group" value="Gas Oven,All,Webber Grill"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13714,7 +13714,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13751,7 +13751,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven,All,Webber Grill"/>
+			<property name="Group" value="Gas Oven,All,Webber Grill"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13862,7 +13862,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13899,7 +13899,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven,All,Webber Grill"/>
+			<property name="Group" value="Gas Oven,All,Webber Grill"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13936,7 +13936,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -13974,7 +13974,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven,All,Webber Grill"/>
+			<property name="Group" value="Gas Oven,All,Webber Grill"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14086,7 +14086,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14123,7 +14123,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14198,7 +14198,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14236,7 +14236,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14311,7 +14311,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14348,7 +14348,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14685,7 +14685,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14712,7 +14712,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14740,7 +14740,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14768,7 +14768,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14796,7 +14796,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
@@ -14824,7 +14824,7 @@
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="50000"/>
 			<property name="EconomicValue" value="5"/>
-			<property name="Group" value="Oven"/>
+			<property name="Group" value="Food/Cooking,Gas Oven"/>
 			<property name="CraftingIngredientExp" value="3"/>
 			<property name="CraftingIngredientTime" value="1"/>
 			<property name="DisplayType" value="food"/>
