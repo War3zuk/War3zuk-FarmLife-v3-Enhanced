@@ -2,6 +2,11 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.10
 
+Removed cryogenicContainerBee
+Removed cryogenicContainerDuck
+Removed cryogenicContainerGoat
+Removed cryogenicContainerRabbit
+Removed LootContainer ID88
 Fixed Baby Pig Pen Growing Next
 Fixed Duplicate Pizza Recipe
 Fixed 32 Recipes

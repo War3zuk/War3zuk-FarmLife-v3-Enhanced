@@ -15033,16 +15033,6 @@
 			<property name="DescriptionKey" value="Desc"/>
 		</item>
 		
-		<item name="cryogenicContainerBee">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="5000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="DescriptionKey" value="FLEcryogenicContainerBee"/>
-		</item>
-		
 		<item name="cryogenicContainerChicken">
 			<property name="HoldType" value="31"/>
 			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
@@ -15061,16 +15051,6 @@
 			<property name="Stacknumber" value="5000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="DescriptionKey" value="FLEcryogenicContainerCow"/>
-		</item>		
-		
-		<item name="cryogenicContainerDuck">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="5000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="DescriptionKey" value="FLEcryogenicContainerDuck"/>
 		</item>
 		
 		<item name="cryogenicContainerElk">
@@ -15081,16 +15061,6 @@
 			<property name="Stacknumber" value="5000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="DescriptionKey" value="FLEcryogenicContainerElk"/>
-		</item>
-		
-		<item name="cryogenicContainerGoat">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="5000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="DescriptionKey" value="FLEcryogenicContainerGoat"/>
 		</item>
 		
 		<item name="cryogenicContainerHorse">
@@ -15121,16 +15091,6 @@
 			<property name="Stacknumber" value="5000"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="DescriptionKey" value="FLEcryogenicContainerPig"/>
-		</item>
-		
-		<item name="cryogenicContainerRabbit">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="5000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="DescriptionKey" value="FLEcryogenicContainerRabbit"/>
 		</item>
 		
 		<item name="cryogenicContainerSheep">

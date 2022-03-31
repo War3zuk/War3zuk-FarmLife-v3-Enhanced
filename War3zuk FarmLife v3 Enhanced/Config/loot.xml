@@ -65,10 +65,6 @@
 	<append xpath="/lootcontainers/lootcontainer[@id='59']">
 		<item group="FarmLifev3Loot"/>
 	</append>
-	<!-- Construction Shit  -->
-	<append xpath="/lootcontainers/lootcontainer[@id='88']">
-		<item group="FarmLifev3Loot"/>
-	</append>
 
     <append xpath="/lootcontainers/lootgroup[@name='seeds']">
 		<item name="Barley Seed"/>
@@ -137,18 +133,14 @@
         <item name="Air of Scotland" loot_prob_template="low"/>
         <item name="Bottle Cap" loot_prob_template="low"/>
         <item name="Salmon Roe" loot_prob_template="low"/>
-		<item name="cryogenicContainerBee" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerChicken" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerCow" loot_prob_template="veryLow"/>	
-		<item name="cryogenicContainerDuck" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerElk" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerGoat" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerHorse" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerPig" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerPheasant" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerRabbit" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerSheep" loot_prob_template="veryLow"/>
-		<item name="cryogenicContainerTurkey" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerChicken" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerCow" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerElk" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerHorse" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerPig" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerPheasant" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerSheep" count="1" loot_prob_template="veryLow"/>
+		<item name="cryogenicContainerTurkey" count="1" loot_prob_template="veryLow"/>
     </append>
 	
     <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsCommon']">
