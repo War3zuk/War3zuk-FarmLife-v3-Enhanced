@@ -5054,7 +5054,7 @@
 		<!-- STATIONARY ANIMALS -->
 
 <block name="Baby Chicken">
-	<property name="CustomIcon" value="Hungry Chicken Pen"/>
+	<property name="CustomIcon" value="Hungry Chicken Coop"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
 	<property name="Class" value="PlantGrowing"/>
     <property name="CreativeMode" value="Player"/>
@@ -5081,7 +5081,7 @@
 </block>		
 		
 <block name="Maturing Chicken">
-	<property name="CustomIcon" value="Hungry Angus Pen"/>
+	<property name="CustomIcon" value="Hungry Chicken Coop"/>
 	<property name="Extends" value="Baby Chicken"/>
 	<property name="Class" value="PlantGrowing"/>
     <property name="CreativeMode" value="Dev"/>
@@ -5107,7 +5107,7 @@
 </block>
 
 <block name="Adult Chicken">
-	<property name="CustomIcon" value="Hungry Angus Pen"/>
+	<property name="CustomIcon" value="Hungry Chicken Coop"/>
     <property name="CreativeMode" value="Dev"/>
     <property name="DisplayInfo" value="Name"/>
     <property name="Group" value="Resources,Breeding,All"/>
@@ -5371,6 +5371,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
     <drop event="Harvest" name="resourceBone" count="2,4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="4,8" tag="cropHarvest"/>
 	<property name="DowngradeBlock" value="Baby Holstein"/>
 	<drop event="Destroy" count="0"/>
 </block>

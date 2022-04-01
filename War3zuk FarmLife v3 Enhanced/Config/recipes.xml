@@ -774,6 +774,10 @@
             <ingredient name="Garlic" count="4"/>
         </recipe>
 		
+        <recipe name="Ancho Pepper" count="1" craft_time="10" tags="learnable,perkFarmLife">
+            <ingredient name="Ghost Pepper" count="2"/>
+        </recipe>
+		
         <recipe name="GhostPepper Seed" count="1" craft_time="10" tags="learnable,perkFarmLife">
             <ingredient name="Ghost Pepper" count="4"/>
         </recipe>
@@ -1385,10 +1389,10 @@
 		</recipe>
 		
 		<recipe name="Flour" count="1" craft_time="5" craft_area="KitchNaid" craft_tool="Grain Miller">
-			<ingredient name="Whole Wheat" count="5"/>
+			<ingredient name="Whole Wheat" count="4"/>
 		</recipe>
 		
-		<recipe name="Whole Wheat" count="1" craft_time="5" craft_area="KitchNaid" craft_tool="Grain Miller">
+		<recipe name="Whole Wheat" count="5" craft_time="5" craft_area="KitchNaid" craft_tool="Grain Miller">
 			<ingredient name="foodCropCorn" count="10"/>
 		</recipe>
 		
@@ -1466,12 +1470,12 @@
 			<ingredient name="Cheese" count="1"/>
 		</recipe>		
 		
-		<recipe name="Bagel" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingGrill">
+		<recipe name="Bagel" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Pizza Stone">
 			<ingredient name="Dough" count="1"/>
 			<ingredient name="drinkJarRiverWater" count="1"/>
 		</recipe>		
 		
-		<recipe name="Bread" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingGrill">
+		<recipe name="Bread" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Pizza Stone">
 			<ingredient name="Dough" count="1"/>
 			<ingredient name="Fresh Butter" count="1"/>
 		</recipe>		
@@ -2634,7 +2638,7 @@
             <ingredient name="Tomato" count="3"/>
         </recipe>
 		
-		 <recipe name="Dried Husk" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="Baking Sheet">
+		 <recipe name="Dried Husk" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="Baking Sheet">
             <ingredient name="Corn Husk" count="10"/>
         </recipe>		
 		
