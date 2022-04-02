@@ -56,38 +56,31 @@
 			<ingredient name="Raw Milk" count="1"/>
 		</recipe>
 		
-		<recipe name="Animal Feed" count="10" craft_time="4">
+		<recipe name="Animal Feed" count="10" craft_time="30" craft_area="Farm Table">
             <ingredient name="Sorghum" count="2"/>
             <ingredient name="Wheat" count="2"/>
             <ingredient name="hayBaleSquare" count="2"/>
             <ingredient name="drinkJarRiverWater" count="2"/>
         </recipe>
 		
-		<recipe name="Animal Feed" count="10" craft_time="30" craft_area="Farm Table">
-            <ingredient name="Sorghum" count="1"/>
-            <ingredient name="Wheat" count="1"/>
-            <ingredient name="hayBaleSquare" count="1"/>
-            <ingredient name="drinkJarRiverWater" count="1"/>
-        </recipe>
-		<!--
-		==========================================================
-							BLOCKS
-		==========================================================
-		-->
 		<recipe name="Brick Planter" count="1" craft_time="10" craft_area="Farm Table" tags="learnable,perkFarmLife">
             <ingredient name="resourceClayLump" count="100"/>
+			<ingredient name="resourceWood" count="10"/>
         </recipe>
 		
         <recipe name="Brick Planter 2" count="1" craft_time="10" craft_area="Farm Table" tags="learnable,perkFarmLife">
             <ingredient name="resourceClayLump" count="100"/>
+			<ingredient name="resourceWood" count="10"/>
         </recipe>
 		
         <recipe name="Brick Planter 3" count="1" craft_time="10" craft_area="Farm Table" tags="learnable,perkFarmLife">
             <ingredient name="resourceClayLump" count="100"/>
+			<ingredient name="resourceWood" count="10"/>
         </recipe>
 		
         <recipe name="Brick Planter 4" count="1" craft_time="10" craft_area="Farm Table" tags="learnable,perkFarmLife">
             <ingredient name="resourceClayLump" count="100"/>
+			<ingredient name="resourceWood" count="10"/>
         </recipe>
 		
 		<recipe name="Farm Crop Plot" count="1" craft_time="15" craft_area="Farm Table" tags="learnable,perkFarmLife">
@@ -479,7 +472,7 @@
         </recipe>
 		
 		<recipe name="Raw Milk" count="10" craft_time="30" craft_area="Cow" craft_tool="Milking Machine">
-            <ingredient name="Animal Feed" count="1"/>
+            <ingredient name="Animal Feed" count="10"/>
         </recipe>
 		
         <recipe name="Raw Pink Rose" count="1" craft_time="30" craft_area="Brew Station" craft_tool="Wine Tank">

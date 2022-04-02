@@ -5371,6 +5371,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
     <drop event="Harvest" name="resourceBone" count="2,4" tag="cropHarvest"/>
+	<drop event="Harvest" name="Raw Milk" count="2,4" tag="cropHarvest"/>
 	<drop event="Harvest" name="resourceLeather" count="4,8" tag="cropHarvest"/>
 	<property name="DowngradeBlock" value="Baby Holstein"/>
 	<drop event="Destroy" count="0"/>
