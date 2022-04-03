@@ -1,5 +1,15 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.11
+
+Added Raw Lamb Recipe (Raw Mutton)
+Fixed 10 Recipes (Damascus Knife)
+Added Raw Lamb Mature Sheep
+Adjusted Salt Recipes
+Added Salt Recipe To KitchnAid
+Rebuilt Lamb with Charred Cherry Tomatoes Food
+Replaced 1324 Old Lines In Items
+
 Version 1.10
 
 Edited Planters (ResourceWood)

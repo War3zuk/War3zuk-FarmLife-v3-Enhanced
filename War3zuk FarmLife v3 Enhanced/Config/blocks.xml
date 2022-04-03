@@ -493,7 +493,8 @@
 			<property name="MultiBlockDim" value="1,1,2"/>
 			<property name="Material" value="Manimal"/>			
 			<property name="CreativeMode" value="Player"/>
-			<drop event="Harvest" name="Raw Mutton" count="80" tag="wildCropsHarvest,butcherHarvest"/>
+			<drop event="Harvest" name="Raw Mutton" count="20" tag="wildCropsHarvest,butcherHarvest"/>
+			<drop event="Harvest" name="Raw Lamb" count="20" tag="wildCropsHarvest,butcherHarvest"/>
 			<property name="FilterTags" value="fother"/>
 		</block>
 		

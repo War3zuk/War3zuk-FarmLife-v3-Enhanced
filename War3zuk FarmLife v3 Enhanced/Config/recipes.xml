@@ -1489,33 +1489,33 @@
 			<ingredient name="Raw Beef" count="10"/>
 		</recipe>		
 		
-		<recipe name="Raw Steak" count="1" craft_time="20" craft_area="Chopping Board">
+		<recipe name="Raw Steak" count="1" craft_time="20" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Beef" count="25"/>
 		</recipe>		
 		
-		<recipe name="Raw Kobe Beef" count="1" craft_time="30" craft_area="Chopping Board">
+		<recipe name="Raw Kobe Beef" count="1" craft_time="30" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Beef" count="100"/>
 		</recipe>		
 		
-		<recipe name="Raw Sausage Link" count="1" craft_time="10" craft_area="Chopping Board">
+		<recipe name="Raw Sausage Link" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Pork" count="1"/>
 			<ingredient name="Herbs" count="5"/>
 			<ingredient name="Spices" count="5"/>
 		</recipe>		
 		
-		<recipe name="Raw Ham" count="1" craft_time="30" craft_area="Chopping Board">
+		<recipe name="Raw Ham" count="1" craft_time="30" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Pork" count="25"/>
 		</recipe>		
 		
-		<recipe name="Raw Bacon" count="1" craft_time="5" craft_area="Chopping Board">
+		<recipe name="Raw Bacon" count="1" craft_time="5" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Pork" count="40"/>
 		</recipe>		
 		
-		<recipe name="Raw Chicken Breast" count="1" craft_time="5" craft_area="Chopping Board">
+		<recipe name="Raw Chicken Breast" count="1" craft_time="5" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Chicken" count="1"/>
 		</recipe>		
 		
-		<recipe name="Raw Chicken Legs and Wings" count="1" craft_time="10" craft_area="Chopping Board">
+		<recipe name="Raw Chicken Legs and Wings" count="1" craft_time="10" craft_area="Chopping Board" craft_tool="Damascus Knife">
 			<ingredient name="Raw Chicken" count="5"/>
 		</recipe>
 		
@@ -2269,7 +2269,7 @@
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
 		
-		<recipe name="Burger Basket" count="1" craft_time="30" craft_area="Chopping Board">
+		<recipe name="Burger Basket" count="1" craft_time="30" craft_area="Chopping Board" craft_tool="Damascus Knife">
             <ingredient name="Hamburger" count="1"/>
             <ingredient name="American Fries" count="2"/>
             <ingredient name="Ketchup" count="3"/>
@@ -2458,6 +2458,10 @@
 			<ingredient name="Old Salt" count="1"/>
 		</recipe>
 		
+		<recipe name="Salt" count="5" craft_time="10" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+			<ingredient name="Old Salt" count="1"/>
+		</recipe>
+		
         <recipe name="Chips and Salsa" count="1" craft_time="30" craft_area="Chopping Board">
             <ingredient name="Tortillas Chips" count="3"/>
             <ingredient name="Spicy Salsa" count="2"/>
@@ -2564,7 +2568,7 @@
 		
         <recipe name="Cured Ham" count="1" craft_time="30" craft_area="Cold Smoker" craft_tool="Meat Hanger">
             <ingredient name="Ham" count="1"/>
-            <ingredient name="Salt" count="10"/>
+            <ingredient name="Salt" count="5"/>
             <ingredient name="Salt and Pepper" count="1"/>
         </recipe>
 		
@@ -3018,9 +3022,15 @@
         <recipe name="Koji Culture" count="10" craft_time="30" craft_area="Fermentor Bench" craft_tool="Clay Pot">
             <ingredient name="Bowl of Rice" count="5"/>
         </recipe>
-		<recipe name="Lamb Chop" count="10" craft_time="15" craft_area="Chopping Board">
-			<ingredient name="Raw Lamb" count="1"/>
+		
+		<recipe name="Lamb Chop" count="4" craft_time="45" craft_area="Chopping Board" craft_tool="Damascus Knife">
+			<ingredient name="Raw Lamb" count="2"/>
 		</recipe>
+		
+		<recipe name="Raw Lamb" count="2" craft_time="45" craft_area="Chopping Board" craft_tool="Damascus Knife">
+			<ingredient name="Raw Mutton" count="1"/>
+		</recipe>
+		
 		<recipe name="Lamb with Charred Cherry Tomatoes" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="Wok">
             <ingredient name="Charred Cherry Tomatoes" count="2"/>
             <ingredient name="Lamb Chop" count="10"/>
@@ -3429,12 +3439,12 @@
             <ingredient name="Whole Salmon" count="1"/>
         </recipe>
 		
-        <recipe name="Salt" count="10" craft_time="30">
-            <ingredient name="Salt Shaker" count="2"/>
+        <recipe name="Salt" count="20" craft_time="30">
+            <ingredient name="Salt Shaker" count="1"/>
         </recipe>
         <recipe name="Salt and Pepper" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Grain Miller">
-            <ingredient name="Black Pepper" count="1"/>
-            <ingredient name="Salt" count="1"/>
+            <ingredient name="Black Pepper" count="2"/>
+            <ingredient name="Salt" count="2"/>
         </recipe>
         <recipe name="Sauerkraut" count="15" craft_time="30" craft_area="Fermentor Bench">
             <ingredient name="Sauerkraut Step 3" count="1"/>
