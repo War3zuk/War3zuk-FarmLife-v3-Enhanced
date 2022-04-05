@@ -2,6 +2,11 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.11
 
+Fixed Baked Rigatoni Stacking
+Removed AppleWoodPlank (BananaTree)
+Fixed Mexican Black Beans Recipe
+Removed Un-Used Rolling Mat Recipe
+Fixed Spicy Salmon Roll Recipe
 Added Raw Lamb Recipe (Raw Mutton)
 Fixed 10 Recipes (Damascus Knife)
 Added Raw Lamb Mature Sheep

@@ -4514,7 +4514,6 @@
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
 	<drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="Banana" count="4" tag="wildCropsHarvest"/>
-	<drop event="Harvest" name="Apple Wood Plank" count="4" tag="wildCropsHarvest"/>
 	<property name="DowngradeBlock" value="Banana Sapling"/>
 	<property name="MaxDamage" value="500"/>
 	<property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>

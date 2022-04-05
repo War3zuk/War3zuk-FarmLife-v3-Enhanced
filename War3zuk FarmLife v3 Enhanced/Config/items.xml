@@ -542,7 +542,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="205"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -9005,20 +9005,7 @@
             </effect_group>
             <property name="DescriptionKey" value="farmLifeRolandsBreakfastDesc"/>
         </item>
-        <item name="Rolling Mat">
-            <property name="CreativeMode" value="Player"/>
-            <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
-            <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-            <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
-            <property name="EconomicValue" value="20"/>
-            <property name="EconomicBundleSize" value="1"/>
-            <property name="CraftingIngredientTime" value="50"/>
-            <property name="Weight" value="5"/>
-            <property name="DescriptionKey" value="farmLifeRollingMatDesc"/>
-        </item>
+		
         <item name="Romaine">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
