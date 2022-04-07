@@ -2,6 +2,10 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.11
 
+Edited Cooked Black Bean Recipe
+Edited Cooked Kidney Bean Recipe
+Edited Cooked Pinto Bean Recipe
+Fixed Fried Rice FoodAmount
 Fixed Baked Rigatoni Stacking
 Removed AppleWoodPlank (BananaTree)
 Fixed Mexican Black Beans Recipe

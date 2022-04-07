@@ -2485,9 +2485,9 @@
             <ingredient name="Smoked Bacon" count="1"/>
         </recipe>
 		
-        <recipe name="Cooked Black Bean" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
-            <ingredient name="Black Bean" count="5"/>
-            <ingredient name="drinkJarBoiledWater" count="5"/>
+        <recipe name="Cooked Black Bean" count="2" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+            <ingredient name="Black Bean" count="4"/>
+            <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
 		
         <recipe name="Cooked Ham" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
@@ -2498,14 +2498,14 @@
             <ingredient name="Cured Ham" count="1"/>
         </recipe>
 		
-        <recipe name="Cooked Kidney Bean" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
-            <ingredient name="Kidney Bean" count="5"/>
-            <ingredient name="drinkJarBoiledWater" count="5"/>
+        <recipe name="Cooked Kidney Bean" count="2" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+            <ingredient name="Kidney Bean" count="4"/>
+            <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
 		
-        <recipe name="Cooked Pinto Bean" count="5" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
-            <ingredient name="Pinto Bean" count="5"/>
-            <ingredient name="drinkJarBoiledWater" count="5"/>
+        <recipe name="Cooked Pinto Bean" count="2" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+            <ingredient name="Pinto Bean" count="4"/>
+            <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
 		
         <recipe name="Cooking Vinegar" count="10" craft_time="30" craft_area="Fermentor Bench">
