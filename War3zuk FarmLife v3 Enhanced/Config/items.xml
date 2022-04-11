@@ -125,7 +125,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -599,7 +599,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -1699,7 +1699,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -1714,7 +1714,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="216"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -2298,7 +2298,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -2341,7 +2341,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -2538,7 +2538,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -3107,7 +3107,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -3678,7 +3678,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -4128,7 +4128,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -4156,7 +4156,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -4396,7 +4396,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="965"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -4601,7 +4601,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -5114,7 +5114,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -6292,7 +6292,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -6462,7 +6462,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -6476,7 +6476,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -6631,7 +6631,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="268"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -6659,7 +6659,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="322"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -6750,7 +6750,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -6942,7 +6942,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -6956,7 +6956,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -7064,7 +7064,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -7553,7 +7553,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -7567,7 +7567,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -7636,7 +7636,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="136"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -7881,7 +7881,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -7909,7 +7909,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -8297,7 +8297,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -8985,7 +8985,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="38"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -10389,7 +10389,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -10476,7 +10476,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="119"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -10561,7 +10561,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -10765,7 +10765,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -11055,7 +11055,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -11524,7 +11524,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -11621,7 +11621,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -11796,7 +11796,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="143"/>
             <property name="EconomicBundleSize" value="5"/>
             <property name="CraftingIngredientTime" value="5"/>
@@ -11823,7 +11823,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -12247,7 +12247,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -12261,7 +12261,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>
@@ -12376,7 +12376,7 @@
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>
-            <property name="Stacknumber" value="1"/>
+            <property name="Stacknumber" value="50000"/>
             <property name="EconomicValue" value="20"/>
             <property name="EconomicBundleSize" value="1"/>
             <property name="CraftingIngredientTime" value="50"/>

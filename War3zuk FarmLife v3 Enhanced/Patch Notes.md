@@ -1,5 +1,11 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.12
+
+Fixed 42 Stack Items
+Added Mesquite Woodchips Recipe
+Fixed Vegetable Pasta Meal Recipe
+
 Version 1.11
 
 Set All Baby Pens (Grow Anywhere)
