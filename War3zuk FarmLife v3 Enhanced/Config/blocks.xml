@@ -5072,7 +5072,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Chicken"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5098,7 +5100,9 @@
 	<property name="PlantGrowing.Next" value="Adult Chicken"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5152,7 +5156,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Pig"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5179,7 +5185,9 @@
 	<property name="PlantGrowing.Next" value="Adult Pig"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5234,7 +5242,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Angus"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5261,7 +5271,9 @@
 	<property name="PlantGrowing.Next" value="Adult Angus"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5316,7 +5328,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Holstein"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5343,7 +5357,9 @@
 	<property name="PlantGrowing.Next" value="Adult Holstein"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5397,7 +5413,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Elk"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5424,7 +5442,9 @@
 	<property name="PlantGrowing.Next" value="Adult Elk"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5477,7 +5497,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Veal Calve"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5504,7 +5526,9 @@
 	<property name="PlantGrowing.Next" value="Adult Veal Calve"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5558,7 +5582,9 @@
 	<property name="PlantGrowing.Next" value="Maturing Salmon Pond"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
@@ -5585,7 +5611,9 @@
 	<property name="PlantGrowing.Next" value="Adult Salmon Pond"/>
 	<property name="PlantGrowing.GrowthRate" value="62"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
-    <property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property class="RepairItems">
 		<property name="Animal Feed" value="2"/>
 	</property>
