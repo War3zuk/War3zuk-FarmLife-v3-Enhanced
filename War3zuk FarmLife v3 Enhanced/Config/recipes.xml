@@ -2035,6 +2035,7 @@
             <ingredient name="Baked Rigatoni Step 1" count="1"/>
             <ingredient name="Marinara" count="2"/>
             <ingredient name="Parmesan" count="2"/>
+			<ingredient name="Boiled Rigatoni" count="2"/>
         </recipe>        
 		
         <recipe name="Bananna Bread" count="10" craft_time="30" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
@@ -2360,7 +2361,7 @@
             <ingredient name="CherryTomato" count="4"/>
         </recipe>
 		
-		<recipe name="Cherry Tomato Salad with Roasted Lemons" count="60" craft_time="30" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+		<recipe name="Cherry Tomato Salad with Roasted Lemons" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="CherryTomato" count="4"/>
             <ingredient name="Meyer Lemon" count="2"/>
             <ingredient name="Olive Oil" count="1"/>

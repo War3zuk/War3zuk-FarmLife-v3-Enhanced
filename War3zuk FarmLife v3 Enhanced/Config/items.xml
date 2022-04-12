@@ -7574,6 +7574,33 @@
             <property name="Weight" value="5"/>
             <property name="DescriptionKey" value="farmLifePasteurizerDesc"/>
         </item>
+		
+        <item name="Cherry Tomato Salad with Roasted Lemons">
+            <property name="CreativeMode" value="Player"/>
+            <property name="HoldType" value="31"/>
+            <property name="DisplayType" value="food"/>
+            <property name="Group" value="Food/Cooking"/>
+            <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="50000"/>
+            <property name="EconomicValue" value="4"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="CraftingIngredientTime" value="5"/>
+            <property name="Weight" value="5"/>
+            <property class="Action0">
+                <property name="Class" value="Eat"/>
+                <property name="Delay" value="1.0"/>
+                <property name="Sound_start" value="player_eating"/>
+            </property>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+            </effect_group>
+            <property name="DescriptionKey" value="CherryTomatoSaladLemonsDesc"/>
+        </item>
+		
         <item name="Pear">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
@@ -15248,19 +15275,6 @@
 		</item>
 		
 		<item name="Charred Cherry Tomatoes">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="50000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>	
-			<property name="DescriptionKey" value="Desc"/>		
-		</item>
-		
-		<!-- TEMP PLACEHOLDER -->
-		<item name="Cherry Tomato Salad with Roasted Lemons">
 			<property name="HoldType" value="31"/>
 			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>

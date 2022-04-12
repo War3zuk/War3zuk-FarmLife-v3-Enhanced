@@ -2,6 +2,9 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.12
 
+Added Cherry Tomato Salad with Roasted Lemons Localization
+Rebuilt Cherry Tomato Salad with Roasted Lemons Code
+Fixed Baked Rigatoni Recipe
 Fixed 42 Stack Items
 Added Mesquite Woodchips Recipe
 Fixed Vegetable Pasta Meal Recipe
