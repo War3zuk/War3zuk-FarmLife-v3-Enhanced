@@ -2,6 +2,8 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.12
 
+Added Baked Pheasant Recipe
+Updated Loot.xml
 Replaced All Turkey Icons 256x256
 Edited All Craft Times 1s To 10s
 Edited All Craft Time 30s To 60s

@@ -4099,5 +4099,13 @@
             <ingredient name="Walnut Woodchips" count="4"/>
         </recipe>
 		
+        <recipe name="Baked Pheasant" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
+            <ingredient name="Raw Pheasant" count="1"/>
+            <ingredient name="Pheasant Egg" count="4"/>
+            <ingredient name="Milk" count="2"/>
+            <ingredient name="Butter" count="2"/>
+            <ingredient name="Ground Cinnamon" count="2"/>
+        </recipe>        
+		
 </append>
 </configs>

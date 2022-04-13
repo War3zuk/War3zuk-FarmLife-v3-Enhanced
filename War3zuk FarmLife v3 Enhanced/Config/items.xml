@@ -15614,6 +15614,30 @@
             <property name="DescriptionKey" value="TurkeyClubSandwichDesc"/>
         </item>
 		
+		<item name="Baked Pheasant">
+			<property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="CustomIcon" value="Baked Pheasant"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="50000"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="Group" value="All,Food/Cooking"/>
+			<property name="DisplayType" value="food"/>
+            <property class="Action0">
+                <property name="Class" value="Eat"/>
+                <property name="Delay" value="1.0"/>
+                <property name="Sound_start" value="player_eating"/>
+            </property>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="75"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+            </effect_group>
+            <property name="DescriptionKey" value="BakedPheasantDesc"/>
+        </item>
+		
 </append>
 
 	<append xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']">
