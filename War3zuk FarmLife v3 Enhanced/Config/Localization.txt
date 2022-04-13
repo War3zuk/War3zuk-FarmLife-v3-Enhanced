@@ -1089,6 +1089,10 @@ BeefCakeDesc,items,,,You feel strong as an Ox. Boosts all important abilities.\n
 AnimalBreedingKit,items,Item,KgNone,Animal Breeding Kit,
 TonicDesc,items,,,Refreshing And Stimulating.,
 CherryTomatoSaladLemonsDesc,items,,,Refreshing Blend of foods to fill you up.,
+LambCharredCherryTomatoesDesc,items,,,Refreshing Blend of foods to fill you up.,
+TurkeyDinerDesc,items,,,Refreshing Blend of foods to fill you up.,
+TurkeyDinerStuffedBiscuitsDesc,items,,,Refreshing Blend of foods to fill you up.,
+TurkeyClubSandwichDesc,items,,,Refreshing Blend of foods to fill you up.,
 
 BellPepper Seed,recipes,Recipe,KgNone,Bell Pepper Seed,
 BitterHops Seed,items,Item,KgNone,Bitter Hops Seed,

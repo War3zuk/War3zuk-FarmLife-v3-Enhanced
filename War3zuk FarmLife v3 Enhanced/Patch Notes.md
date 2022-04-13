@@ -2,6 +2,16 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.12
 
+Replaced All Turkey Icons 256x256
+Edited All Craft Times 1s To 10s
+Edited All Craft Time 30s To 60s
+Added Localization For New Items
+Rebuilt Turkey Diner Item
+Rebuilt Turkey Diner Stuffed Biscuits Item
+Rebuilt Turkey Club Sandwich Item
+Adjusted Beef Chili Step 3 Recipe
+Adjusted Cooked Kidney Bean Recipe
+Adjusted cryogenicContainer Amount To 2 From 1
 Added Cherry Tomato Salad with Roasted Lemons Localization
 Rebuilt Cherry Tomato Salad with Roasted Lemons Code
 Fixed Baked Rigatoni Recipe

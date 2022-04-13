@@ -15428,42 +15428,6 @@
 			<property name="CraftingIngredientTime" value="9"/>			
 			<property name="Group" value="Food/Cooking"/>
 			<property name="DescriptionKey" value="Desc"/>			
-		</item>		
-		<!-- TEMP PLACEHOLDER -->
-		<item name="Turkey Diner">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="50000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
-			<property name="DescriptionKey" value="Desc"/>			
-		</item>
-		<!-- TEMP PLACEHOLDER -->
-		<item name="Turkey Diner Stuffed Biscuits">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="50000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
-			<property name="DescriptionKey" value="Desc"/>			
-		</item>
-		<!-- TEMP PLACEHOLDER -->
-		<item name="Turkey Club Sandwich">
-			<property name="HoldType" value="31"/>
-			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="50000"/>
-			<property name="EconomicValue" value="5"/>
-			<property name="CraftingIngredientTime" value="9"/>			
-			<property name="Group" value="All,Food/Cooking"/>
-			<property name="DescriptionKey" value="Desc"/>			
 		</item>
 		
 		<item name="crowbar"> <!-- T4 club -->
@@ -15575,37 +15539,85 @@
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
             </effect_group>
-            <property name="DescriptionKey" value="Lamb withCharredCherryTomatoesDesc"/>
+            <property name="DescriptionKey" value="LambCharredCherryTomatoesDesc"/>
         </item>
 		
-	</append>
-<!--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-									Direct Appends/Sets. 
-									NOTE: If TFP updates their side of the game, these are about the only things that should break in the event of them toying with items.
-									I highly doubt they'll be tinkering with any language structure. Due to their warpath right now with amazing updates, I'd like to 
-									refrain from tapping into their vanilla items and revamping them.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
+		<item name="Turkey Diner">
+			<property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="CustomIcon" value="Turkey Diner"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="50000"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="Group" value="All,Food/Cooking"/>
+			<property name="DisplayType" value="food"/>
+            <property class="Action0">
+                <property name="Class" value="Eat"/>
+                <property name="Delay" value="1.0"/>
+                <property name="Sound_start" value="player_eating"/>
+            </property>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="60"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+            </effect_group>
+            <property name="DescriptionKey" value="TurkeyDinerDesc"/>
+        </item>
+		
+		<item name="Turkey Diner Stuffed Biscuits">
+			<property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="CustomIcon" value="Turkey Diner Stuffed Biscuits"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="50000"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="Group" value="All,Food/Cooking"/>
+			<property name="DisplayType" value="food"/>
+            <property class="Action0">
+                <property name="Class" value="Eat"/>
+                <property name="Delay" value="1.0"/>
+                <property name="Sound_start" value="player_eating"/>
+            </property>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="30"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+            </effect_group>
+            <property name="DescriptionKey" value="TurkeyDinerStuffedBiscuitsDesc"/>
+        </item>
+		
+		<item name="Turkey Club Sandwich">
+			<property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="CustomIcon" value="Turkey Club Sandwich"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="50000"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="Group" value="All,Food/Cooking"/>
+			<property name="DisplayType" value="food"/>
+            <property class="Action0">
+                <property name="Class" value="Eat"/>
+                <property name="Delay" value="1.0"/>
+                <property name="Sound_start" value="player_eating"/>
+            </property>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+            </effect_group>
+            <property name="DescriptionKey" value="TurkeyClubSandwichDesc"/>
+        </item>
+		
+</append>
 
 	<append xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']">
 		<property name="Focused_blockname_6" value="Old Stone Well"/>
-	</append>	
-		
-		<!-- ADD LATER -->
-		
-		<!-- NEED TO TEST -->
-		<!--
-		
-		<insertAfter xpath="/items/item[@name='resourceGlue']" >
-			<property name="UnlockedBy" value="perkFarmLife"/>
-		</insertAfter>
-		
-		<insertAfter xpath="/items/item[@name='foodHoney']" >
-			<property name="UnlockedBy" value="perkFarmLife"/>
-		</insertAfter>
+	</append>
 	
-		-->
-		
-   
 </configs>
