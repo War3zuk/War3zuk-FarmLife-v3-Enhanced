@@ -2,6 +2,10 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.12
 
+Edited Fried Rice Item
+Edited Pizza Item
+Edited Cookie Item
+Edited Apples and Cream Recipe
 Added Baked Pheasant Recipe
 Updated Loot.xml
 Replaced All Turkey Icons 256x256

@@ -1997,6 +1997,7 @@
         <recipe name="Apples and Cream" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
             <ingredient name="Sliced Apples" count="2"/>
             <ingredient name="Ground Cinnamon" count="1"/>
+			<ingredient name="Whipped Cream" count="5"/>
         </recipe>
 		
         <recipe name="Avocado Spinach Salad" count="1" craft_time="60" craft_area="Chopping Board">
