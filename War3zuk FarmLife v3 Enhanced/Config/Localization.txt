@@ -1,4 +1,5 @@
-Key,Source,Context,Changes,English
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
 farmLifeAgedBarrelDesc,items,Item,New,"Type: [c7b992]Advanced Farming Tool[-] [FF684F](Farm Table required to craft.)[-]\nMaterial: [c7b992]Oak Barrel\nGrain Alcohol[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nThe Aged Barrel is a tool used in the Brew Station for crafting."
 farmLifeAgedBourbonDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Charred Barrel on a Brew Station. An ingredient used for crafting yummy meals or drinks."
 farmLifeAgedBulleeetDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Charred Barrel on a Brew Station. An ingredient used for crafting yummy meals or drinks."

@@ -3786,10 +3786,10 @@
         <recipe name="Taco Shell" count="10" craft_time="60" craft_area="Gas Oven" craft_tool="Baking Sheet">
             <ingredient name="Corn Tortillas Step 2" count="1"/>
         </recipe>        
-        <recipe name="Tortillas Chips" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Baking Sheet">
+        <recipe name="Tortillas Chips" count="10" craft_time="60" craft_area="Gas Oven" craft_tool="Baking Sheet">
             <ingredient name="Tortillas Chips Step 2" count="1"/>
         </recipe>
-        <recipe name="Tortillas Chips Step 1" count="1" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+        <recipe name="Tortillas Chips Step 1" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
             <ingredient name="Flour Tortillas" count="5"/>
         </recipe>
         <recipe name="Tortillas Chips Step 2" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
