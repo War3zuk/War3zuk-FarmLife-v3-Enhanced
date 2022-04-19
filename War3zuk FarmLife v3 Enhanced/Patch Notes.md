@@ -2,6 +2,9 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.12
 
+Edited Triple Taco Tuesday Recipe
+Edited Beef Taco Recipe
+Fixed Sheep Shears Recipe
 Fixed Tortillas Chips Recipes
 Edited Fried Rice Item
 Edited Pizza Item

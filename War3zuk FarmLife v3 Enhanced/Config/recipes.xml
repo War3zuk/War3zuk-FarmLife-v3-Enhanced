@@ -2100,6 +2100,7 @@
             <ingredient name="Shredded Lettuce" count="5"/>
             <ingredient name="Diced Tomatos" count="5"/>
             <ingredient name="Shredded Cheddar" count="5"/>
+			<ingredient name="Taco Shell" count="10"/>
         </recipe>
 		
 		<recipe name="Beet Juice" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Veggie Attachment">
@@ -3801,7 +3802,7 @@
         <recipe name="Triple Taco Tuesday" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Baking Sheet">
             <ingredient name="Beef Taco" count="3"/>
             <ingredient name="Spicy Salsa" count="3"/>
-            <ingredient name="Spanish Rice" count="3"/>
+            <ingredient name="Corn Tortillas" count="10"/>
             <ingredient name="Refried Beans" count="3"/>
             <ingredient name="Queso Fresco" count="3"/>
         </recipe>       
@@ -3947,9 +3948,9 @@
 			<ingredient name="Animal Feed" count="20"/>
 		</recipe>
 		
-		<recipe name="Sheep Shears" count="20" craft_time="90" craft_area="Farm Forge" craft_tool="toolAnvil" >
-			<ingredient name="unit_iron" count="10"/>
-            <ingredient name="unit_clay" count="10"/>
+		<recipe name="Sheep Shears" count="1" craft_time="90" craft_area="Farm Forge" craft_tool="toolAnvil" >
+			<ingredient name="unit_iron" count="100"/>
+            <ingredient name="unit_clay" count="50"/>
 		</recipe>
 		
 		<recipe name="Thread" count="20" craft_time="60" craft_area="Farm Table">
