@@ -5075,9 +5075,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>		
@@ -5103,9 +5100,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5123,9 +5117,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullChickenCoop"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="Raw Chicken" count="4" tag="wildCropsHarvest"/>
     <drop event="Harvest" name="Chicken Breast" count="2" tag="cropHarvest"/>
     <drop event="Harvest" name="Chicken Wing" count="2" tag="cropHarvest"/>
@@ -5159,9 +5150,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5188,9 +5176,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5209,9 +5194,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullPigPenPrefab"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="Pork Belly" count="2,4" tag="cropHarvest"/>
     <drop event="Harvest" name="Ham" count="2,4" tag="cropHarvest"/>
@@ -5245,9 +5227,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5274,9 +5253,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5295,9 +5271,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullAngusPenPrefab"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="Delmontico" count="1,2" tag="cropHarvest"/>
     <drop event="Harvest" name="Rump Roast" count="1,2" tag="cropHarvest"/>
@@ -5331,9 +5304,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5360,9 +5330,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5381,9 +5348,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullHolsteinPenPrefab"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="resourceAnimalFat" count="2,4" tag="cropHarvest"/>
     <drop event="Harvest" name="resourceBone" count="2,4" tag="cropHarvest"/>
@@ -5416,9 +5380,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5445,9 +5406,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5466,9 +5424,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullElkPenPrefab"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="Elk Scraps" count="10,20" tag="cropHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="4,8" tag="cropHarvest"/>
@@ -5500,9 +5455,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5529,9 +5481,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5550,9 +5499,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullVealPenPrefab"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="Veal" count="4,8" tag="cropHarvest"/>
     <drop event="Harvest" name="Calf Stomache" count="1" tag="cropHarvest"/>
@@ -5585,9 +5531,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5614,9 +5557,6 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0"/>
 </block>
@@ -5635,9 +5575,6 @@
     <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?FullSalmonPoolPrefab"/>
-	<property class="RepairItems">
-		<property name="Animal Feed" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
     <drop event="Harvest" name="Whole Salmon" count="4" tag="cropHarvest"/>
     <drop event="Harvest" name="Salmon Roe" count="4" tag="cropHarvest"/>

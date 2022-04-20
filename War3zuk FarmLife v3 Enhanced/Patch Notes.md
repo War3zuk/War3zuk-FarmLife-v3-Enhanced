@@ -2,6 +2,7 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.12
 
+Removed Class RepairItems Hungry Pens
 Edited Triple Taco Tuesday Recipe
 Edited Beef Taco Recipe
 Fixed Sheep Shears Recipe
