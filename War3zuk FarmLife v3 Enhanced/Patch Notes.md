@@ -2,6 +2,8 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.13
 
+Removed FoodPoisoning (All Items Cooked/Veggies/Berries)
+Edited FoodPoisoning (All Raw Meats Now 90% Chance)
 Added Cow Windows Code / XUI
 Fixed Animal WorkStations Tags For Unlock
 Fixed Animal Pens Tags For Unlock
