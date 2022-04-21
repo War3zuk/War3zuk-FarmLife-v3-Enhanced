@@ -95,6 +95,7 @@
 			<property name="PlantGrowing.Next" value="Young Cow"/>
 			<property name="Group" value="Breeding,All"/>
 			<property name="FilterTags" value="fother"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<drop event="Destroy" name="Raw Beef" count="5"/>
 			
 			<property name="CustomIcon" value="Calf"/>
@@ -3584,6 +3585,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Chicken"/></property>
@@ -3617,7 +3619,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
-			
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Cow"/></property>
@@ -3653,7 +3655,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
-			
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Elk"/></property>
@@ -3690,7 +3692,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
-			
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Horse"/></property>
@@ -3728,6 +3730,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Pig"/></property>
@@ -3764,7 +3767,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
-			
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Pheasant"/></property>
@@ -3804,7 +3807,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
-			
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Sheep"/></property>
@@ -3844,7 +3847,7 @@
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
 			<property name="Stacknumber" value="1"/>
-			
+			<property name="UnlockedBy" value="perkFarmLife"/>
 			<property class="Workstation">
 				<property name="Modules" value="output"/>
 				<property name="CraftingAreaRecipes" value="Turkey"/></property>
@@ -5075,6 +5078,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>		
@@ -5150,6 +5154,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5227,6 +5232,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5304,6 +5310,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5380,6 +5387,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5455,6 +5463,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>
@@ -5531,6 +5540,7 @@
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="UnlockedBy" value="perkFarmLife"/>
 	<drop event="Harvest" name="resourceWood" count="20" prob="1"/>
 	<drop event="Destroy" count="0" />
 </block>

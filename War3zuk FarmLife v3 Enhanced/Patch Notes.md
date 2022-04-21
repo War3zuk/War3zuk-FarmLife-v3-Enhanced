@@ -2,6 +2,9 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.13
 
+Added Cow Windows Code / XUI
+Fixed Animal WorkStations Tags For Unlock
+Fixed Animal Pens Tags For Unlock
 Edited Farm Table Recipe
 Removed Duplicate Gas Oven Recipe
 Edited Milking Machine (Craft Area Now Farm Table)
