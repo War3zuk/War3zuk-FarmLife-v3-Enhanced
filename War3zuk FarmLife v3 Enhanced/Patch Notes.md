@@ -1,5 +1,45 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.13
+
+Edited Farm Table Recipe
+Removed Duplicate Gas Oven Recipe
+Edited Milking Machine (Craft Area Now Farm Table)
+Edited bucketEmpty (Craft Area Now Farm Table)
+Edited Farm Life Sign (Craft Area Now Farm Table)
+Edited Feeding Trough (Craft Area Now Farm Table)
+Edited Live Trap (Craft Area Now Farm Table)
+Edited Metal Cabinet Door (Craft Area Now Farm Table)
+Edited Pinup Girl One (Craft Area Now Farm Table)
+Edited Pinup Girl Two (Craft Area Now Farm Table)
+Edited Pinup Girl Three (Craft Area Now Farm Table)
+Edited Tom Cat (Craft Area Now Farm Table)
+Edited Brew Cooker (Craft Area Now Farm Table)
+Edited Brew Station (Craft Area Now Farm Table)
+Edited Cold Smoker (Craft Area Now Farm Table)
+Edited Fermentor Bench (Craft Area Now Farm Table)
+Edited Gas Oven (Craft Area Now Farm Table)
+Edited KitchNaid (Craft Area Now Farm Table)
+Edited Wood Grill (Craft Area Now Farm Table)
+Edited Edited Aging Shelves (Craft Area Now Farm Table)
+Edited Cheese Press (Craft Area Now Farm Table)
+Edited Damascus Handle (Craft Area Now Farm Table)
+Edited Damascus Knife (Craft Area Now Farm Table)
+Edited Floor Corker (Craft Area Now Farm Table)
+Edited Grain Miller (Craft Area Now Farm Table)
+Edited Meat Grinder (Craft Area Now Farm Table)
+Edited Mixing Cask (Craft Area Now Farm Table)
+Edited Oak Barrel (Craft Area Now Farm Table)
+Edited Pasteurizer (Craft Area Now Farm Table)
+Edited Pizza Cutter (Craft Area Now Farm Table)
+Edited Spirits Vat (Craft Area Now Farm Table)
+Edited Veggie Attachment (Craft Area Now Farm Table)
+Edited Wine Tank (Craft Area Now Farm Table)
+Edited Zhang Cleaver (Craft Area Now Farm Table)
+Edited Zhang Handle (Craft Area Now Farm Table)
+Edited Cheese Cloth (Craft Area Now Farm Table)
+Edited Pasta Helper (Craft Area Now Farm Table)
+
 Version 1.12
 
 Removed Class RepairItems Hungry Pens

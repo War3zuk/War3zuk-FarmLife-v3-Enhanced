@@ -411,7 +411,7 @@
             <ingredient name="Raw Milk" count="1"/>
         </recipe>
 		
-		<recipe name="Milking Machine" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Milking Machine" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedSteel" count="30"/>
             <ingredient name="resourceMechanicalParts" count="15"/>
             <ingredient name="resourceScrapPolymers" count="15"/>
@@ -1525,7 +1525,7 @@
 			<ingredient name="resourceScrapPolymers" count="100"/>
 		</recipe>
 		
-		<recipe name="bucketEmpty" count="1" craft_area="workbench">
+		<recipe name="bucketEmpty" count="1" craft_area="Farm Table">
             <ingredient name="resourceScrapIron" count="50"/>
         </recipe>
 		
@@ -1551,11 +1551,11 @@
 			<ingredient name="Animal Feed" count="5"/>
 		</recipe>
 		
-        <recipe name="Farm Life Sign" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Farm Life Sign" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceScrapIron" count="100"/>
         </recipe>
 		
-        <recipe name="Feeding Trough" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Feeding Trough" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="14"/>
         </recipe>
 		
@@ -1567,7 +1567,7 @@
             <ingredient name="Romaine" count="5"/>
         </recipe>
 		
-		<recipe name="Live Trap" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Live Trap" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="resourceMechanicalParts" count="5"/>
         </recipe>
@@ -1576,27 +1576,27 @@
             <ingredient name="Maple Wood Plank" count="1"/>
         </recipe>		
 		
-		<recipe name="Metal Cabinet Door" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Metal Cabinet Door" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="resourceMechanicalParts" count="5"/>
         </recipe>
 		
-		<recipe name="Pinup Girl One" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Pinup Girl One" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourcePaint" count="10"/>
             <ingredient name="resourcePaper" count="10"/>
         </recipe>
 		
-        <recipe name="Pinup Girl Three" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Pinup Girl Three" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourcePaint" count="10"/>
             <ingredient name="resourcePaper" count="10"/>
         </recipe>
 		
-        <recipe name="Pinup Girl Two" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Pinup Girl Two" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourcePaint" count="10"/>
             <ingredient name="resourcePaper" count="10"/>
         </recipe>
 		
-        <recipe name="Tom Cat" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Tom Cat" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="foodCanCatfood" count="5"/>
             <ingredient name="Live Trap" count="1"/>
         </recipe>
@@ -1665,13 +1665,13 @@
 		</recipe>		
 		
 		<!-- Workstations -->
-		<recipe name="Brew Cooker" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Brew Cooker" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
 		
-        <recipe name="Brew Station" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Brew Station" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
@@ -1681,7 +1681,7 @@
             <ingredient name="Walnut Wood Plank" count="10"/>
         </recipe>
 		
-		<recipe name="Cold Smoker" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Cold Smoker" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
@@ -1702,31 +1702,25 @@
 		
 		<recipe name="Farm Table" count="1" craft_area="workbench" tags="learnable,perkFarmLife,workbenchCrafting">
 			<ingredient name="toolBeaker" count="1"/>
-			<ingredient name="burningBarrelPlayer" count="1"/>
-			<ingredient name="toolCookingPot" count="3"/>
-			<ingredient name="resourceMetalPipe" count="15"/>
-			<ingredient name="resourceWood" count="40"/>
+			<ingredient name="resourceScrapPolymers" count="150"/>
+			<ingredient name="toolCookingPot" count="10"/>
+			<ingredient name="resourceMetalPipe" count="20"/>
+			<ingredient name="resourceWood" count="250"/>
 		</recipe>
 		
-		<recipe name="Fermentor Bench" count="1" craft_time="60" craft_area="Farm Table"> <!-- Changed from Table Saw -->
+		<recipe name="Fermentor Bench" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Walnut Wood Plank" count="5"/>
             <ingredient name="Walnut Shelve" count="5"/>
             <ingredient name="resourceNail" count="50"/>
         </recipe>
 		
-		<recipe name="Gas Oven" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Gas Oven" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
 		
-        <recipe name="Gas Oven" count="1" craft_time="60" craft_area="workbench">
-            <ingredient name="resourceForgedIron" count="20"/>
-            <ingredient name="resourceMechanicalParts" count="10"/>
-            <ingredient name="resourceScrapPolymers" count="10"/>
-        </recipe>
-		
-		<recipe name="KitchNaid" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="KitchNaid" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
@@ -1748,7 +1742,7 @@
 			<ingredient name="resourceWood" count="200"/>
 		</recipe>
 		
-		<recipe name="Wood Grill" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Wood Grill" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="toolCookingGrill" count="1"/>
         </recipe>
@@ -1758,7 +1752,7 @@
 		==========================================================
 		-->
 		
-		<recipe name="Aging Shelves" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Aging Shelves" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Walnut Wood Plank" count="10"/>
             <ingredient name="Walnut Shelve" count="7"/>
             <ingredient name="resourceNail" count="40"/>
@@ -1784,7 +1778,7 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Cheese Press" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Cheese Press" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedSteel" count="20"/>
             <ingredient name="resourceMechanicalParts" count="20"/>
         </recipe>
@@ -1798,11 +1792,11 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Damascus Handle" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Damascus Handle" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Cherry Wood Plank" count="5"/>
         </recipe>
 		
-        <recipe name="Damascus Knife" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Damascus Knife" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Damascus Handle" count="1"/>
             <ingredient name="Damascus Blade" count="1"/>
         </recipe>
@@ -1817,12 +1811,12 @@
             <ingredient name="unit_clay" count="50"/>
         </recipe>
 		
-		<recipe name="Floor Corker" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Floor Corker" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
 		
-		<recipe name="Grain Miller" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Grain Miller" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="4"/>
             <ingredient name="resourceMechanicalParts" count="4"/>
             <ingredient name="resourceScrapPolymers" count="4"/>
@@ -1833,7 +1827,7 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-		<recipe name="Meat Grinder" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Meat Grinder" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="4"/>
             <ingredient name="resourceMechanicalParts" count="4"/>
             <ingredient name="resourceScrapPolymers" count="4"/>
@@ -1849,17 +1843,17 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-        <recipe name="Mixing Cask" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Mixing Cask" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="White Oak Plank" count="20"/>
         </recipe>
 		
-		<recipe name="Oak Barrel" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Oak Barrel" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="White Oak Plank" count="10"/>
             <ingredient name="resourceForgedIron" count="10"/>
         </recipe>
 		
-		<recipe name="Pasteurizer" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Pasteurizer" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedSteel" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
@@ -1871,7 +1865,7 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-        <recipe name="Pizza Cutter" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Pizza Cutter" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Pizza Handle" count="1"/>
             <ingredient name="Pizza Blade" count="1"/>
         </recipe>
@@ -1900,7 +1894,7 @@
             <ingredient name="unit_clay" count="5"/>
         </recipe>
 		
-		<recipe name="Spirits Vat" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Spirits Vat" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="10"/>
         </recipe>
@@ -1920,7 +1914,7 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>		
 		
-		<recipe name="Veggie Attachment" count="1" craft_time="60" craft_area="workbench">
+		<recipe name="Veggie Attachment" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="4"/>
             <ingredient name="resourceMechanicalParts" count="4"/>
             <ingredient name="resourceScrapPolymers" count="4"/>
@@ -1930,7 +1924,7 @@
             <ingredient name="Walnut Wood Plank" count="5"/>
         </recipe>
 		
-        <recipe name="Wine Tank" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Wine Tank" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="20"/>
         </recipe>
 		
@@ -1944,12 +1938,12 @@
             <ingredient name="unit_clay" count="100"/>
         </recipe>
 		
-        <recipe name="Zhang Cleaver" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Zhang Cleaver" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Zhang Handle" count="1"/>
             <ingredient name="Zhang Blade" count="1"/>
         </recipe>
 		
-        <recipe name="Zhang Handle" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Zhang Handle" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="Walnut Wood Plank" count="5"/>
         </recipe>			
 		
@@ -2322,7 +2316,7 @@
             <ingredient name="Briney Water" count="1"/>
         </recipe>
 		
-        <recipe name="Cheese Cloth" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Cheese Cloth" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceCropCottonPlant" count="5"/>
         </recipe>
 		
@@ -3230,7 +3224,7 @@
             <ingredient name="Olive Oil" count="2"/>
             <ingredient name="Salt and Pepper" count="1"/>
         </recipe>
-        <recipe name="Pasta Helper" count="1" craft_time="60" craft_area="workbench">
+        <recipe name="Pasta Helper" count="1" craft_time="60" craft_area="Farm Table">
             <ingredient name="resourceForgedIron" count="4"/>
             <ingredient name="resourceMechanicalParts" count="4"/>
             <ingredient name="resourceScrapPolymers" count="4"/>
