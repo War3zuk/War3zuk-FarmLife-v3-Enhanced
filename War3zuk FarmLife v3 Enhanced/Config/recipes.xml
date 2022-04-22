@@ -3925,11 +3925,6 @@
 			<ingredient name="Turkey Parts" count="10"/>
 		</recipe>
 		
-		<recipe name="Horse" count="1" craft_time="900" craft_area="Farm Table" tags="learnable,perkFarmLife">
-			<ingredient name="hayBaleSquare" count="20"/>
-			<ingredient name="Animal Feed" count="60"/>
-		</recipe>
-		
 		<recipe name="Brass Hinge" count="2" craft_time="60" craft_area="Farm Forge" craft_tool="toolAnvil" >
 			<ingredient name="unit_brass" count="10"/>
 		</recipe>
@@ -4101,7 +4096,332 @@
             <ingredient name="Milk" count="2"/>
             <ingredient name="Butter" count="2"/>
             <ingredient name="Ground Cinnamon" count="2"/>
-        </recipe>        
+        </recipe>
+		
+		<recipe name="Horse" count="1" craft_time="900" craft_area="Farm Table" tags="learnable,perkFarmLife">
+			<ingredient name="hayBaleSquare" count="20"/>
+			<ingredient name="Animal Feed" count="60"/>
+		</recipe>
+		
+		<recipe name="Cooked Horse Ribs" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
+			<ingredient name="Raw Horse Ribs" count="1"/>
+		</recipe>
+		
+		<recipe name="Cooked Horse MeatBalls" count="9" craft_time="60" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
+			<ingredient name="Raw Horse Fillet" count="4"/>
+			<ingredient name="Horse Scraps" count="10"/>
+		</recipe>
+		
+		<recipe name="Cooked Braised Fillet" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
+			<ingredient name="Raw Horse Meat" count="10"/>
+			<ingredient name="Horse Scraps" count="10"/>
+		</recipe>
+		
+		<recipe name="Raw Horse Fillet" count="4" craft_time="60" craft_area="Horse">
+			<ingredient name="Raw Horse Meat" count="10"/>
+		</recipe>
+		
+		<!--  CUSTOM ADDITIONS ADDED FOR TESTING -->
+		
+    <recipe name="Lamb Rib" count="2" craft_time="60" craft_area="Chopping Board" craft_tool="Zhang Cleaver">
+      <ingredient name="Raw Mutton" count="4" />
+    </recipe>
+
+    <recipe name="Raw Chicken" count="1" craft_time="5" craft_area="Gas Oven" craft_tool="toolCookingPot">
+      <ingredient name="Whole Chicken" count="1" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+	
+    <recipe name="Sour Cream" count="10" craft_time="60" craft_area="Fermentor Bench" craft_tool="Clay Pot">
+      <ingredient name="Cream" count="10"/>
+      <ingredient name="Milk" count="5"/>
+      <ingredient name="Meyer Lemon" count="3"/>
+      <ingredient name="drinkJarEmpty" count="10"/>
+    </recipe>
+
+    <recipe name="Chopped Green Onion" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="Green Onion" count="3" />
+    </recipe>
+
+    <recipe name="Chocolate Chips" count="12" craft_time="20" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="Chocolate Bar" count="1" />
+    </recipe>
+
+    <recipe name="Berry Salad" count="3" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="foodCropBlueberries" count="10" />
+      <ingredient name="Raspberry" count="10" />
+      <ingredient name="Strawberry" count="10" />
+      <ingredient name="Blackberry" count="10" />
+    </recipe>
+
+    <recipe name="Sliced Cauliflower" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="Cauliflower" count="3" />
+    </recipe>
+
+    <recipe name="Sliced Peaches" count="5" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="Peach" count="3" />
+    </recipe>
+
+    <recipe name="Turkey Burger" count="1" craft_time="30" craft_area="Webber Grill" craft_tool="Spatula">
+      <ingredient name="Ground Turkey" count="1" />
+      <ingredient name="Hamburger Fixings" count="1" />
+      <ingredient name="Cheddar" count="1" />
+      <ingredient name="Spicy Mayo" count="2" />
+    </recipe>
+	
+    <recipe name="Chicken Nachos Step 1" count="1" craft_time="60" craft_area="Chopping Board">
+      <ingredient name="Shredded Lettuce" count="2"/>
+      <ingredient name="Diced Tomatos" count="1"/>
+      <ingredient name="Canned Olives" count="1"/>
+      <ingredient name="Sliced Avocado" count="2"/>
+      <ingredient name="Chopped Green Onion" count="1"/>
+    </recipe>
+
+    <recipe name="Potato Salad Step 1" count="1" craft_time="60" craft_area="Chopping Board" craft_tool="Damascus Knife">
+      <ingredient name="foodCropPotato" count="5" />
+      <ingredient name="foodEggBoiled" count="3" />
+      <ingredient name="Cooked Bacon" count="2" />
+      <ingredient name="Onion" count="1" />
+    </recipe>
+
+     <recipe name="Potato Salad Step 2" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Mixing Bowl">
+      <ingredient name="Potato Salad Step 1" count="1" />
+      <ingredient name="Mayo" count="3" />
+      <ingredient name="Mustard" count="2" />
+      <ingredient name="Diced Dill" count="2" />
+    </recipe>
+	
+    <recipe name="Chicken Nachos" count="1" craft_time="60" craft_area="Chopping Board">
+      <ingredient name="Chicken Nachos Step 1" count="1"/>
+      <ingredient name="Pulled Chicken" count="2"/>
+      <ingredient name="Shredded Cheddar" count="1"/>
+      <ingredient name="Tortillas Chips" count="5"/>
+      <ingredient name="Sour Cream" count="1"/>
+    </recipe>
+
+    <recipe name="Potato Salad" count="1" craft_time="60" craft_area="Chopping Board">
+      <ingredient name="Potato Salad Step 2" count="1" />
+      <ingredient name="Chopped Green Onion" count="2" />
+      <ingredient name="Ground Hot Pepper" count="2" />
+    </recipe>
+
+    <recipe name="Sauteed Mushroom Steak" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
+      <ingredient name="Raw Steak" count="1" />
+      <ingredient name="Sliced Mushrooms" count="3" />
+      <ingredient name="Butter" count="2" />
+      <ingredient name="Minced Garlic" count="1" />
+      <ingredient name="Mixed Herbs" count="1" />
+    </recipe>
+
+    <recipe name="Elk Stew" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+      <ingredient name="Elk Scraps" count="10" />
+      <ingredient name="foodCropPotato" count="2" />
+      <ingredient name="Diced Carrot" count="2" />
+      <ingredient name="Peas" count="5" />
+      <ingredient name="drinkJarBoiledWater" count="3" />
+    </recipe>
+
+    <recipe name="Spring Rolls" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+      <ingredient name="Dough" count="1" />
+      <ingredient name="Ground Pork" count="2" />
+      <ingredient name="Shredded Cabbage" count="2" />
+      <ingredient name="Shredded Carrot" count="2" />
+      <ingredient name="Peas" count="4" />
+    </recipe>
+
+    <recipe name="Smoked BBQ Lamb Ribs" count="2" craft_time="60" craft_area="Smoker" craft_tool="toolCookingGrill">
+      <ingredient name="Lamb Rib" count="2" />
+      <ingredient name="Mixed Herbs" count="6" />
+      <ingredient name="Spicy BBQ Sauce" count="20" />
+      <ingredient name="Cherry Woodchips" count="10" />
+      <ingredient name="Walnut Woodchips" count="10" />
+    </recipe>
+
+    <recipe name="Chicken Fried Steak" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="Cast Iron Skillet">
+      <ingredient name="Raw Steak" count="1" />
+      <ingredient name="Mashed Potatoes" count="2" />
+      <ingredient name="Roasted Brussels Sprouts" count="1" />
+      <ingredient name="Sausage Gravy" count="1" />
+    </recipe>
+
+    <recipe name="Wild Roasted Chicken" count="1" craft_time="30" craft_area="campfire">
+      <ingredient name="Whole Chicken" count="1" />
+      <ingredient name="Herbs" count="3" />
+      <ingredient name="Spices" count="3" />
+    </recipe>
+
+    <recipe name="Turkey Burger Basket" count="1" craft_time="30" craft_area="Chopping Board">
+      <ingredient name="Turkey Burger" count="1" />
+      <ingredient name="Cola" count="1" />
+      <ingredient name="American Fries" count="2" />
+      <ingredient name="Ketchup" count="3" />
+    </recipe>
+
+    <recipe name="Smore" count="2" craft_time="30" craft_area="campfire">
+      <ingredient name="Chocolate Bar" count="1" />
+      <ingredient name="Marshmallows" count="2" />
+      <ingredient name="Graham Crackers" count="2" />
+    </recipe>
+
+    <recipe name="Razzleberry Pie" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
+      <ingredient name="Blackberry" count="15" />
+      <ingredient name="Raspberry" count="15" />
+      <ingredient name="Dough" count="2" />
+      <ingredient name="Raw Sugar" count="2" />
+    </recipe>
+
+    <recipe name="Cinnamon Rolls" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
+      <ingredient name="Ground Cinnamon" count="5" />
+      <ingredient name="Cream" count="3" />
+      <ingredient name="Sugar" count="3" />
+      <ingredient name="Bread Dough" count="3" />
+    </recipe>
+
+    <recipe name="Peach Cobbler" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
+      <ingredient name="Sliced Peaches" count="10" />
+      <ingredient name="Dough" count="1" />
+      <ingredient name="Ground Cinnamon" count="2" />
+      <ingredient name="Raw Sugar" count="2" />
+      <ingredient name="Butter" count="2" />
+    </recipe>
+
+    <recipe name="Creamy Berry Salad" count="2" craft_time="60" craft_area="Chopping Board">
+      <ingredient name="Berry Salad" count="2" />
+      <ingredient name="Whipped Cream" count="5" />
+      <ingredient name="Diced Mint" count="3" />
+    </recipe>
+
+    <recipe name="Chocolate Cake" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
+      <ingredient name="Flour" count="4" />
+      <ingredient name="foodEgg" count="2" />
+      <ingredient name="Butter" count="2" />
+      <ingredient name="Chocolate Bar" count="4" />
+      <ingredient name="Chocolate Chips" count="10" />
+    </recipe>
+
+    <recipe name="Fudge" count="4" craft_time="60" craft_area="Gas Oven" craft_tool="toolCookingPot">
+      <ingredient name="Milk" count="2" />
+      <ingredient name="Salt" count="1" />
+      <ingredient name="Butter" count="2" />
+      <ingredient name="Chocolate Bar" count="6" />
+      <ingredient name="Nuts" count="10" />
+    </recipe>
+	
+    <recipe name="Special Honey Pot" count="1" craft_area="Fermentor Bench" tags="Aging Shelves">
+	  <ingredient name="bucketEmpty" count="1"/>
+      <ingredient name="drugVitamins" count="5"/>
+      <ingredient name="foodHoney" count="5"/>
+      <ingredient name="resourceCropAloeLeaf" count="15"/>
+      <ingredient name="Marijuana" count="25"/>	
+    </recipe>
+
+    <recipe name="Special Brownie" count="1" craft_time="60" craft_area="Gas Oven" craft_tool="PyreX Bakeware">
+      <ingredient name="Marijuana" count="2" />
+      <ingredient name="foodEgg" count="4" />
+      <ingredient name="Flour" count="4" />
+      <ingredient name="drinkJarBoiledWater" count="2" />
+      <ingredient name="Chocolate Bar" count="2" />
+    </recipe>
+
+    <recipe name="Special Watermelon Smoothie" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Veggie Attachment">
+      <ingredient name="Milk" count="1" />
+      <ingredient name="Watermelon" count="2" />
+      <ingredient name="Marijuana" count="2" />
+      <ingredient name="Plain Yogurt" count="2" />
+      <ingredient name="drinkJarEmpty" count="1" />
+    </recipe>
+	
+     <recipe name="Tropical Fruit Punch" count="2" craft_time="30" craft_area="KitchNaid" craft_tool="Veggie Attachment">
+      <ingredient name="Pineapple" count="5" />
+      <ingredient name="Coconut" count="2" />
+      <ingredient name="Orange" count="5" />
+      <ingredient name="Lime" count="2" />
+      <ingredient name="drinkJarEmpty" count="2" />
+    </recipe>
+
+    <recipe name="Green Smoothie" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Veggie Attachment">
+      <ingredient name="Spinach" count="5" />
+      <ingredient name="Strawberry" count="3" />
+      <ingredient name="Plain Yogurt" count="2" />
+      <ingredient name="Milk" count="1" />
+      <ingredient name="drinkJarEmpty" count="1" />
+    </recipe>
+
+    <recipe name="Grape Juice" count="3" craft_time="60" craft_area="KitchNaid" craft_tool="Veggie Attachment">
+      <ingredient name="Grape Pulp" count="1" />
+      <ingredient name="Grape Extract" count="1" />
+      <ingredient name="Vineyard Grapes" count="10" />
+      <ingredient name="Sugar" count="5" />
+      <ingredient name="drinkJarEmpty" count="5" />
+    </recipe>
+
+    <recipe name="Mixed Fruit Juice" count="1" craft_time="30" craft_area="KitchNaid" craft_tool="Veggie Attachment">
+      <ingredient name="Red Apples" count="5" />
+      <ingredient name="Cherry" count="5" />
+      <ingredient name="Raspberry" count="5" />
+      <ingredient name="Vineyard Grapes" count="5" />
+      <ingredient name="drinkJarEmpty" count="1" />
+    </recipe>
+	
+     <recipe name="Green Onion Seed" count="1" craft_time="10" tags="learnable,perkFarmLife">
+       <ingredient name="Green Onion" count="4"/>
+     </recipe>
+
+     <recipe name="Cauliflower Seed" count="1" craft_time="10" tags="learnable,perkFarmLife">
+        <ingredient name="Cauliflower" count="4"/>
+      </recipe>
+
+     <recipe name="Blackberry Seed" count="1" craft_time="10" tags="learnable,perkFarmLife">
+       <ingredient name="Blackberry" count="4"/>
+     </recipe>                  
+                               
+     <recipe name="Pea Seed" count="1" craft_time="10" tags="learnable,perkFarmLife">
+        <ingredient name="Peas" count="4"/>
+     </recipe>
+                      
+     <recipe name="Watermelon Seed" count="1" craft_time="10" tags="learnable,perkFarmLife">
+       <ingredient name="Watermelon" count="4"/>
+     </recipe>
+	 
+      <recipe name="Green Onion Seed" count="1" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Green Onion" count="2"/>
+      </recipe>
+               
+      <recipe name="Cauliflower Seed" count="1" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Cauliflower" count="2"/>
+      </recipe>
+
+      <recipe name="Blackberry Seed" count="1" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Blackberry" count="2"/>
+      </recipe>    
+                          
+      <recipe name="Pea Seed" count="1" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Peas" count="2"/>
+      </recipe>
+                            
+      <recipe name="Watermelon Seed" count="1" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Watermelon" count="2"/>
+      </recipe>
+	  
+      <recipe name="Green Onion Seed" count="10" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Seed Pack" count="1"/>
+      </recipe>
+        
+      <recipe name="Cauliflower Seed" count="10" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Seed Pack" count="1"/>
+      </recipe>
+
+      <recipe name="Blackberry Seed" count="10" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Seed Pack" count="1"/>
+      </recipe>    
+                              
+      <recipe name="Pea Seed" count="10" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Seed Pack" count="1"/>
+      </recipe>
+                           
+      <recipe name="Watermelon Seed" count="10" craft_time="4" craft_area="Farm Table">
+        <ingredient name="Seed Pack" count="1"/>
+      </recipe>
 		
 </append>
 </configs>

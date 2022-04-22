@@ -2,6 +2,19 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.13
 
+Added Dizasta Custom Recipe Changes
+Added AlexF221070 SeedPack Icons
+Edited Horse XUI
+Exited Mature Horse Drop Items
+Added Raw Horse Meat
+Added Raw Horse Ribs
+Added Raw Horse Fillet
+Added Cooked Horse Ribs
+Added Cooked Braised Fillet
+Added Cooked Horse MeatBalls
+Added Cooked Horse Ribs Recipe
+Added Cooked Braised Fillet Recipe
+Added Cooked Horse MeatBalls Recipe
 Removed FoodPoisoning (All Items Cooked/Veggies/Berries)
 Edited FoodPoisoning (All Raw Meats Now 90% Chance)
 Added Cow Windows Code / XUI

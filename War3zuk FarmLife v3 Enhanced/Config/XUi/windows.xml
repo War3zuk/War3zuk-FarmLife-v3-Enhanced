@@ -284,7 +284,7 @@
 				<item_stack controller="RequiredItemStack" name="0"/>
 			</grid>
 		</rect>
-	</window>	
+	</window>
 	
 	<window name="windowToolsElk" width="228" height="121" panel="Right" cursor_area="true" >
 		<panel style="header.panel">

@@ -22,7 +22,6 @@
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="Horse">
-			<crafting_category name="All" icon="ui_game_symbol_all_blocks" display_name="All" />
 			<crafting_category name="Food/Cooking" icon="ui_game_symbol_spatula" display_name="Food/Cooking" />
 			<crafting_category name="Breeding" icon="ui_game_symbol_bull" display_name="Breeding" icon_color="153,0,0"/>
 		</crafting_category_list>
@@ -137,4 +136,20 @@
 		</crafting_category_list>
 		
 </append>
+
+		<!--  CUSTOM ADDITIONS FOR TESTING -->
+		
+<append xpath="/ui_display_info/item_display">
+	
+<item_display_info display_type="dizastahoneyjar" display_group="groupConsumables">
+    <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+    <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+    <display_entry name=".foodStaminaBonusAdd" title_key="statStaminaAmount" />
+    <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+    <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent" />
+    <display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent" />
+    </item_display_info>
+</append>
+
 </configs>

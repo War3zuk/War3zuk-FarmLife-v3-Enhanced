@@ -175,4 +175,119 @@
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="veryLow"/>
 </append>
 
+<!--  CUSTOM ADDITIONS FOR TESTING -->
+
+  <insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">  
+
+  <lootgroup name="groupCondiments">
+     <item name="Mustard"/>
+  </lootgroup>
+
+  <lootgroup name="groupCandy">
+     <item name="Chocolate Bar"/>
+     <item name="Graham Cracker Box"/>
+     <item name="Marshmallow Bag"/>
+  </lootgroup>
+
+  <lootgroup name="groupDrinks">
+      <item name="Cola 12pk"/> 
+  </lootgroup>
+
+  <lootgroup name="groupPacks">
+     <item name="SSM"/>
+     <item name="SSM02"/>
+     <item name="SSM03"/>
+  </lootgroup>
+
+  </insertBefore>
+  
+                          <!-- SODA FOUNTAINS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain']">
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>  
+  </append>
+                          <!-- STORE COOLERS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupShamwayCooler']">
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+                          <!-- STORE FREEZERS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupShamwayFreezer']">
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+                          <!-- STORE SHELVES -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupShamwayShelves']">
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupCandy" count="1" loot_prob_template="low"/>
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+                          <!-- COOLERS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupCooler']">
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+                          <!-- REFRIGERATORS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupRefrigerator']">
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+                          <!-- CUPBOARDS/BACKPACKS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupCupboard']">
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupCandy" count="1" loot_prob_template="low"/>
+  </append>  
+                          <!-- MICROWAVES -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupMicrowave']">
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupCandy" count="1" loot_prob_template="low"/>
+  </append>
+                          <!-- SHOPPING BASKETS/CARTS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupShoppingCart']">
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupCandy" count="1" loot_prob_template="low"/>
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+                          <!-- BEER COOLER -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupBeerCooler']">
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+    <item group="groupDrinks" count="1" loot_prob_template="veryLow"/>
+  </append>
+                          <!-- ARMY TRUCKS -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupArmyTruck']">
+    <item group="groupPacks" count="1" loot_prob_template="veryLow"/>
+  </append>
+  
+                   <!-- SHAMWAY BOXES -->                         
+  <append xpath="/lootcontainers/lootgroup[@name='groupShamwayCrate']">
+    <item group="groupDrinks" count="1" loot_prob_template="high"/>
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupPacks" count="1" loot_prob_template="high"/>
+    <item group="groupCandy" count="1" loot_prob_template="high"/>
+  </append>
+
+                   <!-- FOOD PILES -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileSmall']">
+    <item group="groupCondiments" count="1" loot_prob_template="veryLow"/>
+    <item group="groupCandy" count="1" loot_prob_template="veryLow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileMed']">
+    <item group="groupCondiments" count="1" loot_prob_template="low"/>
+    <item group="groupCandy" count="1" loot_prob_template="low"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileLarge']">
+    <item group="groupCondiments" count="1" loot_prob_template="med"/>
+    <item group="groupCandy" count="1" loot_prob_template="med"/>
+  </append>
+
 </configs>

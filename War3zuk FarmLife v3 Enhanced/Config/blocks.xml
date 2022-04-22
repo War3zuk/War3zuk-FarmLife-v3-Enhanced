@@ -340,6 +340,7 @@
 			<property name="FilterTags" value="fother"/>
 			<property name="CustomIcon" value="missingImageFile" />
 		</block>
+		
 		<block name="Mature Horse">
 			<property name="Extends" value="Wild Horse"/>
 			<property name="MaxDamage" value="1"/>
@@ -352,9 +353,11 @@
 			<property name="MultiBlockDim" value="1,2,2"/>
 			<property name="Material" value="Manimal"/>
 			<property name="CreativeMode" value="Player"/>
-			<drop event="Harvest" name="Horse Scraps" count="20,40" tag="cropHarvest"/>
-			<drop event="Harvest" name="Horse Hide" count="1,1" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
+			<drop event="Harvest" name="Horse Scraps" count="4,8" tag="cropHarvest"/>
+			<drop event="Harvest" name="Horse Hide" count="1" tag="cropHarvest"/>
+            <drop event="Harvest" name="resourceBone" count="4,8" tag="cropHarvest"/>
+            <drop event="Harvest" name="Raw Horse Meat" count="10" tag="cropHarvest"/>
+            <drop event="Harvest" name="Raw Horse Ribs" count="1" tag="cropHarvest"/>
 			<property name="FilterTags" value="fother"/>
 		</block>
 		
@@ -5592,6 +5595,298 @@
 	<property name="DowngradeBlock" value="Baby Salmon Pond"/>
 	<drop event="Destroy" count="0"/>
 </block>
+
+<!--  CUSTOM ADDITIONS ADDED FOR TESTING -->
+
+        <block name="Green Onion Seed">
+			<property name="Extends" value="cropsGrowingMaster"/>			
+			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CreativeMode" value="Player"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+			<property name="PlantGrowing.Next" value="Green Onion Growing 1"/>
+			<property name="Group" value="Food/Cooking,Seeds"/>
+			<drop event="Destroy" name="Green Onion Seed" count="1"/>
+			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
+		</block>
+		
+		<block name="Green Onion Growing 1">
+			<property name="Extends" value="cropsGrowingMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="Green Onion Growing 1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+			<property name="PlantGrowing.Next" value="GreenOnionPlantHarvestPlayer"/>
+			<drop event="Destroy" name="Green Onion Seed" count="1"/>
+		</block>
+		
+		<block name="Green Onion Plant">
+			<property name="Extends" value="cropsHarvestableMaster"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+			<drop event="Harvest" name="Green Onion" count="1" tag="wildCropsHarvest"/>
+			<property name="Class" value="CropsGrown"/>
+			<property name="Create_item" value="Green Onion"/>
+			<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+		</block>
+		
+		<block name="plantedGreenOnionHarvestRandomHelper">
+			<property name="Extends" value="Green Onion Plant" param1="MultiBlockDim"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="FilterTags" value="foutdoor,fcrops,fdesign"/>
+		</block>
+		
+		<block name="GreenOnionPlantHarvestPlayer">
+			<property name="Extends" value="Green Onion Plant"/>
+			<property name="DescriptionKey" value="farmLifeWheatDesc"/>
+			<property name="CustomIcon" value="Green Onion Seed"/>
+			<property name="CreativeMode" value="Player"/>
+			<drop event="Harvest" name="Green Onion" count="1" tag="cropHarvest"/>
+			<property name="DowngradeBlock" value="Green Onion Growing 1"/>
+		</block>
+		
+        <block name="Cauliflower Seed">
+			<property name="Extends" value="cropsGrowingMaster"/>			
+			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CreativeMode" value="Player"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+			<property name="PlantGrowing.Next" value="Cauliflower Growing 1"/>
+			<property name="Group" value="Food/Cooking,Seeds"/>
+			<drop event="Destroy" name="Cauliflower Seed" count="1"/>
+			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
+		</block>
+		
+		<block name="Cauliflower Growing 1">
+			<property name="Extends" value="cropsGrowingMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="Cauliflower Growing 1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+			<property name="PlantGrowing.Next" value="CauliflowerPlantHarvestPlayer"/>
+			<drop event="Destroy" name="Cauliflower Seed" count="1"/>
+		</block>
+		
+		<block name="Cauliflower Plant">
+			<property name="Extends" value="cropsHarvestableMaster"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+			<drop event="Harvest" name="Cauliflower" count="1" tag="wildCropsHarvest"/>
+			<property name="Class" value="CropsGrown"/>
+			<property name="Create_item" value="Cauliflower"/>
+			<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+		</block>
+		
+		<block name="plantedCauliflowerHarvestRandomHelper">
+			<property name="Extends" value="Cauliflower Plant" param1="MultiBlockDim"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="FilterTags" value="foutdoor,fcrops,fdesign"/>
+		</block>
+		
+		<block name="CauliflowerPlantHarvestPlayer">
+			<property name="Extends" value="Cauliflower Plant"/>
+			<property name="DescriptionKey" value="farmLifeWheatDesc"/>
+			<property name="CustomIcon" value="Cauliflower Seed"/>
+			<property name="CreativeMode" value="Player"/>
+			<drop event="Harvest" name="Cauliflower" count="1" tag="cropHarvest"/>
+			<property name="DowngradeBlock" value="Cauliflower Growing 1"/>
+		</block>
+		
+        <block name="Blackberry Seed">
+			<property name="Extends" value="cropsGrowingMaster"/>			
+			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CreativeMode" value="Player"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+			<property name="PlantGrowing.Next" value="Blackberry Growing 1"/>
+			<property name="Group" value="Food/Cooking,Seeds"/>
+			<drop event="Destroy" name="Blackberry Seed" count="1"/>
+			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
+		</block>
+		
+		<block name="Blackberry Growing 1">
+			<property name="Extends" value="cropsGrowingMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="Blackberry Growing 1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+			<property name="PlantGrowing.Next" value="BlackberryPlantHarvestPlayer"/>
+			<drop event="Destroy" name="Blackberry Seed" count="1"/>
+		</block>
+		
+		<block name="Blackberry Plant">
+			<property name="Extends" value="cropsHarvestableMaster"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+			<drop event="Harvest" name="Blackberry" count="1" tag="wildCropsHarvest"/>
+			<property name="Class" value="CropsGrown"/>
+			<property name="Create_item" value="Blackberry"/>
+			<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+		</block>
+		
+		<block name="plantedBlackberryHarvestRandomHelper">
+			<property name="Extends" value="Blackberry Plant" param1="MultiBlockDim"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="FilterTags" value="foutdoor,fcrops,fdesign"/>
+		</block>
+		
+		<block name="BlackberryPlantHarvestPlayer">
+			<property name="Extends" value="Blackberry Plant"/>
+			<property name="DescriptionKey" value="farmLifeWheatDesc"/>
+			<property name="CustomIcon" value="Blackberry Seed"/>
+			<property name="CreativeMode" value="Player"/>
+			<drop event="Harvest" name="Blackberry" count="1" tag="cropHarvest"/>
+			<property name="DowngradeBlock" value="Blackberry Growing 1"/>
+		</block>
+		
+        <block name="Pea Seed">
+			<property name="Extends" value="cropsGrowingMaster"/>			
+			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CreativeMode" value="Player"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+			<property name="PlantGrowing.Next" value="Pea Growing 1"/>
+			<property name="Group" value="Food/Cooking,Seeds"/>
+			<drop event="Destroy" name="Pea Seed" count="1"/>
+			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
+		</block>
+		
+		<block name="Pea Growing 1">
+			<property name="Extends" value="cropsGrowingMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="Pea Growing 1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+			<property name="PlantGrowing.Next" value="PeaPlantHarvestPlayer"/>
+			<drop event="Destroy" name="Pea Seed" count="1"/>
+		</block>
+		
+		<block name="Pea Plant">
+			<property name="Extends" value="cropsHarvestableMaster"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+			<drop event="Harvest" name="Peas" count="1" tag="wildCropsHarvest"/>
+			<property name="Class" value="CropsGrown"/>
+			<property name="Create_item" value="Pea"/>
+			<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+		</block>
+		
+		<block name="plantedPeaHarvestRandomHelper">
+			<property name="Extends" value="Pea Plant" param1="MultiBlockDim"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="FilterTags" value="foutdoor,fcrops,fdesign"/>
+		</block>
+		
+		<block name="PeaPlantHarvestPlayer">
+			<property name="Extends" value="Pea Plant"/>
+			<property name="DescriptionKey" value="farmLifeWheatDesc"/>
+			<property name="CustomIcon" value="Pea Seed"/>
+			<property name="CreativeMode" value="None"/>
+			<drop event="Harvest" name="Peas" count="1" tag="cropHarvest"/>
+			<property name="DowngradeBlock" value="Pea Growing 1"/>
+		</block>
+		
+        <block name="Watermelon Seed">
+			<property name="Extends" value="cropsGrowingMaster"/>			
+			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CreativeMode" value="Player"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+			<property name="PlantGrowing.Next" value="Watermelon Growing 1"/>
+			<property name="Group" value="Food/Cooking,Seeds"/>
+			<drop event="Destroy" name="Watermelon Seed" count="1"/>
+			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
+		</block>
+		
+		<block name="Watermelon Growing 1">
+			<property name="Extends" value="cropsGrowingMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="Watermelon Growing 1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+			<property name="PlantGrowing.Next" value="WatermelonPlantHarvestPlayer"/>
+			<drop event="Destroy" name="Watermelon Seed" count="1"/>
+		</block>
+		
+		<block name="Watermelon Plant">
+			<property name="Extends" value="cropsHarvestableMaster"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+			<drop event="Harvest" name="Watermelon" count="1" tag="wildCropsHarvest"/>
+			<property name="Class" value="CropsGrown"/>
+			<property name="Create_item" value="Watermelon"/>
+			<property name="Create_item_count" count="1" tag="wildCropsHarvest"/>
+		</block>
+		
+		<block name="plantedWatermelonHarvestRandomHelper">
+			<property name="Extends" value="Watermelon Plant" param1="MultiBlockDim"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="FilterTags" value="foutdoor,fcrops,fdesign"/>
+		</block>
+		
+		<block name="WatermelonPlantHarvestPlayer">
+			<property name="Extends" value="Watermelon Plant"/>
+			<property name="DescriptionKey" value="farmLifeWheatDesc"/>
+			<property name="CustomIcon" value="Watermelon Seed"/>
+			<property name="CreativeMode" value="Player"/>
+			<drop event="Harvest" name="Watermelon" count="1" tag="cropHarvest"/>
+			<property name="DowngradeBlock" value="Watermelon Growing 1"/>
+		</block>
+		
+                <block name="Peach Tree">
+	                <property name="Extends" value="cropsHarvestableMaster"/>
+	                <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	                <property name="DisplayInfo" value="Name"/>
+                        <property name="CreativeMode" value="Player"/>
+                        <property name="Shape" value="ModelEntity"/>
+	                <property name="FallOver" value="false"/>
+	                <property name="ActivationDistance" value="12"/>
+	                <property name="BigDecorationRadius" value="12"/>
+                        <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+                        <property name="PlantGrowing.GrowthRate" value="60"/>
+                        <property name="PlantGrowing.FertileLevel" value="1"/>
+	                <property name="ParticleOnDeath" value="treeGib_small_dust"/>
+	                <drop event="Harvest" name="resourceWood" count="30" tag="oreWoodHarvest"/>
+                        <drop event="Harvest" name="Peach" count="4" tag="wildCropsHarvest"/>
+                        <property name="DowngradeBlock" value="Peach Sapling"/>
+	                <property name="MaxDamage" value="500"/>
+	                <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery"/>
+                </block>
+
+                <block name="Peach Sapling">
+                        <property name="Extends" value="cropsGrowingMaster"/>
+	                <property name="ModelOffset" value="0,0,0"/>
+	                <property name="DisplayInfo" value="Name"/>
+                        <property name="Shape" value="ModelEntity"/>
+                        <property name="Model" value="#Entities/Trees?AzaleaPrefab.prefab"/>
+                        <property name="PlantGrowing.Next" value="Peach Tree"/>
+                        <property name="PlantGrowing.GrowthRate" value="60"/>
+                        <property name="PlantGrowing.FertileLevel" value="1"/>
+	                <property name="MaxDamage" value="50"/>
+	                <property name="Collide" value="movement,melee"/>
+	                <drop event="Destroy" count="0"/>
+	                <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0"/>
+                </block>
 
 </append>
 	
