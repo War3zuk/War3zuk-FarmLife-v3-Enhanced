@@ -4437,11 +4437,13 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
     <property name="CreativeMode" value="None"/>
-    <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="12"/>
-    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,7,1"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4584,11 +4586,13 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
     <property name="CreativeMode" value="None"/>
-    <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,7,1"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4620,11 +4624,13 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
     <property name="CreativeMode" value="None"/>
-    <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,7,1"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4656,11 +4662,13 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
     <property name="CreativeMode" value="None"/>
-    <property name="Shape" value="ModelEntity"/>
 	<property name="FallOver" value="false"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,7,1"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -4877,10 +4885,12 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
     <property name="CreativeMode" value="None"/>
-    <property name="Shape" value="ModelEntity"/>
 	<property name="ActivationDistance" value="12"/>
 	<property name="BigDecorationRadius" value="6"/>
-    <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,7,1"/>
     <property name="PlantGrowing.GrowthRate" value="60"/>
     <property name="PlantGrowing.FertileLevel" value="1"/>
 	<property name="ParticleOnDeath" value="treeGib_small_dust"/>
@@ -5600,14 +5610,13 @@
 
         <block name="Green Onion Seed">
 			<property name="Extends" value="cropsGrowingMaster"/>			
-			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CustomIcon" value="Green Onion Seed"/>
 			<property name="CreativeMode" value="Player"/>			
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Green Onion Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Green Onion Seed" count="1"/>
-			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
 		</block>
 		
 		<block name="Green Onion Growing 1">
@@ -5651,14 +5660,13 @@
 		
         <block name="Cauliflower Seed">
 			<property name="Extends" value="cropsGrowingMaster"/>			
-			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CustomIcon" value="Cauliflower Seed"/>
 			<property name="CreativeMode" value="Player"/>			
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Cauliflower Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Cauliflower Seed" count="1"/>
-			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
 		</block>
 		
 		<block name="Cauliflower Growing 1">
@@ -5702,14 +5710,13 @@
 		
         <block name="Blackberry Seed">
 			<property name="Extends" value="cropsGrowingMaster"/>			
-			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CustomIcon" value="Blackberry Seed"/>
 			<property name="CreativeMode" value="Player"/>			
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+			<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Blackberry Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Blackberry Seed" count="1"/>
-			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
 		</block>
 		
 		<block name="Blackberry Growing 1">
@@ -5753,14 +5760,13 @@
 		
         <block name="Pea Seed">
 			<property name="Extends" value="cropsGrowingMaster"/>			
-			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CustomIcon" value="Pea Seed"/>
 			<property name="CreativeMode" value="Player"/>			
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Pea Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Pea Seed" count="1"/>
-			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
 		</block>
 		
 		<block name="Pea Growing 1">
@@ -5804,14 +5810,13 @@
 		
         <block name="Watermelon Seed">
 			<property name="Extends" value="cropsGrowingMaster"/>			
-			<property name="CustomIcon" value="Wheat Seed"/>
+			<property name="CustomIcon" value="Watermelon Seed"/>
 			<property name="CreativeMode" value="Player"/>			
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 			<property name="PlantGrowing.Next" value="Watermelon Growing 1"/>
 			<property name="Group" value="Food/Cooking,Seeds"/>
 			<drop event="Destroy" name="Watermelon Seed" count="1"/>
-			<property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
 		</block>
 		
 		<block name="Watermelon Growing 1">

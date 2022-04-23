@@ -2,6 +2,15 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.13
 
+Thanks LucasWayne
+Fixed Lime Tree xml
+Fixed Apple Tree xml
+Fixed Red Apple Tree xml
+Fixed Coconut Tree xml
+Fixed Cinnamon Tree xml
+
+Added Peach Tree To Biome Spawn
+Added Khayotik Custom Changes
 Added Dizasta Custom Recipe Changes
 Added AlexF221070 SeedPack Icons
 Edited Horse XUI

@@ -18,6 +18,7 @@
 		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
 	</append>
 	
     <append xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations">
@@ -38,6 +39,7 @@
 		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
 	</append>
 	
     <append xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
@@ -58,6 +60,7 @@
 		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
 	</append>
 	
 	<append xpath="worldgeneration/biomes/biome[@name='desert']/decorations">
@@ -78,6 +81,7 @@
 		<decoration type="block" blockname="Sugar Maple Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="Walnut Tree" prob="0.002" rotatemax="7"/>
 		<decoration type="block" blockname="White Oak Tree" prob="0.002" rotatemax="7"/>
+		<decoration type="block" blockname="Peach Tree" prob="0.002" rotatemax="7"/>
 	</append>
 	
 </Biomes>
