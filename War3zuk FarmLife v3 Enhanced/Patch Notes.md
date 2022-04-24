@@ -1,5 +1,9 @@
 War3zuk FarmLife v3 Enhanced Alpha 20.3
 
+Version 1.14
+
+Fixed LootGroup Conflict
+
 Version 1.13
 
 Thanks LucasWayne
@@ -14,7 +18,7 @@ Added Khayotik Custom Changes
 Added Dizasta Custom Recipe Changes
 Added AlexF221070 SeedPack Icons
 Edited Horse XUI
-Exited Mature Horse Drop Items
+Edited Mature Horse Drop Items
 Added Raw Horse Meat
 Added Raw Horse Ribs
 Added Raw Horse Fillet
