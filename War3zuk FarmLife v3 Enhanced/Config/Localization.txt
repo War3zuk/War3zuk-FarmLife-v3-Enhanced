@@ -975,16 +975,16 @@ crowbarDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F](Forge requi
 perkFarmLifeDesc,progression,perk For,,,[D4AF37]Farm Life
 perkFarmLifeName,progression,perk For,,[D4AF37]Farm Life,"Farm Life is tedious, but rewarding."
 
-perkFarmLifeRank1Desc,progression,Perk,New,Green Thumb
-perkFarmLifeRank1LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](Living off the Land has it's advantages, time to grow some crops.)[-]\nLevel: [c7b992]1[-]\nUnlocks: [c7b992]Farm Life Workstations, Seeds, Trees and Animals."
-perkFarmLifeRank2Desc,progression,Perk,New,Tiller
-perkFarmLifeRank2LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](You've learned some tricks along the way. Putting them to practical use saves on resources.)[-]\nLevel: [c7b992]2[-]\nUnlocks: [c7b992]Farm Crop Plot."
-perkFarmLifeRank3Desc,progression,Perk,New,Rancher
-perkFarmLifeRank3LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](Long days on the farm have taught time management skills.)[-]\nLevel: [c7b992]3[-]\nUnlocks: [c7b992] Planters, Animal Breeding, Reduced crafting time."
-perkFarmLifeRank4Desc,progression,Perk,New,Chef NoTell
-perkFarmLifeRank4LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](Big city chefs have nothing on you.)[-]\nLevel: [c7b992]4[-]\nUnlocks: [c7b992]Master Crop Plots and Advanced Farm Life recipes."
-perkFarmLifeRank5Desc,progression,Perk,New,Farm Life Master
-perkFarmLifeRank5LongDesc,progression,Perk,New,"Type: [c7b992]Farm Life Skill[-] [FF684F](You are a Farm Life Master. Lets feed the World.)[-]\nLevel: [c7b992]5[-]\nUnlocks: [c7b992]Farm Forge. Webber Grill. Rustic Smoker."
+perkFarmLifeRank1Desc,progression,perk,,x,Green Thumb
+perkFarmLifeRank1LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](Living off the Land has it's advantages, time to grow some crops.)[-]\nLevel: [c7b992]1[-]\nUnlocks: [c7b992]Farm Life Workstations, Seeds, Trees and Animals."
+perkFarmLifeRank2Desc,progression,perk,,x,Tiller
+perkFarmLifeRank2LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](You've learned some tricks along the way. Putting them to practical use saves on resources.)[-]\nLevel: [c7b992]2[-]\nUnlocks: [c7b992]Farm Crop Plot."
+perkFarmLifeRank3Desc,progression,perk,,x,Rancher
+perkFarmLifeRank3LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](Long days on the farm have taught time management skills.)[-]\nLevel: [c7b992]3[-]\nUnlocks: [c7b992] Planters, Animal Breeding, Reduced crafting time."
+perkFarmLifeRank4Desc,progression,perk,,x,Chef NoTell
+perkFarmLifeRank4LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](Big city chefs have nothing on you.)[-]\nLevel: [c7b992]4[-]\nUnlocks: [c7b992]Master Crop Plots and Advanced Farm Life recipes."
+perkFarmLifeRank5Desc,progression,perk,,x,Farm Life Master
+perkFarmLifeRank5LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](You are a Farm Life Master. Lets feed the World.)[-]\nLevel: [c7b992]5[-]\nUnlocks: [c7b992]Farm Forge. Webber Grill. Rustic Smoker."
 
 farmLifeMilkingMachineDesc,items,Item,New,"Type: [c7b992]Farm Life Tool[-] [FF684F](Workbench required to craft.)[-]\nMaterial: [c7b992]Metal[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nMilking Machine. Tool for Cow."
 farmLifePasteurizerDesc,items,Item,New,"Type: [c7b992]Farm Life Tool[-] [FF684F](Workbench required to craft.)[-]\nMaterial: [c7b992]Metal[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nPasteurizer. Tool for Cow."

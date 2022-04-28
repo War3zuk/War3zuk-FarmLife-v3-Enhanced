@@ -3,6 +3,7 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 Version 1.14
 
 Fixed LootGroup Conflict
+Fixed Description Skill Info
 
 Version 1.13
 
