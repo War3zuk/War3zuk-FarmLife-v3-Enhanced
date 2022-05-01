@@ -4422,6 +4422,13 @@
       <recipe name="Watermelon Seed" count="10" craft_time="4" craft_area="Farm Table">
         <ingredient name="Seed Pack" count="1"/>
       </recipe>
+	  
+<recipe name="Hot Chocolate" count="1" craft_time="30" craft_area="Gas Oven" craft_tool="toolCookingPot">
+      <ingredient name="Chocolate Bar" count="4" />
+      <ingredient name="Sugar" count="5" />
+      <ingredient name="Milk" count="2" />
+      <ingredient name="Marshmallows" count="8" />
+</recipe>
 		
 </append>
 </configs>

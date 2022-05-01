@@ -1203,3 +1203,5 @@ PintoBean Seed,,item,Food,newKey,Pinto Bean Seed,
 SugarCane Seed,,item,Food,newKey,Sugar Cane Seed,
 Sunflower Seed,,item,Food,newKey,Sun flower Seed,
 VineyardGrape Seed,,item,Food,newKey,Vineyard Grape Seed,
+
+HotChocolateDesc,,item,Tools,newKey,Marshmallow Hot Chocolate served in a cup.,

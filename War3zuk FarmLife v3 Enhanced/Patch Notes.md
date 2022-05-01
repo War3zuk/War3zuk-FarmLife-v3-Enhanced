@@ -2,6 +2,9 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.14
 
+Fixed Cereal Food/Water Amount
+Added Hot Chocolate (Cera)
+Added Icon Chicken
 Complete Icon Rework By (AlexF221070)
 Fixed LootGroup Conflict
 Fixed Description Skill Info
