@@ -2,6 +2,7 @@ War3zuk FarmLife v3 Enhanced Alpha 20.3
 
 Version 1.14
 
+Fixed 900 Instances Of Broken Desc Info
 Fixed Cereal Food/Water Amount
 Added Hot Chocolate (Cera)
 Added Icon Chicken
