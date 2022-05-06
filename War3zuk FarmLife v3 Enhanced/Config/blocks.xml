@@ -57,13 +57,13 @@
             <drop event="Harvest" name="resourceFeather" count="10,20" tag="cropHarvest"/>
             <drop event="Harvest" name="foodEgg" count="10,20" tag="cropHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Chicken" />
 		</block>
 		<block name="Mature Chicken">
 			<property name="Extends" value="Wild Chicken"/>
 			<property name="MaxDamage" value="1"/>
 			<property name="DescriptionKey" value="Mature Chicken"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Chicken" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -106,7 +106,7 @@
 			<property name="PlantGrowing.GrowthRate" value="30"/> <!-- 157.5 -->
 			<property name="PlantGrowing.FertileLevel" value="1"/>
 			<property name="DescriptionKey" value="Young Cow"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Young Cow" />
 			<property name="MaxDamage" value="1"/>
 			<property name="Material" value="Manimal"/>
 			<property name="CreativeMode" value="Player"/>
@@ -131,12 +131,12 @@
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 			<drop event="Harvest" name="Raw Beef" count="80" tag="wildCropsHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Cattle" />
 		</block>
 		<block name="Mature Cow">
 			<property name="Extends" value="Wild Cattle"/>
 			<property name="DescriptionKey" value="Mature Cow"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Cow" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -173,7 +173,7 @@
 			<property name="Extends" value="cropsGrowingMaster"/>
 			<property name="Material" value="Manimal"/>
 			<property name="DescriptionKey" value="Young Pig"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Young Pig" />
 			<property name="PlantGrowing.GrowthRate" value="30"/> <!-- 94.5 -->
 			<property name="PlantGrowing.FertileLevel" value="1"/>
 			<property name="CreativeMode" value="Player"/>
@@ -199,12 +199,12 @@
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 			<drop event="Harvest" name="Raw Pork" count="15" tag="wildCropsHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Pig" />
 		</block>
 		<block name="Mature Pig">
 			<property name="Extends" value="Wild Pig"/>
 			<property name="DescriptionKey" value="Mature Pig"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Pig" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -241,7 +241,7 @@
 			<property name="Extends" value="cropsGrowingMaster"/>
 			<property name="Material" value="Manimal"/>
 			<property name="DescriptionKey" value="Baby Turkey"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Baby Turkey" />
 			<property name="PlantGrowing.GrowthRate" value="30"/>
 			<property name="PlantGrowing.FertileLevel" value="1"/>
 			<property name="MaxDamage" value="1"/>
@@ -266,13 +266,13 @@
             <drop event="Harvest" name="resourceFeather" count="10,20" tag="cropHarvest"/>
             <drop event="Harvest" name="Turkey Egg" count="1,4" tag="cropHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Turkey" />
 		</block>
 		<block name="Mature Turkey">
 			<property name="Extends" value="Wild Turkey"/>
 			<property name="MaxDamage" value="1"/>
 			<property name="DescriptionKey" value="Mature Turkey"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Turkey" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -311,7 +311,7 @@
 			<property name="Extends" value="cropsGrowingMaster"/>
 			<property name="Material" value="Manimal"/>
 			<property name="DescriptionKey" value="Young Horse"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Young Horse" />
 			<property name="PlantGrowing.GrowthRate" value="30"/>
 			<property name="PlantGrowing.FertileLevel" value="1"/>
 			<property name="MaxDamage" value="1"/>
@@ -338,14 +338,14 @@
             <drop event="Harvest" name="resourceLeather" count="5,10" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Horse" />
 		</block>
 		
 		<block name="Mature Horse">
 			<property name="Extends" value="Wild Horse"/>
 			<property name="MaxDamage" value="1"/>
 			<property name="DescriptionKey" value="Mature Horse"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Horse" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -387,7 +387,7 @@
 			<property name="PlantGrowing.GrowthRate" value="30"/>
 			<property name="PlantGrowing.FertileLevel" value="1"/>
 			<property name="DescriptionKey" value="Young Pheasant"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Young Pheasant" />
 			<property name="MaxDamage" value="1"/>
 			<property name="Material" value="Manimal"/>
 			<property name="CreativeMode" value="Player"/>
@@ -413,12 +413,12 @@
 			<drop event="Harvest" name="Raw Pheasant" count="1" tag="wildCropsHarvest"/>			
 			<drop event="Harvest" name="resourceFeather" count="20" tag="wildCropsHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Pheasant" />
 		</block>
 		<block name="Mature Pheasant">
 			<property name="Extends" value="Wild Pheasant"/>
 			<property name="DescriptionKey" value="Mature Pheasant"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Pheasant" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -458,7 +458,7 @@
 			<property name="PlantGrowing.GrowthRate" value="30"/>
 			<property name="PlantGrowing.FertileLevel" value="1"/>
 			<property name="DescriptionKey" value="Young Sheep"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Young Sheep" />
 			<property name="MaxDamage" value="1"/>
 			<property name="Material" value="Manimal"/>
 			<property name="CreativeMode" value="Player"/>
@@ -483,12 +483,12 @@
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 			<drop event="Harvest" name="Raw Mutton" count="80" tag="wildCropsHarvest"/>
 			<property name="FilterTags" value="fother"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Wild Sheep" />
 		</block>
 		<block name="Mature Sheep">
 			<property name="Extends" value="Wild Sheep"/>
 			<property name="DescriptionKey" value="Mature Sheep"/>
-			<property name="CustomIcon" value="missingImageFile" />
+			<property name="CustomIcon" value="Mature Sheep" />
 			<property name="HeatMapStrength" value=".5"/>
 			<property name="HeatMapTime" value="500"/>
 			<property name="HeatMapFrequency" value="20"/>
@@ -726,7 +726,7 @@
 		<block name="plantedBarleyHarvestRandomHelper">
 			<property name="Extends" value="Barley Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Barley"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -874,7 +874,7 @@
 		<block name="plantedBellPepperHarvestRandomHelper">
 			<property name="Extends" value="BellPepper Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Bell"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -928,7 +928,7 @@
 		<block name="plantedBitterHopsHarvestRandomHelper">
 			<property name="Extends" value="BitterHops Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Bitterhops"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -1296,7 +1296,7 @@
 		<block name="CherryTomato Growing 1">
 			<property name="Extends" value="cropsGrowingMaster"/>
 			<property name="CreativeMode" value="None"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Cherrytom Grow"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 			<property name="PlantGrowing.Next" value="CherryTomatoPlantHarvestPlayer"/>
@@ -1315,7 +1315,7 @@
 		<block name="plantedCherryTomatoHarvestRandomHelper">
 			<property name="Extends" value="CherryTomato Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Cherrytom"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -1846,7 +1846,7 @@
 		<block name="plantedHabaneroHarvestRandomHelper">
 			<property name="Extends" value="Habanero Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Habanero"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -2710,7 +2710,7 @@
 		<block name="plantedRyeHarvestRandomHelper">
 			<property name="Extends" value="Rye Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Rye"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -2758,7 +2758,7 @@
 		<block name="plantedShallotHarvestRandomHelper">
 			<property name="Extends" value="Shallot Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Shallot"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -3338,7 +3338,7 @@
 		<block name="plantedVineyardGrapeHarvestRandomHelper">
 			<property name="Extends" value="VineyardGrape Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Vineyard"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -4474,6 +4474,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Avocado Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4510,6 +4511,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Banana Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4547,6 +4549,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Cherry Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4699,6 +4702,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Meier Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4773,6 +4777,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Olive Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4810,6 +4815,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Orange Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4847,6 +4853,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Pear Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4921,6 +4928,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Sakura Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4958,6 +4966,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Sugar Maple Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -4996,6 +5005,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="Walnut Tree"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5034,6 +5044,7 @@
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="CustomIcon" value="White Oak"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -5642,7 +5653,7 @@
 		<block name="plantedGreenOnionHarvestRandomHelper">
 			<property name="Extends" value="Green Onion Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Greenonion"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -5692,7 +5703,7 @@
 		<block name="plantedCauliflowerHarvestRandomHelper">
 			<property name="Extends" value="Cauliflower Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Cauli"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -5742,7 +5753,7 @@
 		<block name="plantedBlackberryHarvestRandomHelper">
 			<property name="Extends" value="Blackberry Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Blackberry"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -5792,8 +5803,7 @@
 		<block name="plantedPeaHarvestRandomHelper">
 			<property name="Extends" value="Pea Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
-			<property name="CustomIconTint" value="ff8080"/>
+			<property name="CustomIcon" value="Planted Pea"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
 			<property name="FilterTags" value="foutdoor,fcrops,fdesign"/>
@@ -5842,7 +5852,7 @@
 		<block name="plantedWatermelonHarvestRandomHelper">
 			<property name="Extends" value="Watermelon Plant" param1="MultiBlockDim"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="missingImageFile"/>
+			<property name="CustomIcon" value="Planted Watermelon"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
 			<property name="DisplayInfo" value="Name"/>
@@ -5863,6 +5873,7 @@
 	                <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	                <property name="DisplayInfo" value="Name"/>
                         <property name="CreativeMode" value="Player"/>
+						<property name="CustomIcon" value="Peach Tree"/>
                         <property name="Shape" value="ModelEntity"/>
 	                <property name="FallOver" value="false"/>
 	                <property name="ActivationDistance" value="12"/>

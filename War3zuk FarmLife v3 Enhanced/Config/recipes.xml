@@ -3326,7 +3326,7 @@
             <ingredient name="Raw Sugar" count="5"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
-       <recipe name="Raw Sugar" count="1" craft_time="60" craft_area="KitchNaid" craft_tool="Grain Miller">
+       <recipe name="Raw Sugar" count="1" craft_time="10" craft_area="KitchNaid" craft_tool="Grain Miller">
             <ingredient name="Sugar Cane" count="1"/>
         </recipe>   
         <recipe name="Red Wine and Peppercorn Porterhouse" count="1" craft_time="60" craft_area="Webber Grill" craft_tool="Tongs">

@@ -140,43 +140,43 @@
 </append>
 	
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
-    <item name="Salt" count="1,2" loot_prob_template="low"/>
-	<item name="Mustard" count="1,2" loot_prob_template="low"/>
-    <item name="Black Pepper" count="1,2" loot_prob_template="low"/>
-    <item name="Salt Shaker" count="1,2" loot_prob_template="low"/>
-    <item name="Black Pepper Tin" count="1" loot_prob_template="low"/>
-    <item name="Air of Scotland" count="1" loot_prob_template="low"/>
-    <item name="Bottle Cap" count="1,2" loot_prob_template="low"/>
-    <item name="Salmon Roe" count="1,2" loot_prob_template="low"/>
-	<item name="cryogenicContainerChicken" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerCow" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerElk" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerHorse" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerPig" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerSheep" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="veryLow"/>
+    <item name="Salt" count="1,2" loot_prob_template="med"/>
+	<item name="Mustard" count="1,2" loot_prob_template="med"/>
+    <item name="Black Pepper" count="1,2" loot_prob_template="med"/>
+    <item name="Salt Shaker" count="1,2" loot_prob_template="med"/>
+    <item name="Black Pepper Tin" count="1" loot_prob_template="med"/>
+    <item name="Air of Scotland" count="1" loot_prob_template="med"/>
+    <item name="Bottle Cap" count="1,2" loot_prob_template="med"/>
+    <item name="Salmon Roe" count="1,2" loot_prob_template="med"/>
+	<item name="cryogenicContainerChicken" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerCow" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerElk" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerHorse" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerPig" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
 </append>
 	
 <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsCommon']">
-    <item name="Chocolate Bar" count="1,2" loot_prob_template="low"/>
-    <item name="Graham Cracker Box" count="1,2" loot_prob_template="low"/>
-    <item name="Marshmallow Bag" count="1,2" loot_prob_template="low"/>
-    <item name="Salt" count="1,2" loot_prob_template="low"/>
-    <item name="Black Pepper" count="1,2" loot_prob_template="low"/>
-    <item name="Salt Shaker" count="1,2" loot_prob_template="low"/>
-    <item name="Black Pepper Tin" count="1" loot_prob_template="low"/>
-    <item name="Air of Scotland" count="1" loot_prob_template="low"/>
-    <item name="Bottle Cap" count="1,2" loot_prob_template="low"/>
-    <item name="Salmon Roe" count="1,2" loot_prob_template="low"/>
-	<item name="cryogenicContainerChicken" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerCow" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerElk" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerHorse" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerPig" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerSheep" count="1" loot_prob_template="veryLow"/>
-	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="veryLow"/>
+    <item name="Chocolate Bar" count="1,2" loot_prob_template="med"/>
+    <item name="Graham Cracker Box" count="1,2" loot_prob_template="med"/>
+    <item name="Marshmallow Bag" count="1,2" loot_prob_template="med"/>
+    <item name="Salt" count="1,2" loot_prob_template="med"/>
+    <item name="Black Pepper" count="1,2" loot_prob_template="med"/>
+    <item name="Salt Shaker" count="1,2" loot_prob_template="med"/>
+    <item name="Black Pepper Tin" count="1" loot_prob_template="med"/>
+    <item name="Air of Scotland" count="1" loot_prob_template="med"/>
+    <item name="Bottle Cap" count="1,2" loot_prob_template="med"/>
+    <item name="Salmon Roe" count="1,2" loot_prob_template="med"/>
+	<item name="cryogenicContainerChicken" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerCow" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerElk" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerHorse" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerPig" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
+	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
 </append>
 
 </configs>

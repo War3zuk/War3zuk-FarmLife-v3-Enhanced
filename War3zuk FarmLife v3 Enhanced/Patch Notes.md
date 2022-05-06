@@ -1,4 +1,9 @@
-War3zuk FarmLife v3 Enhanced Alpha 20.3
+War3zuk FarmLife v3 Enhanced Alpha 20.4 B42 Stable
+
+Version 1.15
+
+Adjusted Loot Slightly (Items)
+Adjusted Sugar Cane Recipe
 
 Version 1.14
 
