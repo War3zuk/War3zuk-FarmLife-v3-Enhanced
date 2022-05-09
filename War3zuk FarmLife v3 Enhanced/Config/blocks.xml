@@ -3604,6 +3604,7 @@
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
+		
 		<block name="Cow">
 			<property name="Extends" value="cntStorageGeneric"/>
 			<property name="CreativeMode" value="Player"/>
@@ -3640,6 +3641,7 @@
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
+		
 		<block name="Elk">
 			<property name="Extends" value="cntStorageGeneric"/>
 			<property name="CreativeMode" value="Player"/>
@@ -3675,7 +3677,8 @@
 			<property name="EconomicValue" value="776"/>
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
-		</block>				
+		</block>			
+		
 		<block name="Horse">
 			<property name="Extends" value="cntStorageGeneric"/>
 			<property name="CreativeMode" value="Player"/>
@@ -3714,6 +3717,7 @@
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>		
+		
 		<block name="Pig">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -3751,6 +3755,7 @@
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
+		
 		<block name="Pheasant">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -3791,6 +3796,7 @@
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
+		
 		<block name="Sheep">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
@@ -3831,6 +3837,7 @@
 			<property name="Group" value="Workbenches,All"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
+		
 		<block name="Turkey">
 			<property name="Extends" value="cntStorageGeneric"/>
 			<property name="CreativeMode" value="Player"/>
@@ -3869,7 +3876,9 @@
 			<property name="Group" value="Workbenches,All,Breeding"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
+		
 		<!-- WORKSTATIONS -->
+		
 		<block name="Brew Cooker">
             <property name="OnlySimpleRotations" value="true"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>

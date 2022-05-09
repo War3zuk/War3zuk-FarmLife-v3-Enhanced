@@ -331,5 +331,20 @@
 		</rect>
 	</window>
 	
+	<window name="windowToolsChicken" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" sprite="ui_game_symbol_cookware"/>
+			<label style="header.name" text="xuiTools" text_key="xuiTools" />
+		</panel>
+
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
+
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+			required_tools="Incubator,AnimalBreedingKit" required_tools_only="true">
+				<item_stack controller="RequiredItemStack" name="0"/>
+			</grid>
+		</rect>
+	</window>
+	
 </append>
 </configs>

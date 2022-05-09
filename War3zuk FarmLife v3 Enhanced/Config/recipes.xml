@@ -29,27 +29,27 @@
 		<!-- Animal Station Recipes -->
 		
 		<recipe name="foodEgg" count="2" craft_time="60" craft_area="Chicken">
-			<ingredient name="Animal Feed" count="10"/>
+			<ingredient name="Animal Feed" count="20"/>
 		</recipe>		
 		
 		<recipe name="foodEgg" count="2" craft_time="60" craft_area="Pheasant">
-			<ingredient name="Animal Feed" count="10"/>
+			<ingredient name="Animal Feed" count="20"/>
 		</recipe>
 		
 		<recipe name="foodEgg" count="2" craft_time="60" craft_area="Turkey">
-			<ingredient name="Animal Feed" count="10"/>
+			<ingredient name="Animal Feed" count="20"/>
 		</recipe>	
 		
 		<recipe name="resourceFeather" count="5" craft_time="10" craft_area="Chicken">
-			<ingredient name="Animal Feed" count="1"/>
+			<ingredient name="Animal Feed" count="2"/>
 		</recipe>
 		
 		<recipe name="resourceFeather" count="5" craft_time="10" craft_area="Pheasant">
-			<ingredient name="Animal Feed" count="1"/>
+			<ingredient name="Animal Feed" count="2"/>
 		</recipe>
 		
 		<recipe name="resourceFeather" count="5" craft_time="10" craft_area="Turkey">
-			<ingredient name="Animal Feed" count="1"/>
+			<ingredient name="Animal Feed" count="2"/>
 		</recipe>		
 		
 		<recipe name="Fresh Milk" count="1" craft_time="10" craft_area="Cow" craft_tool="Pasteurizer">
@@ -4054,7 +4054,7 @@
 			<ingredient name="cryogenicContainerSheep" count="2"/>
 		</recipe>
 		
-		<recipe name="Fertile Egg" count="12" craft_time="10" craft_area="Chicken" craft_tool="Incubator" tags="learnable,perkFarmLife">
+		<recipe name="Fertile Egg" count="2" craft_time="10" craft_area="Chicken" craft_tool="Incubator" tags="learnable,perkFarmLife">
 			<ingredient name="hayBaleSquare" count="10"/>
 			<ingredient name="cryogenicContainerChicken" count="2"/>
 		</recipe>
