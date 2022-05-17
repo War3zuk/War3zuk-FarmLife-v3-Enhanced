@@ -68,7 +68,7 @@ farmLifeBiscuitDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F](
 farmLifeBiscuitStep1Desc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Mixing Bowl on a Kitchnaid. An ingredient used for crafting yummy meals or drinks."
 farmLifeBiscuitStep2Desc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Mixing Bowl on a Kitchnaid. An ingredient used for crafting yummy meals or drinks."
 farmLifeBiscuitStep3Desc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Pizza Cutter on a Chopping Board. An ingredient used for crafting yummy meals or drinks."
-farmLifeBiscuitsandGravyDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nSome tastey morsels that will definitely keep you going against the Zombie Apocalypse."
+BiscuitsandTurkeyGravyDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nSome tastey morsels that will definitely keep you going against the Zombie Apocalypse."
 farmLifeBitterHopsDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nSome tastey morsels that will definitely keep you going against the Zombie Apocalypse."
 farmLifeBlackBeanDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nSome tastey morsels that will definitely keep you going against the Zombie Apocalypse."
 farmLifeBlackPepperDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nAdds necessary flavor to many recipes."
@@ -1205,3 +1205,4 @@ Sunflower Seed,,item,Food,newKey,Sun flower Seed,
 VineyardGrape Seed,,item,Food,newKey,Vineyard Grape Seed,
 
 HotChocolateDesc,,item,Tools,newKey,Marshmallow Hot Chocolate served in a cup.,
+MashedPotatoesDesc,,item,Tools,newKey,Mashed Potatoes at their best.,
