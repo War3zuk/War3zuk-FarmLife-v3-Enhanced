@@ -2,6 +2,7 @@ War3zuk FarmLife v3 Enhanced Alpha 20.4 B42 Stable
 
 Version 1.15
 
+Fixed 300 Localization Infos
 Adjusted foodEgg Recipe Amount
 Added Chicken WorkGroup / XUI
 Adjusted Fertile Egg Recipe Amount

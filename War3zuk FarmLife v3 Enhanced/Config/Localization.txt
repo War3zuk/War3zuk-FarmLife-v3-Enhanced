@@ -1,4 +1,4 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
 
 farmLifeAgedBarrelDesc,,item,Food,newKey,"Type: [c7b992]Advanced Farming Tool[-] [FF684F](Farm Table required to craft.)[-]\nMaterial: [c7b992]Oak Barrel\nGrain Alcohol[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nThe Aged Barrel is a tool used in the Brew Station for crafting."
 farmLifeAgedBourbonDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Charred Barrel on a Brew Station. An ingredient used for crafting yummy meals or drinks."
@@ -1177,15 +1177,15 @@ SSM03Desc,,item,Food,newKey,A shelf stable meal ready for your eating pleasure!,
 
 FLEHorseScrapsDesc,,item,Food,newKey,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nHorse scraps are a good source for Glue."
 
-BeefCake,,item,Tools,newKey,You feel strong as an Ox. Boosts all important abilities.\nStam.Brawling.Resistance.Carry Capacity and more.,
+BeefCakeDesc,,item,Tools,newKey,You feel strong as an Ox. Boosts all important abilities.\nStam.Brawling.Resistance.Carry Capacity and more.,
 AnimalBreedingKit,,item,Food,newKey,Animal Breeding Kit,
-Tonic,,item,Tools,newKey,Refreshing And Stimulating.,
-CherryTomatoSaladLemons,,item,Tools,newKey,Refreshing blend of foods to make a lushious fresh salad.,
-LambCharredCherryTomatoes,,item,Tools,newKey,Lamb served with cherry tomatoes to help you through the day.,
-TurkeyDiner,,item,Tools,newKey,Baked Turkey at its best.,
-TurkeyDinerStuffedBiscuits,,item,Tools,newKey,Turkey with a side of baked biscuits.,
-TurkeyClubSandwich,,item,Tools,newKey,Refreshing Turkey Club Sandwich.,
-BakedPheasant,,item,Tools,newKey,Pheasant baked to perfection.,
+TonicDesc,,item,Tools,newKey,Refreshing And Stimulating.,
+CherryTomatoSaladLemonsDesc,,item,Tools,newKey,Refreshing blend of foods to make a lushious fresh salad.,
+LambCharredCherryTomatoesDesc,,item,Tools,newKey,Lamb served with cherry tomatoes to help you through the day.,
+TurkeyDinerDesc,,item,Tools,newKey,Baked Turkey at its best.,
+TurkeyDinerStuffedBiscuitsDesc,,item,Tools,newKey,Turkey with a side of baked biscuits.,
+TurkeyClubSandwichDesc,,item,Tools,newKey,Refreshing Turkey Club Sandwich.,
+BakedPheasantDesc,,item,Tools,newKey,Pheasant baked to perfection.,
 
 BellPepper Seed,recipes,Recipe,KgNone,Bell Pepper Seed,
 BitterHops Seed,,item,Food,newKey,Bitter Hops Seed,
