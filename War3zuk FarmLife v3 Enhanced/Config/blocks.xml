@@ -2146,6 +2146,7 @@
 			<property name="CustomIcon" value="Marijuana Seed"/>
 			<property name="CreativeMode" value="None"/>
 			<drop event="Harvest" name="Marijuana" count="1" tag="cropHarvest"/>
+			<drop event="Harvest" name="Hemp" count="2" tag="cropHarvest"/>
 			<property name="DowngradeBlock" value="Marijuana Growing 1"/>
 		</block>
 		<!-- Mint -->
