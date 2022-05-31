@@ -3558,7 +3558,7 @@
         <item name="Damascus Blade">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
+            <property name="Group" value="Food/Cooking/All"/>
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
@@ -3572,7 +3572,7 @@
         <item name="Damascus Handle">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
+            <property name="Group" value="Food/Cooking/All"/>
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
@@ -3586,7 +3586,7 @@
         <item name="Damascus Knife">
             <property name="CreativeMode" value="Player"/>
             <property name="HoldType" value="31"/>
-            <property name="Group" value="Food/Cooking"/>
+            <property name="Group" value="Food/Cooking/All"/>
             <property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Mmetal"/>

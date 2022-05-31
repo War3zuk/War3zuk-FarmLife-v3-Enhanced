@@ -3,6 +3,11 @@ War3zuk FarmLife v3 Enhanced Alpha 20.4 B42 Stable
 Version 1.16
 
 Edited MarijuanaPlantHarvestPlayer (Hemp)
+Fixed Damascus Blade (TAGS)
+Fixed Damascus Handle (TAGS)
+Fixed Damascus Knife (TAGS)
+Removed Special Items (FarmTable) Quests
+Fixed Blackberry Seed Unlock
 
 Version 1.15
 
