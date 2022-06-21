@@ -56,10 +56,6 @@
 	<item group="FarmLifev3Loot"/>
 </append>
 	
-<append xpath="/lootcontainers/lootcontainer[@id='34']">		
-	<item group="FarmLifev3Loot"/>
-</append>
-	
 <append xpath="/lootcontainers/lootcontainer[@id='38']">
 	<item group="FarmLifev3Loot"/>
 </append>

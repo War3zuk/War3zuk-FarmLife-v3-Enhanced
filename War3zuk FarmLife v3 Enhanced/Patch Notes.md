@@ -2,6 +2,7 @@ War3zuk FarmLife v3 Enhanced Alpha 20.4 B42 Stable
 
 Version 1.16
 
+Removed Loot ID34
 Edited MarijuanaPlantHarvestPlayer (Hemp)
 Fixed Damascus Blade (TAGS)
 Fixed Damascus Handle (TAGS)
