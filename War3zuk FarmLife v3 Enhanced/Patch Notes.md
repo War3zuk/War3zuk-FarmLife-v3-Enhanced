@@ -1,4 +1,8 @@
-War3zuk FarmLife v3 Enhanced Alpha 20.4 B42 Stable
+War3zuk FarmLife v3 Enhanced Alpha 20.7 B1 Stable
+
+Version 1.17
+
+Updated To Alpha 20.7 B1 Stable
 
 Version 1.16
 
