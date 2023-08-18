@@ -15468,6 +15468,7 @@
       <property name="CustomIcon" value="Raw Horse Fillet" />
       <property name="DescriptionKey" value="RawHorseFilletDesc" />
     </item>
+	
     <item name="Cooked Braised Fillet">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />
@@ -15493,6 +15494,7 @@
       </effect_group>
       <property name="DescriptionKey" value="CookedBraisedFilletDesc" />
     </item>
+	
     <item name="Cooked Horse MeatBalls">
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="31" />

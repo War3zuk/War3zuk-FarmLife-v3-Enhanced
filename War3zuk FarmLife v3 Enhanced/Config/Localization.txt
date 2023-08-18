@@ -2172,7 +2172,7 @@ Cherry Tree,,block,Resources,newKey,Cherry Tree,,Kirschbaum
 CherryTreeDesc,,block,Resources,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\n",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\n"
 Cherry Sapling,,block,Resources,newKey,Cherry Sapling,,Kirschbaumsetzling
 CherrySaplingDesc,,block,Resources,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\n",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\n"
-Cinnamon Tree,,block,Resources,newKey,Cinnaom Tree,,Zimtbaum
+Cinnamon Tree,,block,Resources,newKey,Cinnamon Tree,,Zimtbaum
 CinnamonTreeDesc,,block,Resources,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\n",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\n"
 Cinnamon Sapling,,block,Resources,newKey,Cinnamon Sapling,,Zimtbaumsetzling
 CinnamonSaplingDesc,,block,Resources,newKey,"Type: [c7b992]Farm Life Item [FF684F]( required.)\nMaterial: [c7b992].\nUnlocked by: [c7b992]Farm Life\n\n",,"Typ: [c7b992]Farm Life Item [FF684F] (benötigt.)\nMaterial: [c7b992].\nFreischalten durch: [c7b992]Farm Life\n\n"

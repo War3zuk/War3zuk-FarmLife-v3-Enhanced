@@ -6,6 +6,7 @@ Updated To Alpha 21.1 B16 Stable
 Updated Blocks.xml
 Update Items.xml
 Updated Loot.xml
+Fixed Cinnamon Desc Name
 
 Version 1.17
 
