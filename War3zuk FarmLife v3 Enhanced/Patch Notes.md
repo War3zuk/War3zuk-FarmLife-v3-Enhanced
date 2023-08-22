@@ -7,6 +7,7 @@ Updated Blocks.xml
 Update Items.xml
 Updated Loot.xml
 Fixed Cinnamon Desc Name
+Fixed SheepSheers (Thanks Digiox)
 
 Version 1.17
 
