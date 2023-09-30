@@ -3,6 +3,7 @@
   <append xpath="/items">
 	  
 <item name="drinkCanEmpty">
+	<property name="CustomIcon" value="DrinkCanEmpty" />
 	<property name="HoldType" value="14"/>
 	<property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -14,6 +15,7 @@
 </item>
 	  
 <item name="drinkJarEmpty">
+	<property name="CustomIcon" value="drinkJarEmpty" />
 	<property name="HoldType" value="3"/>
 	<property name="Meshfile" value="@:Other/Items/Food/emptyJarPrefab.prefab"/>
 	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -6190,7 +6192,7 @@
       <property name="EconomicBundleSize" value="5" />
       <property name="CraftingIngredientTime" value="10" />
       <property name="Weight" value="5" />
-      <property name="CustomIcon" value="Feeding Trough" />
+      <property name="CustomIcon" value="MapleSap" />
       <property name="CustomIconTint" value="ab7942" />
       <property name="DescriptionKey" value="farmLifeMapleSapDesc" />
     </item>
@@ -9342,7 +9344,7 @@
       <property name="CreativeMode" value="Player" />
       <property name="HoldType" value="45" />
       <property name="Group" value="Food/Cooking" />
-      <property name="Meshfile" value="@:@modfolder:Resources/FarmLife.unity3d/ScotchPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/FarmLife.unity3d/ScotchPrefab" />
       <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
       <property name="Material" value="Mglass" />
       <property name="Stacknumber" value="50000" />
@@ -12215,8 +12217,8 @@
     <!-- Sunflower -->
     <item name="Sunflower Seed">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
+      <property name="Meshfile" value="@:modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7sunflowers" />
       <property name="Material" value="Morganic" />
@@ -12313,8 +12315,8 @@
     <!-- Grapes -->
     <item name="Vineyard Grapes">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Grape.unity3d/GrapeFoodPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Grape.unity3d/GrapeFoodPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Grape.unity3d/GrapeFoodPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Grape.unity3d/GrapeFoodPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7grape" />
       <property name="Material" value="Morganic" />
@@ -12367,8 +12369,8 @@
     <!-- Jalapeno -->
     <item name="Jalapeno Pepper">
       <property name="HoldType" value="14" />
-      <property name="Meshfile" value="@:@modfolder:Resources/JalapenoFood.unity3d/JalapenoFoodPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/JalapenoFood.unity3d/JalapenoFoodPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/JalapenoFood.unity3d/JalapenoFoodPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/JalapenoFood.unity3d/JalapenoFoodPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7jalapepper" />
       <property name="Material" value="Morganic" />
@@ -12406,8 +12408,8 @@
     <!-- Tomato -->
     <item name="Heirloom Tomatoes">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/TomatoFood.unity3d/TomatoFoodPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/TomatoFood.unity3d/TomatoFoodPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/TomatoFood.unity3d/TomatoFoodPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/TomatoFood.unity3d/TomatoFoodPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7tomato" />
       <property name="Material" value="Morganic" />
@@ -12447,8 +12449,8 @@
       <property name="HoldType" value="23" />
       <property name="DisplayType" value="food" />
       <property name="CustomIcon" value="7apple" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Apple.unity3d/ApplePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Apple.unity3d/ApplePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Apple.unity3d/ApplePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Apple.unity3d/ApplePrefab" />
       <property name="DropScale" value="6" />
       <property name="Material" value="Morganic" />
       <property name="Weight" value="1" />
@@ -12484,8 +12486,8 @@
     <!-- Strawberries -->
     <item name="Strawberries">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/StrawberryFood.unity3d/StrawberryPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/StrawberryFood.unity3d/StrawberryPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/StrawberryFood.unity3d/StrawberryPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/StrawberryFood.unity3d/StrawberryPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7strawberry" />
       <property name="Material" value="Morganic" />
@@ -12553,8 +12555,8 @@
     <!-- Nuts -->
     <item name="Nuts">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Nut.unity3d/NutPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Nut.unity3d/NutPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Nut.unity3d/NutPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Nut.unity3d/NutPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7nuts" />
       <property name="Material" value="Morganic" />
@@ -12612,8 +12614,8 @@
     <item name="Raw Pork">
       <property name="HoldType" value="23" />
       <property name="DisplayType" value="food" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawpork" />
       <property name="Material" value="MfoodRawMeat" />
@@ -12642,8 +12644,8 @@
     <item name="Raw Beef">
       <property name="HoldType" value="23" />
       <property name="DisplayType" value="food" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawbeef" />
       <property name="Material" value="MfoodRawMeat" />
@@ -12672,8 +12674,8 @@
     <item name="Raw Chicken">
       <property name="HoldType" value="23" />
       <property name="DisplayType" value="food" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawchicken" />
       <property name="Material" value="MfoodRawMeat" />
@@ -12702,8 +12704,8 @@
     <item name="Raw Turkey Liver">
       <property name="HoldType" value="23" />
       <property name="DisplayType" value="food" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="Raw Turkey Liver" />
       <property name="Material" value="MfoodRawMeat" />
@@ -12793,8 +12795,8 @@
     </item>
     <item name="Bread">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Bread.unity3d/BreadPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Bread.unity3d/BreadPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Bread.unity3d/BreadPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Bread.unity3d/BreadPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bread" />
       <property name="Material" value="Morganic" />
@@ -12845,8 +12847,8 @@
     </item>
     <item name="Bagel">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Bagel.unity3d/BagelPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Bagel.unity3d/BagelPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Bagel.unity3d/BagelPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Bagel.unity3d/BagelPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bagel" />
       <property name="Material" value="Morganic" />
@@ -13009,8 +13011,8 @@
     <!-- Meat -->
     <item name="Raw Ground Beef">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawgroundbeef" />
       <property name="Material" value="Morganic" />
@@ -13042,8 +13044,8 @@
     </item>
     <item name="Raw Steak">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawsteak" />
       <property name="Material" value="Morganic" />
@@ -13075,8 +13077,8 @@
     </item>
     <item name="Raw Kobe Beef">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawBeef.unity3d/RawBeefPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawkobe" />
       <property name="Material" value="Morganic" />
@@ -13108,8 +13110,8 @@
     </item>
     <item name="Raw Sausage Link">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rsaus" />
       <property name="Material" value="Morganic" />
@@ -13141,8 +13143,8 @@
     </item>
     <item name="Raw Ham">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Ham.unity3d/HamPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Ham.unity3d/HamPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Ham.unity3d/HamPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Ham.unity3d/HamPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rham" />
       <property name="Material" value="Morganic" />
@@ -13174,8 +13176,8 @@
     </item>
     <item name="Raw Bacon">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Bacon.unity3d/BaconPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Bacon.unity3d/BaconPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Bacon.unity3d/BaconPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Bacon.unity3d/BaconPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawbacon" />
       <property name="Material" value="Morganic" />
@@ -13207,8 +13209,8 @@
     </item>
     <item name="Raw Chicken Breast">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rchic" />
       <property name="Material" value="Morganic" />
@@ -13240,8 +13242,8 @@
     </item>
     <item name="Raw Chicken Legs and Wings">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/RawMeat.unity3d/RawMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7rawchicl" />
       <property name="Material" value="Morganic" />
@@ -13291,8 +13293,8 @@
     <item name="Fresh Milk">
       <property name="HoldType" value="3" />
       <property name="DisplayType" value="foodWater" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Milk.unity3d/MilkPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Milk.unity3d/MilkPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Milk.unity3d/MilkPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Milk.unity3d/MilkPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="Fresh Milk" />
       <property name="DescriptionKey" value="freshmilkDesc" />
@@ -13361,8 +13363,8 @@
     </item>
     <item name="Trail Mix">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
+      <property name="Meshfile" value="@:modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/SunflowerSeeds.unity3d/SunflowerSeeds" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7trailmix" />
       <property name="Material" value="Morganic" />
@@ -13428,8 +13430,8 @@
     </item>
     <item name="White Rice">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/WhiteRice.unity3d/WhiteRicePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/WhiteRice.unity3d/WhiteRicePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/WhiteRice.unity3d/WhiteRicePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/WhiteRice.unity3d/WhiteRicePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7whiterice" />
       <property name="Material" value="Morganic" />
@@ -13467,8 +13469,8 @@
     <!-- Meats -->
     <item name="Grilled Steak">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/CookedMeat.unity3d/CookedMeatPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/CookedMeat.unity3d/CookedMeatPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/CookedMeat.unity3d/CookedMeatPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/CookedMeat.unity3d/CookedMeatPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7steakcooked" />
       <property name="Material" value="Morganic" />
@@ -13507,8 +13509,8 @@
       <property name="HoldType" value="45" />
       <property name="CustomIcon" value="7meatloaf" />
       <property name="Material" value="Morganic" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Steak.unity3d/SteakPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Steak.unity3d/SteakPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Steak.unity3d/SteakPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Steak.unity3d/SteakPrefab" />
       <property name="DropScale" value="6" />
       <property name="Weight" value="1" />
       <property name="Stacknumber" value="50000" />
@@ -13543,8 +13545,8 @@
     </item>
     <item name="Spicy Hot Wings">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7hotwings" />
       <property name="Material" value="Morganic" />
@@ -13581,8 +13583,8 @@
     </item>
     <item name="Fresh Honey Glazed Ham">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Ham.unity3d/HamPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Ham.unity3d/HamPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Ham.unity3d/HamPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Ham.unity3d/HamPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7honeyham" />
       <property name="Material" value="Morganic" />
@@ -13619,8 +13621,8 @@
     </item>
     <item name="Fresh Smoked Sausage">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Sausage.unity3d/SausagePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Sausage.unity3d/SausagePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Sausage.unity3d/SausagePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Sausage.unity3d/SausagePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7smokedsausage" />
       <property name="Material" value="Morganic" />
@@ -13657,8 +13659,8 @@
     </item>
     <item name="Fresh Kobe Beef">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Steak.unity3d/SteakPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Steak.unity3d/SteakPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Steak.unity3d/SteakPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Steak.unity3d/SteakPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7kobebeef" />
       <property name="Material" value="Morganic" />
@@ -13695,8 +13697,8 @@
     </item>
     <item name="Fresh BBQ Chicken Legs">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/ChickenLeg.unity3d/ChickenLegPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bbqchicken" />
       <property name="Material" value="Morganic" />
@@ -13733,8 +13735,8 @@
     </item>
     <item name="Fresh Baked Chicken Breast">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/WholeChicken.unity3d/WholeChickenPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bakedchicken" />
       <property name="Material" value="Morganic" />
@@ -13772,8 +13774,8 @@
     <!-- Sandwiches -->
     <item name="Fresh Cheese Burger">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Burger.unity3d/BurgerPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Burger.unity3d/BurgerPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Burger.unity3d/BurgerPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Burger.unity3d/BurgerPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7burger" />
       <property name="Material" value="Morganic" />
@@ -13811,8 +13813,8 @@
     <!-- Breakfast -->
     <item name="Cereal">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Cereal.unity3d/CerealPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Cereal.unity3d/CerealPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Cereal.unity3d/CerealPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Cereal.unity3d/CerealPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7cereal" />
       <property name="Material" value="Morganic" />
@@ -13849,8 +13851,8 @@
     </item>
     <item name="Bagel and Cream Cheese">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Bagel.unity3d/BagelPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Bagel.unity3d/BagelPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Bagel.unity3d/BagelPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Bagel.unity3d/BagelPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bagelandcreamcheese" />
       <property name="Material" value="Morganic" />
@@ -13887,8 +13889,8 @@
     </item>
     <item name="Breakfast Sausage Sandwich">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bss" />
       <property name="Material" value="Morganic" />
@@ -13925,8 +13927,8 @@
     </item>
     <item name="Breakfast Bacon Sandwich">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Breakfast.unity3d/BreakfastPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7bbs" />
       <property name="Material" value="Morganic" />
@@ -13964,8 +13966,8 @@
     <!-- Desserts -->
     <item name="Ice Cream">
       <property name="HoldType" value="14" />
-      <property name="Meshfile" value="@:@modfolder:Resources/IceCream.unity3d/IceCreamPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/IceCream.unity3d/IceCreamPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/IceCream.unity3d/IceCreamPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/IceCream.unity3d/IceCreamPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7icecream" />
       <property name="Material" value="Morganic" />
@@ -14002,8 +14004,8 @@
     </item>
     <item name="Warm Apple Pie">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/ApplePie.unity3d/ApplePiePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/ApplePie.unity3d/ApplePiePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/ApplePie.unity3d/ApplePiePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/ApplePie.unity3d/ApplePiePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7applepie" />
       <property name="Material" value="Morganic" />
@@ -14041,8 +14043,8 @@
     </item>
     <item name="Cookie">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Cookie.unity3d/CookiePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Cookie.unity3d/CookiePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Cookie.unity3d/CookiePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Cookie.unity3d/CookiePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7cookie" />
       <property name="Material" value="Morganic" />
@@ -14080,8 +14082,8 @@
     <!-- Dinners -->
     <item name="Pizza">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Pizza.unity3d/PizzaPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Pizza.unity3d/PizzaPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Pizza.unity3d/PizzaPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Pizza.unity3d/PizzaPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7pizza" />
       <property name="Material" value="Morganic" />
@@ -14118,8 +14120,8 @@
     </item>
     <item name="Fried Rice">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/FriedRice.unity3d/FriedRicePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/FriedRice.unity3d/FriedRicePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/FriedRice.unity3d/FriedRicePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/FriedRice.unity3d/FriedRicePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7friedrice" />
       <property name="Material" value="Morganic" />
@@ -14156,8 +14158,8 @@
     </item>
     <item name="Pasta">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Pasta.unity3d/PastaPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Pasta.unity3d/PastaPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Pasta.unity3d/PastaPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Pasta.unity3d/PastaPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7pasta" />
       <property name="Material" value="Morganic" />
@@ -14200,8 +14202,8 @@
       <property name="HoldType" value="3" />
       <property name="Group" value="Food/Cooking,Fermentor,All" />
       <property name="CustomIcon" value="7wine" />
-      <property name="Meshfile" value="@:@modfolder:Resources/WineBottle2.unity3d/WineBottlePrefab2" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/WineBottle2.unity3d/WineBottlePrefab2" />
+      <property name="Meshfile" value="@:modfolder:Resources/WineBottle2.unity3d/WineBottlePrefab2" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/WineBottle2.unity3d/WineBottlePrefab2" />
       <property name="DropScale" value="6" />
       <property name="Material" value="Mglass" />
       <property name="Weight" value="10" />
@@ -14241,8 +14243,8 @@
       <property name="HoldType" value="3" />
       <property name="Group" value="Food/Cooking,Fermentor,All" />
       <property name="CustomIcon" value="7hardcider" />
-      <property name="Meshfile" value="@:@modfolder:Resources/WineBottle3.unity3d/WineBottlePrefab3" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/WineBottle3.unity3d/WineBottlePrefab3" />
+      <property name="Meshfile" value="@:modfolder:Resources/WineBottle3.unity3d/WineBottlePrefab3" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/WineBottle3.unity3d/WineBottlePrefab3" />
       <property name="DropScale" value="6" />
       <property name="Material" value="Mglass" />
       <property name="Weight" value="10" />
@@ -14282,8 +14284,8 @@
       <property name="HoldType" value="3" />
       <property name="Group" value="Food/Cooking,Fermentor,All" />
       <property name="CustomIcon" value="7ferjuice" />
-      <property name="Meshfile" value="@:@modfolder:Resources/WineBottle.unity3d/WineBottlePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/WineBottle.unity3d/WineBottlePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/WineBottle.unity3d/WineBottlePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/WineBottle.unity3d/WineBottlePrefab" />
       <property name="DropScale" value="6" />
       <property name="Material" value="Mglass" />
       <property name="Weight" value="10" />
@@ -14328,7 +14330,7 @@
       <property name="Tags" value="knife,melee,light,weapon,meleeWeapon,perkDeepCuts,perkTheHuntsman" />
       <property name="DisplayType" value="melee" />
       <property name="HoldType" value="47" />
-      <property name="Meshfile" value="@:@modfolder:Resources/FryingPan.unity3d/FryingPanPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/FryingPan.unity3d/FryingPanPrefab" />
       <property name="DropScale" value="6" />
       <property name="Material" value="Mmetal" />
       <property name="CustomIcon" value="7fryingpan" />
@@ -14393,7 +14395,7 @@
       <property name="Material" value="Mmetal" />
       <property name="Tags" value="knife,melee,light,weapon,meleeWeapon,perkDeepCuts,perkTheHuntsman" />
       <property name="HoldType" value="47" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Butcher.unity3d/ButcherPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Butcher.unity3d/ButcherPrefab" />
       <property name="DropScale" value="6" />
       <property name="DisplayType" value="melee" />
       <property name="HoldType" value="47" />
@@ -14454,7 +14456,7 @@
       <property name="DisplayType" value="melee" />
       <property name="Material" value="Mmetal" />
       <property name="HoldType" value="50" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Scythe.unity3d/ScythePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Scythe.unity3d/ScythePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7scythe" />
       <property name="RepairTools" value="resourceScrapIron" />
@@ -14506,8 +14508,8 @@
     </item>
     <item name="Canned Food">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Can.unity3d/CanPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Can.unity3d/CanPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Can.unity3d/CanPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Can.unity3d/CanPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7oldcan" />
       <property name="Material" value="Morganic" />
@@ -14533,8 +14535,8 @@
     </item>
     <item name="Chips">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Chips.unity3d/ChipsPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Chips.unity3d/ChipsPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Chips.unity3d/ChipsPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Chips.unity3d/ChipsPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7chips" />
       <property name="Material" value="Morganic" />
@@ -14561,8 +14563,8 @@
     </item>
     <item name="Pancakes">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Pancake.unity3d/PancakePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Pancake.unity3d/PancakePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Pancake.unity3d/PancakePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Pancake.unity3d/PancakePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7pancakes" />
       <property name="Material" value="Morganic" />
@@ -14589,8 +14591,8 @@
     </item>
     <item name="Donut">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Donut.unity3d/DonutPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Donut.unity3d/DonutPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Donut.unity3d/DonutPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Donut.unity3d/DonutPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7donut" />
       <property name="Material" value="Morganic" />
@@ -14617,8 +14619,8 @@
     </item>
     <item name="Cupcake">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Cupcake.unity3d/CupcakePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Cupcake.unity3d/CupcakePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Cupcake.unity3d/CupcakePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Cupcake.unity3d/CupcakePrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7cupcake" />
       <property name="Material" value="Morganic" />
@@ -14645,8 +14647,8 @@
     </item>
     <item name="Soup">
       <property name="HoldType" value="23" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Soup.unity3d/SoupPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Soup.unity3d/SoupPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Soup.unity3d/SoupPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Soup.unity3d/SoupPrefab" />
       <property name="DropScale" value="6" />
       <property name="CustomIcon" value="7soup" />
       <property name="Material" value="Morganic" />
@@ -14677,8 +14679,8 @@
       <property name="DisplayType" value="waterMegaCrush" />
       <property name="EconomicValue" value="240" />
       <property name="DescriptionKey" value="TonicDesc" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Pepsi.unity3d/PepsiPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Pepsi.unity3d/PepsiPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Pepsi.unity3d/PepsiPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Pepsi.unity3d/PepsiPrefab" />
       <property name="Material" value="Mglass" />
       <property name="CustomIcon" value="7pepsi" />
       <property name="Stacknumber" value="50000" />
@@ -14712,8 +14714,8 @@
       <property name="HoldType" value="3" />
       <property name="DescriptionKey" value="BeefCakeDesc" />
       <property name="CustomIcon" value="7beefcake" />
-      <property name="Meshfile" value="@:@modfolder:Resources/BeefCake.unity3d/BeefCakePrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/BeefCake.unity3d/BeefCakePrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/BeefCake.unity3d/BeefCakePrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/BeefCake.unity3d/BeefCakePrefab" />
       <property name="Material" value="Mglass" />
       <property name="Weight" value="10" />
       <property name="Stacknumber" value="50000" />
@@ -14749,8 +14751,8 @@
     </item>
     <item name="Iceberg Lettuce">
       <property name="HoldType" value="45" />
-      <property name="Meshfile" value="@:@modfolder:Resources/Iceberg.unity3d/IcebergPrefab" />
-      <property name="DropMeshfile" value="@:@modfolder:Resources/Iceberg.unity3d/IcebergPrefab" />
+      <property name="Meshfile" value="@:modfolder:Resources/Iceberg.unity3d/IcebergPrefab" />
+      <property name="DropMeshfile" value="@:modfolder:Resources/Iceberg.unity3d/IcebergPrefab" />
       <property name="CustomIcon" value="7iceberg" />
       <property name="Material" value="Morganic" />
       <property name="Weight" value="1" />
@@ -15198,7 +15200,7 @@
       <property name="DisplayType" value="melee" />
       <property name="DescriptionKey" value="crowbarDesc" />
       <property name="Group" value="Ammo/Weapons" />
-      <property name="Meshfile" value="@:@modfolder:Resources/crowbar.unity3d/crowbar" />
+      <property name="Meshfile" value="@:modfolder:Resources/crowbar.unity3d/crowbar" />
       <property name="HoldType" value="2" />
       <property name="Material" value="Mmetal" />
       <property name="RepairTools" value="resourceRepairKit" />
