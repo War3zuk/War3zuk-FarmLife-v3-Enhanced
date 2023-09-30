@@ -9,6 +9,11 @@ Items.xml
 Fixed Blocks
 Fixed Trees / Plants
 Fixed Icons / Missing
+Fixed Apple Tree Code
+Fixed Cinnamon Tree Code
+Fixed Coconut Tree Code
+Fixed Lime Tree Code
+Fixed Red Apple Tree Code
 
 Version 1.18
 

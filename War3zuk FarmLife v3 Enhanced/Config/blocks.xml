@@ -712,14 +712,14 @@
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="DisplayInfo" value="Name" />
-      <property name="CreativeMode" value="None" />
-      <property name="FallOver" value="false" />
-      <property name="ActivationDistance" value="12" />
-      <property name="BigDecorationRadius" value="12" />
+      <property name="CustomIcon" value="Apple Tree" />
       <property name="Shape" value="ModelEntity" />
       <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?AppleTreePrefab"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
+      <property name="ActivationDistance" value="12" />
+      <property name="BigDecorationRadius" value="12" />
+      <property name="FallOver" value="false" />
       <property name="PlantGrowing.GrowthRate" value="60" />
       <property name="PlantGrowing.FertileLevel" value="1" />
       <property name="ParticleOnDeath" value="treeGib_small_dust" />
@@ -729,8 +729,9 @@
       <property name="DowngradeBlock" value="Apple Sapling" />
       <property name="MaxDamage" value="500" />
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
-      <property name="DescriptionKey" value="AppleTreeDesc" />
+      <property name="DescriptionKey" value="AvocadoTreeDesc" />
     </block>
+	
     <block name="Apple Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -746,13 +747,14 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="AppleSaplingDesc" />
     </block>
+	
     <block name="Avocado Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="DisplayInfo" value="Name" />
       <property name="CustomIcon" value="Avocado Tree" />
       <property name="Shape" value="ModelEntity" />
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3" />
+      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
       <property name="ActivationDistance" value="12" />
@@ -768,6 +770,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="AvocadoTreeDesc" />
     </block>
+	
     <block name="Avocado Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -783,6 +786,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="AvocadoSaplingDesc" />
     </block>
+	
     <block name="Banana Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -805,6 +809,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="BananaTreeDesc" />
     </block>
+	
     <block name="Banana Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -821,6 +826,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="BananaSaplingDesc" />
     </block>
+	
     <block name="Cherry Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -844,6 +850,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="CherryTreeDesc" />
     </block>
+	
     <block name="Cherry Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -860,18 +867,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="CherrySaplingDesc" />
     </block>
+	
     <block name="Cinnamon Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="DisplayInfo" value="Name" />
-      <property name="CreativeMode" value="None" />
-      <property name="FallOver" value="false" />
-      <property name="ActivationDistance" value="12" />
-      <property name="BigDecorationRadius" value="6" />
+      <property name="CustomIcon" value="Cinnamon Tree" />
       <property name="Shape" value="ModelEntity" />
       <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
+      <property name="ActivationDistance" value="12" />
+      <property name="BigDecorationRadius" value="12" />
+      <property name="FallOver" value="false" />
       <property name="PlantGrowing.GrowthRate" value="60" />
       <property name="PlantGrowing.FertileLevel" value="1" />
       <property name="ParticleOnDeath" value="treeGib_small_dust" />
@@ -880,8 +888,9 @@
       <property name="DowngradeBlock" value="Cinnamon Sapling" />
       <property name="MaxDamage" value="500" />
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
-      <property name="DescriptionKey" value="CinnamonTreeDesc" />
+      <property name="DescriptionKey" value="AvocadoTreeDesc" />
     </block>
+	
     <block name="Cinnamon Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -898,18 +907,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="CinnamonSaplingDesc" />
     </block>
+	
     <block name="Coconut Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="DisplayInfo" value="Name" />
-      <property name="CreativeMode" value="None" />
-      <property name="FallOver" value="false" />
-      <property name="ActivationDistance" value="12" />
-      <property name="BigDecorationRadius" value="6" />
+      <property name="CustomIcon" value="Coconut Tree" />
       <property name="Shape" value="ModelEntity" />
       <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?CoconutTreePrefab"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
+      <property name="ActivationDistance" value="12" />
+      <property name="BigDecorationRadius" value="12" />
+      <property name="FallOver" value="false" />
       <property name="PlantGrowing.GrowthRate" value="60" />
       <property name="PlantGrowing.FertileLevel" value="1" />
       <property name="ParticleOnDeath" value="treeGib_small_dust" />
@@ -918,8 +928,9 @@
       <property name="DowngradeBlock" value="Coconut Sapling" />
       <property name="MaxDamage" value="500" />
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
-      <property name="DescriptionKey" value="CoconutTreeDesc" />
+      <property name="DescriptionKey" value="AvocadoTreeDesc" />
     </block>
+	
     <block name="Coconut Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -936,18 +947,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="CoconutSaplingDesc" />
     </block>
+	
     <block name="Lime Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="DisplayInfo" value="Name" />
-      <property name="CreativeMode" value="None" />
-      <property name="FallOver" value="false" />
-      <property name="ActivationDistance" value="12" />
-      <property name="BigDecorationRadius" value="6" />
+      <property name="CustomIcon" value="Lime Tree" />
       <property name="Shape" value="ModelEntity" />
       <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?SakuraTreePrefab"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
+      <property name="ActivationDistance" value="12" />
+      <property name="BigDecorationRadius" value="12" />
+      <property name="FallOver" value="false" />
       <property name="PlantGrowing.GrowthRate" value="60" />
       <property name="PlantGrowing.FertileLevel" value="1" />
       <property name="ParticleOnDeath" value="treeGib_small_dust" />
@@ -956,8 +968,9 @@
       <property name="DowngradeBlock" value="Lime Sapling" />
       <property name="MaxDamage" value="500" />
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
-      <property name="DescriptionKey" value="LimeTreeDesc" />
+      <property name="DescriptionKey" value="AvocadoTreeDesc" />
     </block>
+	
     <block name="Lime Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -974,6 +987,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="LimeSaplingDesc" />
     </block>
+	
     <block name="Meyer Lemon Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -996,6 +1010,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="MeyerLemonTreeDesc" />
     </block>
+	
     <block name="Meyer Lemon Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1012,6 +1027,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="MeyerLemonSaplingDesc" />
     </block>
+	
     <block name="Nut Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1033,6 +1049,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="NutTreeDesc" />
     </block>
+	
     <block name="Nut Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1049,6 +1066,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="NutSaplingDesc" />
     </block>
+	
     <block name="Olive Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1071,6 +1089,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="OliveTreeDesc" />
     </block>
+	
     <block name="Olive Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1087,6 +1106,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="OliveSaplingDesc" />
     </block>
+	
     <block name="Orange Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1109,6 +1129,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="OrangeTreeDesc" />
     </block>
+	
     <block name="Orange Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1125,6 +1146,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="OrangeSaplingDesc" />
     </block>
+	
     <block name="Pear Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1147,6 +1169,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="PearTreeDesc" />
     </block>
+	
     <block name="Pear Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1163,17 +1186,19 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="PearSaplingDesc" />
     </block>
+	
     <block name="Red Apple Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="DisplayInfo" value="Name" />
-      <property name="CreativeMode" value="None" />
-      <property name="ActivationDistance" value="12" />
-      <property name="BigDecorationRadius" value="6" />
+      <property name="CustomIcon" value="Red Apple Tree" />
       <property name="Shape" value="ModelEntity" />
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/FarmLifeTrees.unity3d?AppleTreePrefab"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
+      <property name="ActivationDistance" value="12" />
+      <property name="BigDecorationRadius" value="12" />
+      <property name="FallOver" value="false" />
       <property name="PlantGrowing.GrowthRate" value="60" />
       <property name="PlantGrowing.FertileLevel" value="1" />
       <property name="ParticleOnDeath" value="treeGib_small_dust" />
@@ -1182,8 +1207,9 @@
       <property name="DowngradeBlock" value="Red Apple Sapling" />
       <property name="MaxDamage" value="500" />
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
-      <property name="DescriptionKey" value="RedAppleTreeDesc" />
+      <property name="DescriptionKey" value="AvocadoTreeDesc" />
     </block>
+	
     <block name="Red Apple Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1200,6 +1226,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="RedAppleSaplingDesc" />
     </block>
+	
     <block name="Sakura Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1222,6 +1249,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="SakuraTreeDesc" />
     </block>
+	
     <block name="Sakura Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1238,6 +1266,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="SakuraSaplingDesc" />
     </block>
+	
     <block name="Sugar Maple Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1261,6 +1290,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="SugarMapleTreeDesc" />
     </block>
+	
     <block name="Sugar Maple Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1277,6 +1307,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="SugarMapleSaplingDesc" />
     </block>
+	
     <block name="Walnut Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1300,6 +1331,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="WalnutTreeDesc" />
     </block>
+	
     <block name="Walnut Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1316,6 +1348,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="WalnutSaplingDesc" />
     </block>
+	
     <block name="White Oak Tree">
       <property name="Extends" value="cropsHarvestableMaster" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
@@ -1338,6 +1371,7 @@
       <property name="FilterTags" value="MC_outdoor,SC_trees,SC_shrubbery" />
       <property name="DescriptionKey" value="WhiteOakTreeDesc" />
     </block>
+	
     <block name="White Oak Sapling">
       <property name="Extends" value="cropsGrowingMaster" />
       <property name="ModelOffset" value="0,0,0" />
@@ -1354,6 +1388,7 @@
       <drop event="Fall" name="resourceWood" count="0" prob="1" stick_chance="0" />
       <property name="DescriptionKey" value="WhiteOakSaplingDesc" />
     </block>
+	
     <!-- STATIONARY ANIMALS -->
     <block name="Baby Chicken">
       <property name="CustomIcon" value="Hungry Chicken Coop" />
@@ -2135,7 +2170,7 @@
       <property name="FallOver" value="false" />
       <property name="ActivationDistance" value="12" />
       <property name="BigDecorationRadius" value="12" />
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3" />
+      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
       <property name="PlantGrowing.GrowthRate" value="60" />
       <property name="PlantGrowing.FertileLevel" value="1" />
       <property name="ParticleOnDeath" value="treeGib_small_dust" />
