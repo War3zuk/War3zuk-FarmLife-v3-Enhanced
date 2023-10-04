@@ -1700,7 +1700,7 @@
 			<ingredient name="resourceMetalPipe" count="10"/>
 		</recipe>		
 		
-		<recipe name="Farm Table" count="1" craft_area="workbench" tags="learnable,perkFarmLife,workbenchCrafting">
+		<recipe name="Farm Table" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkFarmLife,workbenchCrafting">
 			<ingredient name="toolBeaker" count="1"/>
 			<ingredient name="resourceScrapPolymers" count="150"/>
 			<ingredient name="toolCookingPot" count="10"/>

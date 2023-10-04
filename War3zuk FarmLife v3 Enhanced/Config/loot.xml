@@ -156,4 +156,32 @@
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
 </append>
 
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodPileCommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsUncommon']">
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+</append>
+
 </configs>

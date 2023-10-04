@@ -2,6 +2,18 @@
 	
   <append xpath="/items">
 	  
+<item name="FLV3 Skill Magazine">
+	<property name="CustomIcon" value="Farm Life Sign" />
+	<property name="Extends" value="masterSkillMagazine"/>
+	<property name="Tags" value="seedCSM,csm"/>
+	<property name="DescriptionKey" value="FLV3SkillMagazineDesc"/>
+	
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="perkFarmLife" level="2"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="10"/>
+	</effect_group>
+</item>
+	  
 <item name="drinkCanEmpty">
 	<property name="CustomIcon" value="DrinkCanEmpty" />
 	<property name="HoldType" value="14"/>

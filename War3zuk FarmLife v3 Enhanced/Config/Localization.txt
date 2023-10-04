@@ -2351,3 +2351,5 @@ perkFarmLifeRank4Desc,progression,perk,,x,Chef NoTell,, Koch NoTell
 perkFarmLifeRank4LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](Big city chefs have nothing on you.)[-]\nLevel: [c7b992]4[-]\nUnlocks: [c7b992]Master Crop Plots and Advanced Farm Life recipes.",,"Type: [c7b992]Farm Life Skill[-] [FF684F](Großstadtköche werden grün vor Neid!)[-]\nLevel: [c7b992]4[-]\nUnlocks: [c7b992]Meisteracker und erweitete Farm Life Rezepte."
 perkFarmLifeRank5Desc,progression,perk,,x,Farm Life Master,, Farm Life Meister
 perkFarmLifeRank5LongDesc,progression,perk,,x,"Type: [c7b992]Farm Life Skill[-] [FF684F](You are a Farm Life Master. Lets feed the World.)[-]\nLevel: [c7b992]5[-]\nUnlocks: [c7b992]Farm Forge. Webber Grill. Rustic Smoker.",,"Type: [c7b992]Farm Life Skill[-] [FF684F](Du bist ein Farm Life Meister. Füttere die ganze Welt!)[-]\nLevel: [c7b992]5[-]\nSchaltet frei: [c7b992]Bauernhofschmiede, Holzkohlegrill, Rustikaler Smoker."
+
+FLV3SkillMagazineDesc,items,Food,,,Learn how to farm with all your farming needs!\n\nImproves Farm Life crafting skill.,,
