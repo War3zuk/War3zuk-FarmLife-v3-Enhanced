@@ -754,7 +754,7 @@
       <property name="DisplayInfo" value="Name" />
       <property name="CustomIcon" value="Avocado Tree" />
       <property name="Shape" value="ModelEntity" />
-      <property name="Model" value="#@modfolder:Resources/AppleTree.unity3d?AppleTreePrefab3"/>
+      <property name="Model" value="#@modfolder:Resources/NutTree.unity3d?NutTreePrefab3"/>
       <property name="ModelOffset" value="0,0,0" />
       <property name="MultiBlockDim" value="1,7,1" />
       <property name="ActivationDistance" value="12" />
