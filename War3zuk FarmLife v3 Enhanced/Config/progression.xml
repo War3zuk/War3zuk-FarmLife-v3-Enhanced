@@ -4,8 +4,8 @@
 		
 	<crafting_skill name="perkFarmLife" max_level="100" parent="attCrafting" name_key="Farm Life" desc_key="Farm Life is tedious, but rewarding." long_desc_key="Farm Life is tedious, but rewarding." icon="ui_game_symbol_farm_life">
 
-		<display_entry icon="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb" name_key="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb" has_quality="false" unlock_level="2,4,6,8,10" >
-			<unlock_entry item="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb" unlock_tier="1" />
+		<display_entry icon="Farm Table,Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb" name_key="Farm Table,Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb" has_quality="false" unlock_level="2,4,6,8,10" >
+			<unlock_entry item="Farm Table,Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb" unlock_tier="1" />
 			<unlock_entry item="Pheasant Egg,Barley Seed,Basil Seed,Beet Seed,BellPepper Seed" unlock_tier="2" />
 			<unlock_entry item="BlackBean Seed,BlackPepper Seed,Broccoli Seed,BrusselsSprouts Seed" unlock_tier="3" />
 			<unlock_entry item="Carrot Seed,Celery Seed,CherryTomato Seed,Cilantro Seed,Cucumber Seed" unlock_tier="4" />
@@ -25,16 +25,16 @@
 			<unlock_entry item="Tomatillo Seed,Tomato Seed,VineyardGrape Seed,Wheat Seed,Apple Seed,Avocado Seed,Banana Seed" unlock_tier="4" />
 			<unlock_entry item="Olive Seed,Orange Seed,White Oak Seed,Ancho Pepper,Blackberry Seed,Cherry Seed" unlock_tier="5" />
 		</display_entry>
-		<display_entry icon="Farm Table" name_key="Farm Table" has_quality="false" unlock_level="60,70,80,90,100" >
-			<unlock_entry item="Farm Table" unlock_tier="1" />
-			<unlock_entry item="Fertile Turkey Egg,Fertile Pheasant Egg,Piglet,Calf,Colt,Fertile Egg,Master Crop Plot,Farm Forge" unlock_tier="2" />
+		<display_entry icon="Fertile Turkey Egg" name_key="Fertile Turkey Egg" has_quality="false" unlock_level="60,70,80,90,100" >
+			<unlock_entry item="Fertile Turkey Egg,Fertile Pheasant Egg" unlock_tier="1" />
+			<unlock_entry item="Piglet,Calf,Colt,Fertile Egg,Master Crop Plot,Farm Forge" unlock_tier="2" />
 			<unlock_entry item="Brick Planter,Brick Planter 2,Brick Planter 3,Brick Planter 4,Terracotta Planter,Wood Planter,Webber Grill" unlock_tier="3" />
-			<unlock_entry item="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb,Turkey Egg,Pheasant Egg,Rustic Smoker" unlock_tier="4" />
+			<unlock_entry item="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb,Pheasant Egg,Rustic Smoker" unlock_tier="4" />
 			<unlock_entry item="Baby Chicken,Baby Angus,Baby Elk,Baby Holstein,Baby Pig,Baby Veal Calve,Baby Salmon Pond,Farm Crop Plot" unlock_tier="5" />
 		</display_entry>
 
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="Farm Table,Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="Pheasant Egg,Barley Seed,Basil Seed,Beet Seed,BellPepper Seed"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,100" value="1" tags="BlackBean Seed,BlackPepper Seed,Broccoli Seed,BrusselsSprouts Seed"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="Carrot Seed,Celery Seed,CherryTomato Seed,Cilantro Seed,Cucumber Seed"/>
@@ -52,10 +52,10 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="Tomatillo Seed,Tomato Seed,VineyardGrape Seed,Wheat Seed,Apple Seed,Avocado Seed,Banana Seed"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="59,100" value="1" tags="Olive Seed,Orange Seed,White Oak Seed,Ancho Pepper,Blackberry Seed,Cherry Seed"/>
 
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="Farm Table"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="Fertile Turkey Egg,Fertile Pheasant Egg,Piglet,Calf,Colt,Fertile Egg,Master Crop Plot,Farm Forge"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="Fertile Turkey Egg,Fertile Pheasant Egg"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="Piglet,Calf,Colt,Fertile Egg,Master Crop Plot,Farm Forge"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="Brick Planter,Brick Planter 2,Brick Planter 3,Brick Planter 4,Terracotta Planter,Wood Planter,Webber Grill"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb,Turkey Egg,Pheasant Egg,Rustic Smoker"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="Chicken,Cow,Elk,Horse,Pig,Pheasant,Sheep,Turkey,Lamb,Pheasant Egg,Rustic Smoker"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="Baby Chicken,Baby Angus,Baby Elk,Baby Holstein,Baby Pig,Baby Veal Calve,Baby Salmon Pond,Farm Crop Plot"/>
 		</effect_group>
 	</crafting_skill>

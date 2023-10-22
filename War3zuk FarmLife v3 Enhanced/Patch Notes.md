@@ -2,6 +2,10 @@ War3zuk FarmLife v3 Enhanced Alpha 21.1 B16 Stable
 
 Version 1.19
 
+Fixed Table Unlock
+
+Version 1.19
+
 Added German Local (Sturmsaeufer)
 Localization.txt
 Blocks.xml
