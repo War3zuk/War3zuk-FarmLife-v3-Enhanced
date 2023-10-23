@@ -76,6 +76,7 @@
 	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
 </append>
 	
 <append xpath="/lootcontainers/lootgroup[@name='groupIngredientsCommon']">
@@ -97,6 +98,7 @@
 	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileSmall']">
@@ -116,6 +118,7 @@
 	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileMed']">
@@ -135,6 +138,7 @@
 	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileLarge']">
@@ -154,34 +158,19 @@
 	<item name="cryogenicContainerPheasant" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerSheep" count="1" loot_prob_template="low"/>
 	<item name="cryogenicContainerTurkey" count="1" loot_prob_template="low"/>
-</append>
-
-<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
 	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodPileCommon']">
-	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="med"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
-	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
-</append>
-
-<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
-	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
-</append>
-
-<append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
-	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="med"/>
 </append>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']">
-	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
-</append>
-
-<append xpath="/lootcontainers/lootgroup[@name='groupIngredientsUncommon']">
-	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="low"/>
+	<item name="FLV3 Skill Magazine" count="1" loot_prob_template="med"/>
 </append>
 
 </configs>
